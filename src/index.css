@@ -1,0 +1,185 @@
+
+/* ==============================Top Bar Start ===================================*/
+.top-icon {
+	color: var(--third);
+}
+.top-head{
+	font-size: 14px;
+	font-weight: 500; 
+
+}
+.top-p{
+	font-size: 12px;
+	font-weight: 400;
+	font-style: italic; 
+
+}
+.head-icons {
+	padding: 0 5px;
+	background-color: rgb(247, 255, 247);
+	font-size: 16px;
+	box-shadow: 2px 2px 3px rgba(11, 11, 11, 0.3);
+	color:var(--third)
+}
+.head-icons:hover{
+	color: white;
+	background-color: rgb(5, 166, 5);
+	font-size: 16px;
+	box-shadow: 2px 2px 3px rgba(11, 11, 11, 0.3);
+} 
+
+/* ==============================Top Bar end ===================================*/
+
+/* banner us section design  start */
+.home .carousel-item{
+	min-height: 80vh;
+	background-position: cover;
+	background-size: cover;
+	position: relative;
+	background-repeat: no-repeat;
+	z-index: 1;
+}
+.home .carousel-item:before{
+	content: '';
+	position: absolute;
+	left:0;
+	top:0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.3);
+	z-index: -1;
+}
+.home .carousel-item .container{
+	position: absolute;
+	left: 50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+.home .carousel-item h2{
+	font-size: 50px;
+	font-weight: semibold;
+	text-shadow: 10px 10px 10px rgb(0, 6, 1);
+	color: #ffffff;
+	margin:0 0 20px;
+	opacity: 0;
+}
+.home .carousel-item p{
+	font-size: 20px;
+	margin:0;
+	text-shadow: 10px 10px 10px rgba(0, 0, 0, 1);
+	color: #eeeeee;
+	opacity:0;
+}
+.home .carousel-item.active h2{
+	animation: fadeInLeft 0.5s ease forwards;
+}
+.home .carousel-item.active p{
+	animation: fadeInRight 0.5s ease forwards;
+}
+
+@keyframes fadeInLeft{
+	0%{
+		opacity: 0;
+		transform: translateX(-30px);
+	}
+	100%{
+		opacity: 1;
+		transform: translateX(0px);
+	}
+}
+@keyframes fadeInRight{
+	0%{
+		opacity: 0;
+		transform: translateX(30px);
+	}
+	100%{
+		opacity: 1;
+		transform: translateX(0px);
+	}
+}
+
+.home .carousel-controls{
+	position: absolute;
+	left: 50%;
+	bottom: 30px;
+	z-index: 10;
+	transform: translateX(-50%);
+}
+
+.home .carousel-indicators{
+	position: relative;
+	margin:0;
+}
+
+.home .carousel-indicators li{
+	height: 70px;
+	width: 70px;
+	margin:0 5px;
+	border-radius: 50%;
+	background-position: center;
+	background-size: cover;
+	border:3px solid transparent;
+	transition: all 0.3s ease;
+}
+.home .carousel-indicators li.active{
+	border-color: #ffffff;
+	transform: scale(1.2);
+}
+
+.home .carousel-control-next, 
+.home .carousel-control-prev{
+	height: 60px;
+	width: 60px;
+	opacity: 1;
+	z-index: 3;
+	top: 50%;
+	transform: translateY(-50%);
+	border-radius: 50%;
+	transition: all 0.3s ease;
+}
+.home .carousel-control-next:hover, 
+.home .carousel-control-prev:hover{
+   box-shadow: 0 0 10px #ffffff;
+}
+.home .carousel-control-next img, 
+.home .carousel-control-prev img{
+   width: 30px;
+}
+.home .carousel-control-next{
+	right: -90px;
+}
+.home .carousel-control-prev{
+	left: -90px;
+}
+@media(max-width: 767px){
+  .home .carousel-control-next, 
+  .home .carousel-control-prev{
+  	display: none;
+  }
+  .home .carousel-indicators li{
+  	height: 60px;
+  	width: 60px;
+  }
+  .home .carousel-item h2{
+  	font-size: 30px;
+  }
+  .home .carousel-item p{
+  	font-size: 16px;
+  }
+}
+/* banner us section design end */
+
+
+
+/* gallery  us section design start */
+.gallery-section{
+	background-image: url('/gallery//gallerybg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
+
+   
+
+
+
