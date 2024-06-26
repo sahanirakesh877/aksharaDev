@@ -1,3 +1,80 @@
+/* enquiry form design start  */
+
+.form-head {
+	width: fit-content;
+	background-color: transparent;
+	z-index: 100;
+	padding: 5px 50px;
+	color: white;
+
+}
+
+.paralleogram {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background-color: var(--primary);
+	transform: skew(-30deg);
+	z-index: -10;
+	box-shadow: rgba(150, 148, 148, 0.24) 0px 3px 4px;
+
+}
+.inquiry-text > span{
+	font-size: 0.95rem;
+}
+.inq-form {
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.form-label {
+	color: var(--sec);
+}
+.input-group-text {
+	background-color: var(--third);
+	color: #fff;
+	border: 1px solid var(--third);
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 4px;
+}
+.form-control,
+.form-select,
+.form-check-input {
+	border: 1px solid var(--third);
+	box-shadow: rgba(57, 56, 56, 0.24) 0px 2px 4px;
+}
+.btn-primary {
+	background-color: var(--primary);
+	border-color: var(--primary);
+}
+
+.btn-primary:hover {
+	background-color: var(--sec);
+	border-color: var(--sec);
+}
+
+.form-check-label i {
+	color: var(--third);
+}
+
+/* enquiry form design end  */
+
+/* blogs section  */
+.blog-card {
+	position: relative;
+	margin-bottom: 20px;
+}
+.overlay {
+	position: absolute;
+	top: 80%;
+	left: 40%;
+	transform: translate(-50%, -50%);
+}
+.card-title {
+	font-size: 16px;
+	font-weight: 700;
+	color: white;
+}
+
 /* sideicon design start */
 .sideicon {
 	position: fixed;

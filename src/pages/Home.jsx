@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
 import { useLocation } from "react-router-dom";
+import Enquiryform from "../components/Enquiryform";
 // import Brand from "../components/Brand";
 // import Testimonial from "../components/Testimonial";
 // import Banner from "../components/Banner";
@@ -24,6 +25,9 @@ const Home = () => {
       <Contact /> */}
       {/* <Testimonial/> */}
       {/* <Brand/> */}
+      <Enquiryform/>
+     
+    
     </>
   );
 };
