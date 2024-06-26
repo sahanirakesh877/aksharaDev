@@ -3,7 +3,7 @@ import React from "react";
 const TopBar = () => {
   return (
     <>
-      <div className="container-fluid d-none d-lg-block  border-bottom ">
+      <div className="container-fluid d-none d-lg-block ">
         <div className="row d-flex  justify-content-center border align-items-center py-2 px-xl-5">
           <div className="col-md-3">
             <a href="#" className="text-decoration-none">

@@ -8,6 +8,7 @@ import About from "./pages/About";
 import Blog from "./pages/Blog";
 import Team from "./pages/Team";
 import Home from "./pages/Home";
+// import SideIcon from "./components/SideIcon";
 const App = () => {
   return (
     <>
@@ -19,8 +20,10 @@ const App = () => {
         <Route path="/team" element={<Team />} />
         <Route path="/blog" element={<Blog />} /> 
       </Routes>
-     
+     {/* <SideIcon/> */}
       {/* <Footer /> */}
+
+      
 
       
     </>
