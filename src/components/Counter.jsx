@@ -4,8 +4,8 @@ import counter from "../Data/CounterData";
 
 const Counter = () => {
   return (
-    <div className="container">
-      <div className="row border">
+    <div className="container py-4">
+      <div className="row ">
         {counter &&
           counter.map((count) => (
             <div

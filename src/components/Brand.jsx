@@ -26,22 +26,20 @@ const items = brandImg.map((img, index) => (
 const Brand = () => {
   return (
     <>
-    <div className="brand">
-
-   
-      <div className="container">
-        <AliceCarousel
-          mouseTracking
-          items={items}
-          autoPlay={true}
-          infinite={true}
-          responsive={responsive}
-          controlsStrategy="alternate"
-          animationDuration={1500}
-          disableButtonsControls={true}
-          disableDotsControls={true}
-        />
-      </div>
+      <div className="brand">
+        <div className="container py-4">
+          <AliceCarousel
+            mouseTracking
+            items={items}
+            autoPlay={true}
+            infinite={true}
+            responsive={responsive}
+            controlsStrategy="alternate"
+            animationDuration={1500}
+            disableButtonsControls={true}
+            disableDotsControls={true}
+          />
+        </div>
       </div>
     </>
   );

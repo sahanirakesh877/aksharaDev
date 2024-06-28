@@ -4,11 +4,11 @@ import { Routes, Route } from "react-router-dom"
 import TopBar from "./components/TopBar";
 import Header from "./components/Header";
 import About from "./pages/About";
-// import Footer from "./components/Footer";
+import Footer from "./components/Footer";
 import Blog from "./pages/Blog";
 import Team from "./pages/Team";
 import Home from "./pages/Home";
-// import SideIcon from "./components/SideIcon";
+ import SideIcon from "./components/SideIcon";
 const App = () => {
   return (
     <>
@@ -20,8 +20,8 @@ const App = () => {
         <Route path="/team" element={<Team />} />
         <Route path="/blog" element={<Blog />} /> 
       </Routes>
-     {/* <SideIcon/> */}
-      {/* <Footer /> */}
+     <SideIcon/>
+      <Footer />
 
       
 

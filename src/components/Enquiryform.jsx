@@ -14,10 +14,10 @@ const Enquiryform = () => {
           <div className="d-flex justify-content-center align-content-center flex-wrap gap-3">
             <img src="/akasharalogo.png" alt="logo"  className="img-fluid"/>
             <div className="mb-md-0 p-0 d-flex flex-column inquiry-text">
-              <span>Kageshwori Manohara - 9, Kathmandu, Nepal</span>
-              <span>Tel: 01-4993031/32/33 </span>
-              <span>Email: info@aksharaaschool.edu.np </span>
-              <span>Web:www.aksharaaschool.edu.np</span>
+              <span><i className="fas fa-location me-1 text-success "></i>Kageshwori Manohara - 9, Kathmandu, Nepal</span>
+              <span><i className="fas fa-phone me-1 text-success "></i>01-4993031/32/33 </span>
+              <span><i className="fas fa-message me-1 text-success "></i>info@aksharaaschool.edu.np </span>
+              <span><i className="fas fa-globe me-1 text-success "></i>www.aksharaaschool.edu.np</span>
             </div>
           </div>
         </div>

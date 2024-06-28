@@ -13,29 +13,28 @@ const Footer = () => {
                     <div className="footer-logo-wrapper">
                       <a href="#!">
                         <img
-                          src="/akasharalogo.png"
+                          src="/white-logo.png"
                           alt="BootstrapBrain Logo"
-                          width={150}
-                          height={60}
+                          
                         />
                       </a>
                     </div>
 
                     <div className="address-wrapper mt-5">
-                      <address className="mb-2 text-white d-flex  align-items-start">
+                      <address className="mb-2 footer-tag d-flex  align-items-start">
                         <i
-                          class="fa fa-location-arrow me-4 fs-4 p-2 border rounded-circle text-danger "
+                          class="fa fa-location-arrow me-2 fs-4 p-2 border rounded-circle text-danger "
                           aria-hidden="true"
                         ></i>{" "}
                         Kandaghari, Kageshwori Manohara 9, Kathmandu, Nepal
                       </address>
                       <p className="mb-2">
                         <a
-                          className="link-light text-decoration-none"
+                          className="footer-tag text-decoration-none"
                           href="tel:+15057922430"
                         >
                           <i
-                            class="fa fa-phone me-3 fs-4 border p-2 text-danger  rounded-circle"
+                            class="fa fa-phone me-2 fs-4 border p-2 text-danger  rounded-circle"
                             aria-hidden="true"
                           ></i>
                           +977-01-4993031/32/33
@@ -43,14 +42,14 @@ const Footer = () => {
                       </p>
                       <p className="mb-0">
                         <a
-                          className="link-light text-decoration-none"
+                          className="footer-tag text-decoration-none"
                           href="mailto:demo@yourdomain.com"
                         >
                           <i
                             class="fa fa-envelope fs-4 text-danger  border p-2 rounded-circle"
                             aria-hidden="true"
                           ></i>{" "}
-                          <span className="ms-3 ">
+                          <span className="ms-1 ">
                             info@aksharaaschool.edu.np
                           </span>
                         </a>
@@ -131,18 +130,20 @@ const Footer = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-12 col-lg-8 bg-light py-4 py-md-5 py-xxl-8">
+              <div className="col-12 col-lg-8  py-4 py-md-5 py-xxl-8">
                 <div className="row justify-content-center">
                   <div className="col-12 col-md-11 col-xxl-10">
-                    <div className="row gy-4 gy-sm-0">
+                    <div className="row gy-4 gy-sm-0 ">
                       <div className="col-6 col-sm-3">
                         <div className="widget">
-                          <h4 className="widget-title mb-4 animated-border-header">Useful Links</h4>
+                          <h4 className="widget-title mb-4 animated-border-header">
+                            Useful Links
+                          </h4>
                           <ul className="list-unstyled">
                             <li className="mb-3">
                               <a
                                 href="#!"
-                                className="link-secondary text-decoration-none animated-hover"
+                                className="footer-tag  text-decoration-none animated-hover"
                               >
                                 <i
                                   class="fa fa-angle-right me-1"
@@ -154,7 +155,7 @@ const Footer = () => {
                             <li className="mb-3">
                               <a
                                 href="#!"
-                                className="link-secondary text-decoration-none animated-hover"
+                                className="footer-tag text-decoration-none animated-hover"
                               >
                                 <i
                                   class="fa fa-angle-right me-1"
@@ -166,7 +167,7 @@ const Footer = () => {
                             <li className="mb-3">
                               <a
                                 href="#!"
-                                className="link-secondary text-decoration-none animated-hover"
+                                className="footer-tag text-decoration-none animated-hover"
                               >
                                 <i
                                   class="fa fa-angle-right me-1"
@@ -178,7 +179,7 @@ const Footer = () => {
                             <li className="mb-3">
                               <a
                                 href="#!"
-                                className="link-secondary text-decoration-none animated-hover"
+                                className="footer-tag text-decoration-none animated-hover"
                               >
                                 <i
                                   class="fa fa-angle-right me-1"
@@ -190,7 +191,7 @@ const Footer = () => {
                             <li className="mb-3">
                               <a
                                 href="#!"
-                                className="link-secondary text-decoration-none animated-hover"
+                                className="footer-tag text-decoration-none animated-hover"
                               >
                                 <i
                                   class="fa fa-angle-right me-1"
@@ -202,7 +203,7 @@ const Footer = () => {
                             <li className="mb-3">
                               <a
                                 href="#!"
-                                className="link-secondary text-decoration-none animated-hover"
+                                className="footer-tag text-decoration-none animated-hover"
                               >
                                 <i
                                   class="fa fa-angle-right me-1"
@@ -216,12 +217,14 @@ const Footer = () => {
                       </div>
                       <div className="col-6 col-sm-3">
                         <div className="widget">
-                          <h4 className="widget-title mb-4 animated-border-header">Company</h4>
+                          <h4 className="widget-title mb-4 animated-border-header">
+                            Company
+                          </h4>
                           <ul className="list-unstyled">
                             <li className="mb-3">
                               <a
                                 href="#!"
-                                className="link-secondary text-decoration-none animated-hover"
+                                className="footer-tag text-decoration-none animated-hover"
                               >
                                 <i
                                   class="fa fa-angle-right me-1"
@@ -233,7 +236,7 @@ const Footer = () => {
                             <li className="mb-3">
                               <a
                                 href="#!"
-                                className="link-secondary text-decoration-none animated-hover"
+                                className="footer-tag text-decoration-none animated-hover"
                               >
                                 <i
                                   class="fa fa-angle-right me-1"
@@ -245,7 +248,7 @@ const Footer = () => {
                             <li className="mb-3">
                               <a
                                 href="#!"
-                                className="link-secondary text-decoration-none animated-hover"
+                                className="footer-tag text-decoration-none animated-hover"
                               >
                                 <i
                                   class="fa fa-angle-right me-1"
@@ -257,7 +260,7 @@ const Footer = () => {
                             <li className="mb-3">
                               <a
                                 href="#!"
-                                className="link-secondary text-decoration-none animated-hover"
+                                className="footer-tag text-decoration-none animated-hover"
                               >
                                 <i
                                   class="fa fa-angle-right me-1"
@@ -270,7 +273,7 @@ const Footer = () => {
                             <li className="mb-3">
                               <a
                                 href="#!"
-                                className="link-secondary text-decoration-none animated-hover"
+                                className="footer-tag text-decoration-none animated-hover"
                               >
                                 <i
                                   class="fa fa-angle-right me-1"
@@ -282,7 +285,7 @@ const Footer = () => {
                             <li className="mb-0">
                               <a
                                 href="#!"
-                                className="link-secondary text-decoration-none animated-hover"
+                                className="footer-tag text-decoration-none animated-hover"
                               >
                                 <i
                                   class="fa fa-angle-right me-1"
@@ -294,10 +297,12 @@ const Footer = () => {
                           </ul>
                         </div>
                       </div>
-                      <div className="col-12 col-sm-6">
+                      <div className="col-12 col-sm-6 ">
                         <div className="widget ">
-                          <h4 className="widget-title mb-4 animated-border-header">Our Newsletter</h4>
-                          <p className="mb-4">
+                          <h4 className="widget-title mb-4 animated-border-header">
+                            Our Newsletter
+                          </h4>
+                          <p className="mb-4 footer-tag">
                             Never miss out on our Akshara school's latest news,
                             updates, and exclusive offers! Subscribe to our
                             newsletter today and get the inside scoop delivered
@@ -350,15 +355,15 @@ const Footer = () => {
                     </div>
 
                     {/* last footer  */}
-                    <div className="row  pt-4 border-top border-light-subtle">
-                      <div className="footer-copyright-wrapper mt-6">
+                    <div className="row  pt-4  border-top   border-light-subtle">
+                      <div className="footer-copyright-wrapper mt-6 text-light">
                         © 2024. All Rights Reserved.
                       </div>
-                      <div className="credits text-secondary mt-2 fs-7">
+                      <div className="credits text-light mt-2 fs-7">
                         Built by{" "}
                         <a
                           href="https://technavata.com/"
-                          className="link-secondary text-decoration-none"
+                          className="footer-tag text-decoration-none"
                         >
                           Navatatech{" "}
                         </a>{" "}

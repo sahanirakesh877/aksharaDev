@@ -1,14 +1,11 @@
 /* enquiry form design start  */
-
 .form-head {
 	width: fit-content;
 	background-color: transparent;
 	z-index: 100;
 	padding: 5px 50px;
 	color: white;
-
 }
-
 .paralleogram {
 	position: absolute;
 	height: 100%;
@@ -19,9 +16,8 @@
 	transform: skew(-30deg);
 	z-index: -10;
 	box-shadow: rgba(150, 148, 148, 0.24) 0px 3px 4px;
-
 }
-.inquiry-text > span{
+.inquiry-text > span {
 	font-size: 0.95rem;
 }
 .inq-form {
@@ -46,17 +42,71 @@
 	background-color: var(--primary);
 	border-color: var(--primary);
 }
-
 .btn-primary:hover {
 	background-color: var(--sec);
 	border-color: var(--sec);
 }
-
 .form-check-label i {
 	color: var(--third);
 }
-
+.file-input-wrapper {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+  }
+  .file-input-label {
+	margin-bottom: 0;
+  }
+  .file-preview {
+	width: 110px;
+	height: 100px;
+	border: 1px solid #ced4da;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+	background-color: #f8f9fa;
+  }
+  .file-preview img {
+	width: 100%;
+	height: auto;
+  }
+  .student-img{
+	width: 100px;
+	height: 100px;
+	border: 1px solid rgb(1, 125, 55);
+  }
 /* enquiry form design end  */
+
+/* photo grid start */
+
+.portfolio-menu{
+	text-align:center;
+}
+.portfolio-menu ul li{
+	display:inline-block;
+	margin:0;
+	list-style:none;
+	padding:10px 15px;
+	cursor:pointer;
+	-webkit-transition:all 05s ease;
+	-moz-transition:all 05s ease;
+	-ms-transition:all 05s ease;
+	-o-transition:all 05s ease;
+	transition:all .5s ease;
+}
+
+/* .portfolio-item{
+	width:100%;
+} */
+.portfolio-item .item{
+	/*width:303px;*/
+	float:left;
+	margin-bottom:10px;
+}
+
+/* photo grid end */
+
 
 /* blogs section  */
 .blog-card {
@@ -291,7 +341,7 @@
 
 /* brand logo img  start */
 .brand {
-	background: #68c3b8;
+	background: #C8DCCA;
 }
 .brand-image {
 	width: 100%;
