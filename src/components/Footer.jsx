@@ -10,11 +10,12 @@ const Footer = () => {
               <div className="col-12 col-lg-4 footer-left py-4 py-md-5 py-xxl-8">
                 <div className="row h-100 align-items-end justify-content-center">
                   <div className="col-12 col-md-11 col-xl-10">
-                    <div className="footer-logo-wrapper">
+                    <div className="footer-logo-wrapper ">
                       <a href="#!">
                         <img
                           src="/white-logo.png"
                           alt="BootstrapBrain Logo"
+
                           
                         />
                       </a>
@@ -313,7 +314,7 @@ const Footer = () => {
                               <div className="col-12">
                                 <div className="input-group">
                                   <span
-                                    className="input-group-text"
+                                    className="input-group-text text-light"
                                     id="email-newsletter-addon"
                                   >
                                     <svg
@@ -329,7 +330,7 @@ const Footer = () => {
                                   </span>
                                   <input
                                     type="email"
-                                    className="form-control"
+                                    className="form-control "
                                     id="email-newsletter"
                                     placeholder="Email Address"
                                     aria-label="email-newsletter"
@@ -339,9 +340,9 @@ const Footer = () => {
                                 </div>
                               </div>
                               <div className="col-12">
-                                <div className="d-grid">
+                                <div className="d-grid ">
                                   <button
-                                    className="btn btn-danger"
+                                    className="btn border-0 text-light my-1   bg-danger"
                                     type="submit"
                                   >
                                     Subscribe

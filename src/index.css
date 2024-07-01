@@ -77,7 +77,14 @@
 	border: 1px solid rgb(1, 125, 55);
 }
 /* enquiry form design end  */
+.contact-left{
+	background: linear-gradient(to right, #dcfde0  ,#3abe98); 
 
+}
+.contact-right{
+	background: linear-gradient(to right,#3abe98, #dcfde0  ); 
+
+}
 /* photo grid start */
 .portfolio-menu {
 	text-align: center;
@@ -392,7 +399,6 @@
 	font-size: 1.1rem;
 	color: #333;
 }
-
 .calen-p {
 	margin: 5px 0 0 0;
 	font-size: 0.8rem;
@@ -404,14 +410,12 @@
 	color: #5a5959;
 }
 
-/* hovering blog  background */
+/* border-bottom-title effect   of header   */
 .border-bottom-title {
 	position: relative;
 	display: inline-block;
-	padding-bottom: 10px;
-	
-  }
-  
+	padding-bottom: 10px;	
+  } 
   .border-bottom-title::after {
 	content: '';
 	position: absolute;
@@ -423,15 +427,18 @@
 	border-radius:20px;
 	background: linear-gradient(to left, #ff41cc, #01e39c)
   }
-  
+  /* ~~~~~~~~~~~~ blogs upper  and button design ~~~~~~~~~~~~ */
 .blog-banner {
-	background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), 
-    url("gallery/gallerybg.jpg");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), 
+    url("https://img.freepik.com/free-photo/luxury-plain-green-gradient-abstract-studio-background-empty-room-with-space-your-text-picture_1258-82715.jpg?t=st=1719825708~exp=1719829308~hmac=0587b6504bcf8c56b40e136dbd2f87c2aa5fd5242d76f76a3b2666ce93f367cb&w=826");
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 35vh;
 	display: flex;
 	align-items: flex-end;
+}
+.blog-child{
+	background-color: rgb(235, 248, 245);
 }
 .btns {
 	position: relative;
@@ -443,7 +450,6 @@
 	user-select: none;
 	z-index: 100;
 }
-
 .btns:before,
 .btns:after {
 	content: "";
@@ -462,12 +468,11 @@
 }
 
 .btns:hover:after {
-	background: rgb(117, 190, 7);
+	background: var(--primary);
 	transition-delay: 0.35s;
 }
 
 /* From center */
-
 .from-center:before {
 	top: 0;
 	left: 50%;
@@ -484,17 +489,14 @@
 	width: 100%;
 	background: var(--primary);
 }
-
 .from-center:hover:before {
 	left: 0;
 	width: 100%;
 }
-
 .from-center:hover:after {
 	top: 0;
 	height: 100%;
 }
-
 /* From Right */
 
 .from-right:before, 
@@ -503,18 +505,15 @@
 	width: 0;
 	height: 100%;
 }
-
 .from-right:before {
 	left: 0;
 	border: 3px solid rgb(247, 88, 120);
 	border-left: 0;
 	border-right: 0;	
 }
-
 .from-right:after {
 	right: 0;
 }
-
 .from-right:hover:before,
 .from-right:hover:after {
 	width: 100%;
@@ -541,9 +540,10 @@
 	width: 100%;
 }
 
+  /* ~~~~~~~~~~~~ blogs upper  and button design  end~~~~~~~~~~~~ */
 
-/* ~~~~~~~~~~~~ GLOBAL SETTINGS ~~~~~~~~~~~~ */
 
+  /* ~~~~~~~~~~~~ blogs card caraousel  start~~~~~~~~~~~~ */
 .date__box {
 	position: absolute;
 	display: flex;
@@ -578,19 +578,16 @@
 	width: 100%;
 	height: 85%;
 }
-
 .blog-card .blog-card__background {
 	padding: 10px;
 	/* background-color: rgb(109, 170, 152); */
 }
-
 .blog-card .card__background--wrapper {
 	height: 100%;
 	clip-path: polygon(0 0, 100% 0, 100% 80%, 0 60%);
 	position: relative;
 	overflow: hidden;
 }
-
 .blog-card .card__background--main {
 	height: 100%;
 	position: relative;
@@ -679,3 +676,9 @@ a.icon-link:hover {
 .btn.btn--only-icon {
 	width: 50px;
 }
+  /* ~~~~~~~~~~~~ blogs card caraousel  end~~~~~~~~~~~~ */
+
+
+
+
+  /*--------------  Learning components --------------- ---*/

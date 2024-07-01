@@ -10,7 +10,7 @@ const TopBar = () => {
               <img
                 src="./akasharalogo.png"
                 alt="Akshara School"
-                style={{ maxWidth: "160px" }}
+                style={{ maxWidth: "160px" ,maxHeight:"100px"}}
               />
             </a>
           </div>

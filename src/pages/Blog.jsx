@@ -181,7 +181,7 @@ const Blog = () => {
 
       <div className="blog-banner">
         <div className="container">
-          <p className="text-center pb-5 fs-2 text-light ">Highlights</p>
+          <p className="text-center pb-5 fs-2 text-light "> Akshara Highlights</p>
           <div className="row">
             <div className="col-md-4">
               <p
@@ -210,9 +210,12 @@ const Blog = () => {
           </div>
         </div>
       </div>
+      <div className="blog-child">
+
+  
 
       {filter === "Featured News" && (
-        <div className="container mt-5">
+        <div className="container py-5">
           <div className="row">
             <AliceCarousel
               mouseTracking
@@ -230,7 +233,7 @@ const Blog = () => {
       )}
 
       {filter === "Upcoming Events" && (
-        <div className="container blog-container">
+        <div className="container blog-container py-4">
           <div className="row py-4">
             <h3 className="text-center mb-4   border-bottom-title">School Events Schedule</h3>
             {filteredBlogData.map((item) => (
@@ -253,7 +256,7 @@ const Blog = () => {
       )}
 
       {filter === "Calendar" && (
-        <div className="container">
+        <div className="container py-4">
           <div className="row">
             <h3 className="text-center my-4  border-bottom-title">Calender Schedule</h3>
 
@@ -278,6 +281,7 @@ const Blog = () => {
           </div>
         </div>
       )}
+      </div>
     </>
   );
 };
