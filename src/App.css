@@ -14,11 +14,13 @@ a {
   --primary: #1f7759;
   --sec: #054462;
   --third: #832a65;
+  --red:#ED1651;
 }
 
 /* parent voice design section start  */
 .demo {
-  background: #c8dcca;
+  background: linear-gradient(to bottom, #d7ffed, #7ba98b);
+
 }
 .testimonial {
   background: #fff;
@@ -100,32 +102,25 @@ a {
 }
 /* parent voice design section end  */
 
-/* Header Design start */
-nav {
-  background-color: var(--primary);
-  box-shadow:
-    0 4px 8px rgba(0, 0, 0, 0.1),
-    0 6px 20px rgba(0, 0, 0, 0.1);
-}
-.nav-item .nav-link {
-  color: white;
-  text-shadow: 4px 4px 4px rgb(0, 6, 1);
-}
-/* Header Design end */
+
 
 /*main  photo   section start*/
+
+
 .bggallery {
-  background-color: #C8DCCA;
   padding: 40px 0 120px 0;
 }
+
 .gallery-head {
-  padding-bottom: 60px;
+  padding-bottom: 70px;
 }
+
 .galleryitems {
   display: grid;
   height: auto;
   place-items: center;
 }
+
 .gallery {
   position: relative;
   width: 290px;
@@ -133,6 +128,7 @@ nav {
   transform-style: preserve-3d;
   animation: rotate 35s linear infinite;
 }
+
 @keyframes rotate {
   from {
     transform: perspective(1200px) rotateY(0deg);
@@ -142,6 +138,7 @@ nav {
     transform: perspective(1200px) rotateY(360deg);
   }
 }
+
 .gallery span {
   position: absolute;
   width: 100%;
@@ -150,16 +147,23 @@ nav {
   transform-style: preserve-3d;
   transform: rotateY(calc(var(--i) * 45deg)) translateZ(380px);
 }
+
 .gallery span img {
   position: absolute;
-  width: 100%;
+  width: fit-content;
   height: 100%;
-  box-shadow:
-    rgba(0, 0, 0, 0.16) 0px 3px 6px,
-    rgba(0, 0, 0, 0.23) 0px 3px 6px;
-  object-fit: cover;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  object-fit: contain;
+  transition: transform 0.3s linear; 
 }
-/* Responsive adjustments */
+.gallery span :hover img{
+  animation-play-state: paused;
+}
+
+.gallery span:hover img {
+  transform: scale(1.2); /* Zoom in */
+}
+
 @media (max-width: 768px) {
   .gallery {
     max-width: 200px;
@@ -181,9 +185,13 @@ nav {
     transform: rotateY(calc(var(--i) * 45deg)) translateZ(270px);
   }
 }
+
 /*main  photo   section end*/
 
 /* counter design start  */
+.count{
+  padding: 60px 0;
+}
 .counter {
   color: #fff;
   font-family: "Poppins", sans-serif;

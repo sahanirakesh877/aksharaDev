@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import TopBar from "./components/TopBar";
-import Header from "./components/Header";
+import Head from "./components/Head";
 import About from "./pages/About";
 import Footer from "./components/Footer";
 import Blog from "./pages/Blog";
@@ -15,7 +15,8 @@ const App = () => {
   return (
     <>
       <TopBar />
-      <Header />
+      <Head/>
+   
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />

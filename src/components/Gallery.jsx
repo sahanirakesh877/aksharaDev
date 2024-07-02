@@ -16,8 +16,8 @@ const Gallery = () => {
     <>
       <div className="bggallery">
         <div className="container mx-auto ">
-          <h3 className="gallery-head">Explore Images</h3>
-          <div className="row galleryitems border">
+        <h3 className="fs-2 fw-semibold  gallery-head">Explore Gallery</h3>
+          <div className="row galleryitems ">
             <div className="gallery">
               {imageData.map((image, index) => (
                 <span key={image.id} style={{ "--i": index + 1 }}>

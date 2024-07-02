@@ -4,7 +4,7 @@ import counter from "../Data/CounterData";
 
 const Counter = () => {
   return (
-    <div className="container py-4">
+    <div className="container count">
       <div className="row ">
         {counter &&
           counter.map((count) => (

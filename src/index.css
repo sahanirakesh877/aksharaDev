@@ -27,9 +27,9 @@
 	color: var(--sec);
 }
 .input-group-text {
-	background-color: var(--third);
-	color: #fff;
-	border: 1px solid var(--third);
+	background-color: rgb(241, 254, 241);
+	color: var(--primary);
+	border: 1px solid var(--primary);
 	box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 4px;
 }
 .form-control,
@@ -77,14 +77,14 @@
 	border: 1px solid rgb(1, 125, 55);
 }
 /* enquiry form design end  */
-.contact-left{
-	background: linear-gradient(to right, #dcfde0  ,#3abe98); 
+/* .contact-left{
+	background: linear-gradient(to right, #dcfde0  ,#f6faf9); 
 
 }
 .contact-right{
 	background: linear-gradient(to right,#3abe98, #dcfde0  ); 
 
-}
+} */
 /* photo grid start */
 .portfolio-menu {
 	text-align: center;
@@ -171,7 +171,8 @@
 
 /* ==============================Top Bar Start ===================================*/
 .top-icon {
-	color: var(--third);
+	color: var(--red);
+	font-size: 16px;
 }
 .top-head {
 	font-size: 14px;
@@ -183,11 +184,12 @@
 	font-style: italic;
 }
 .head-icons {
-	padding: 0 5px;
-	background-color: rgb(247, 255, 247);
-	font-size: 16px;
+	padding:1px 6px;
+	border-radius: 50%;
+	background-color: rgb(230, 255, 230);
+	font-size: 17px;
 	box-shadow: 2px 2px 3px rgba(11, 11, 11, 0.3);
-	color: var(--third);
+	color: var(--red);
 }
 .head-icons:hover {
 	color: white;
@@ -224,11 +226,12 @@
 	text-align: center;
 }
 .home .carousel-item h2 {
-	font-size: 50px;
+	font-size: 45px;
 	font-weight: semibold;
 	text-shadow: 10px 10px 10px rgb(0, 6, 1);
 	color: #ffffff;
-	margin: 0 0 20px;
+	/* margin: 0 0 30px; */
+	margin-top: 120px;
 	opacity: 0;
 }
 .home .carousel-item p {
@@ -329,10 +332,10 @@
 		width: 60px;
 	}
 	.home .carousel-item h2 {
-		font-size: 30px;
+		font-size: 25px;
 	}
 	.home .carousel-item p {
-		font-size: 16px;
+		font-size: 14px;
 	}
 }
 /* banner us section design end */
@@ -346,7 +349,7 @@
 
 /* brand logo img  start */
 .brand {
-	background: #c8dcca;
+	background: #ffffff;
 }
 .brand-image {
 	width: 100%;
@@ -429,13 +432,11 @@
   }
   /* ~~~~~~~~~~~~ blogs upper  and button design ~~~~~~~~~~~~ */
 .blog-banner {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), 
-    url("https://img.freepik.com/free-photo/luxury-plain-green-gradient-abstract-studio-background-empty-room-with-space-your-text-picture_1258-82715.jpg?t=st=1719825708~exp=1719829308~hmac=0587b6504bcf8c56b40e136dbd2f87c2aa5fd5242d76f76a3b2666ce93f367cb&w=826");
-	background-repeat: no-repeat;
-	background-size: cover;
+	
 	height: 35vh;
-	display: flex;
-	align-items: flex-end;
+	background: linear-gradient(to top, #cae9dc, #90c5a2);
+
+
 }
 .blog-child{
 	background-color: rgb(235, 248, 245);

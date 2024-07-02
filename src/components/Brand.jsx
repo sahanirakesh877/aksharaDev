@@ -27,7 +27,7 @@ const Brand = () => {
   return (
     <>
       <div className="brand">
-        <div className="container py-4">
+        <div className="container py-5">
           <AliceCarousel
             mouseTracking
             items={items}

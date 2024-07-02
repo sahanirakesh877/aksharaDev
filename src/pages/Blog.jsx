@@ -181,7 +181,7 @@ const Blog = () => {
 
       <div className="blog-banner">
         <div className="container">
-          <p className="text-center pb-5 fs-2 text-light "> Akshara Highlights</p>
+          <p className="text-center py-5 fs-2 text-dark  fw-semibold"> Akshara Highlights</p>
           <div className="row">
             <div className="col-md-4">
               <p

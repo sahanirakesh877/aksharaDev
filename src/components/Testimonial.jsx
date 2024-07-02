@@ -83,7 +83,7 @@ const Testimonial = () => {
       <div className="demo py-4">
      
         <div className="container">
-        <h3 className="fs-2 fw-semibold   ">Parents Voice</h3>
+        <h3 className="fs-2 fw-semibold  pb-4 ">Parents Voice</h3>
           <div className="row d-flex justify-content-between align-items-center">
             <AliceCarousel
               mouseTracking

@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
 import { useLocation } from "react-router-dom";
 import Learning from "../components/Learning";
-  import Blog from "./Blog";
+import Blog from "./Blog";
 // import Enquiryform from "../components/Enquiryform";
 import Brand from "../components/Brand";
 import Testimonial from "../components/Testimonial";
@@ -21,18 +21,14 @@ const Home = () => {
       <Helmet titleTemplate="Akashara" />
       <Banner />
       <Brand />
-      <Learning/>
+      <Learning />
       <Counter />
-     
-    
-    
       {/* <Enquiryform /> */}
-      <Blog/> 
-      <Testimonial />
+      <Blog />
       <Contact />
-      <Gallery />
-      
+      <Testimonial />
      
+      <Gallery />
     </>
   );
 };
