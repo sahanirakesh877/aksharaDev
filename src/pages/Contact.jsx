@@ -14,7 +14,7 @@ const Contact = () => {
             </p>
 
           <div className="col-md-6  contact-left  border">
-         <h2 className="fst-italic  ">Talk to Us</h2>
+       
             <form>
               <div className="form-group pb-2 ">
                 <label htmlFor="name" className="pb-1 ">
@@ -68,7 +68,7 @@ const Contact = () => {
               </button>
             </form>
           </div>
-          <div className="col-md-6  ">
+          <div className="col-md-6  border">
             <div
               className="map-container"
               style={{

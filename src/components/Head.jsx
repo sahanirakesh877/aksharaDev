@@ -1,6 +1,8 @@
 import React from "react";
 import "../css/Head.css";
 import { Link } from "react-router-dom";
+import EnquiryModel from "./EnquiryModel";
+
 
 const Head = () => {
   return (
@@ -132,6 +134,7 @@ const Head = () => {
                         <i className="fa-solid fa-images me-1"></i>Gallery
                       </Link>
                     </li>
+
                     <li className="nav-item  py-2 ">
                     <Link className="nav-link" to="/contact">
                         <i className="fa-solid fa-envelope me-1"></i>Contact
@@ -171,9 +174,12 @@ const Head = () => {
                       </ul>
                     </li>
                   </ul>
-                  <button className="btn   rounded-pill   bg-danger text-white animated-button">
+                  <button className="btn   rounded-pill   bg-danger text-white animated-button"
+                     data-bs-toggle="modal"
+                     data-bs-target="#EnquiryModel">
                     Get inquiry
                   </button>
+                  <EnquiryModel/>
                 </div>
               </div>
             </nav>

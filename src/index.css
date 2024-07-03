@@ -1,4 +1,5 @@
 /* enquiry form design start  */
+
 .form-head {
 	width: fit-content;
 	background-color: transparent;
@@ -293,7 +294,7 @@
 	transition: all 0.3s ease;
 }
 .home .carousel-indicators li.active {
-	border-color: #ffffff;
+	border-color: #41e40a;
 	transform: scale(1.2);
 }
 
@@ -310,7 +311,7 @@
 }
 .home .carousel-control-next:hover,
 .home .carousel-control-prev:hover {
-	box-shadow: 0 0 10px #ffffff;
+	box-shadow: 0 0 10px #40ff00;
 }
 .home .carousel-control-next img,
 .home .carousel-control-prev img {

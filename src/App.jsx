@@ -20,6 +20,7 @@ import AdmissionProcedure from "./pages/AdmissionProcedure";
 const App = () => {
   return (
     <>
+  
       <TopBar />
       <Head />
       <Routes>
