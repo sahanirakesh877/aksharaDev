@@ -1,5 +1,6 @@
 import React from "react";
 import "../css/Head.css";
+import { Link } from "react-router-dom";
 
 const Head = () => {
   return (
@@ -9,16 +10,16 @@ const Head = () => {
           <div className="row d-flex align-items-center ">
             <nav className="navbar navbar-expand-lg navbar-light">
               <div className="container">
-                <a
+                <Link
                   className="navbar-brand d-md-block d-sm-block d-lg-none"
-                  href="#"
+                  to="/"
                 >
                   <img
                     src="/white-logo.png"
                     alt="Akshara Logo"
                     className="img-fluid navbar-logo"
                   />
-                </a>
+                </Link>
                 <button
                   className="navbar-toggler "
                   type="button"
@@ -36,28 +37,56 @@ const Head = () => {
                 <div className="collapse navbar-collapse " id="navbarNav">
                   <ul className="navbar-nav mx-auto   ">
                     <li className="nav-item active  py-2 ">
-                      <a className="nav-link " href="#">
+                      <Link className="nav-link " to="/">
                         <i class="fa-solid fa-house me-1"></i>Home
-                      </a>
+                      </Link>
                     </li>
                     <li className="nav-item  py-2 ">
-                      <a className="nav-link" href="#">
+                      <Link className="nav-link" to="/about">
                         <i className="fa-solid fa-info-circle  me-1"></i>About
                         Us
-                      </a>
+                      </Link>
                     </li>
-                    <li className="nav-item py-2  ">
-                      <a className="nav-link" href="#">
-                        <i className="fa-solid fa-graduation-cap me-1"></i>{" "}
-                        Academics
+
+                    <li className="nav-item dropdown  py-2 ">
+                      <a
+                        className="nav-link dropdown-toggle"
+                        href="#"
+                        id="navbarDropdown"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        <i className="  fa-solid fa-graduation-cap me-1"></i>
+                        Academic
                       </a>
+                      <ul
+                        className="dropdown-menu"
+                        aria-labelledby="navbarDropdown"
+                      >
+                        <li>
+                        <Link className="dropdown-item" to="/academics/kindergarten">
+                            Kindergarten
+                          </Link>
+                        </li>
+                        <li>
+                        <Link className="dropdown-item" to="/academics/middle">
+                            Middle School
+                          </Link>
+                        </li>
+                        <li>
+                        <Link className="dropdown-item" to="/academics/elementary">
+                            Elementary School
+                          </Link>
+                        </li>
+                        <li>
+                        <Link className="dropdown-item" to="/academics/high">
+                            High School
+                          </Link>
+                        </li>
+                      </ul>
                     </li>
-                    <li className="nav-item py-2 ">
-                      <a className="nav-link" href="#">
-                        <i className="fa-solid fa-newspaper me-1"></i>News &
-                        Activities
-                      </a>
-                    </li>
+
                     <li className="nav-item dropdown  py-2 ">
                       <a
                         className="nav-link dropdown-toggle"
@@ -75,32 +104,38 @@ const Head = () => {
                         aria-labelledby="navbarDropdown"
                       >
                         <li>
-                          <a className="dropdown-item" href="#">
-                            Service 1
-                          </a>
+                        <Link className="dropdown-item" to="/admission/policy">
+                            Admission Policy
+                          </Link>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
-                            Service 2
-                          </a>
+                        <Link className="dropdown-item" to="/admission/policy">
+                            Admission Policy
+                          </Link>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
-                            Service 3
-                          </a>
+                        <Link className="dropdown-item" to="/admission/apply">
+                            Apply Online Form
+                          </Link>
                         </li>
                       </ul>
                     </li>
+
                     <li className="nav-item py-2 ">
-                      <a className="nav-link" href="#">
-                        <i className="fa-solid fa-images me-1"></i> Gallery
-                      </a>
+                    <Link className="nav-link" to="/news">
+                        <i className="fa-solid fa-newspaper me-1"></i>News & Activities
+                      </Link>
+                    </li>
+
+                    <li className="nav-item py-2 ">
+                    <Link className="nav-link" to="/gallery">
+                        <i className="fa-solid fa-images me-1"></i>Gallery
+                      </Link>
                     </li>
                     <li className="nav-item  py-2 ">
-                      <a className="nav-link" href="#">
-                        <i className="fa-solid fa-envelope me-1 "></i>
-                        Contact
-                      </a>
+                    <Link className="nav-link" to="/contact">
+                        <i className="fa-solid fa-envelope me-1"></i>Contact
+                      </Link>
                     </li>
 
                     <li className="nav-item dropdown  flex-row  py-2 ">
@@ -119,20 +154,19 @@ const Head = () => {
                         aria-labelledby="navbarDropdown"
                       >
                         <li>
-                          <a className="dropdown-item" href="#">
-                            <i className="fa-solid fa-download"></i> Download
-                          </a>
+                        <Link className="dropdown-item" to="/downloads">
+                            <i className="fa-solid fa-download"></i>Download
+                          </Link>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
-                            <i className="fa-solid fa-user-plus"></i>Apply
-                            Online
-                          </a>
+                        <Link className="dropdown-item" to="/apply-online">
+                            <i className="fa-solid fa-user-plus"></i>Apply Online
+                          </Link>
                         </li>
                         <li>
-                          <a className="dropdown-item  " href="#">
-                            <i className="fa-solid fa-briefcase"></i> Carrer
-                          </a>
+                        <Link className="dropdown-item" to="/career">
+                            <i className="fa-solid fa-briefcase"></i>Career
+                          </Link>
                         </li>
                       </ul>
                     </li>

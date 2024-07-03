@@ -185,7 +185,7 @@ const Blog = () => {
           <div className="row">
             <div className="col-md-4">
               <p
-                className="border text-center py-3 btns from-left"
+                className=" text-center py-3 btns from-left"
                 onClick={() => setFilter("Featured News")}
               >
                 Featured News
@@ -193,7 +193,7 @@ const Blog = () => {
             </div>
             <div className="col-md-4">
               <p
-                className="btns from-center border text-center py-3"
+                className="btns from-center  text-center py-3"
                 onClick={() => setFilter("Upcoming Events")}
               >
                 Upcoming Events
@@ -201,7 +201,7 @@ const Blog = () => {
             </div>
             <div className="col-md-4">
               <p
-                className="border text-center py-3 btns from-right"
+                className=" text-center py-3 btns  from-right"
                 onClick={() => setFilter("Calendar")}
               >
                 Calendar

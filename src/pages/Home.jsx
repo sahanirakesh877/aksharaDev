@@ -7,7 +7,7 @@ import Blog from "./Blog";
 import Brand from "../components/Brand";
 import Testimonial from "../components/Testimonial";
 import Banner from "../components/Banner";
-import Contact from "../components/Contact";
+import Contact from "./Contact";
 import Gallery from "../components/Gallery";
 import Counter from "../components/Counter";
 
