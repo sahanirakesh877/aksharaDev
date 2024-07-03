@@ -197,13 +197,15 @@ const Photos = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-12 text-center my-2">
-            <h4>Gallery</h4>
+          <h2 className="fw-semibold border-bottom-title text-success text-center mb-4">
+            Gallery 
+          </h2>
           </div>
         </div>
         <div className="portfolio-item row">
           {imageData.map((image, index) => (
             <div
-              key={image.id} // Use unique ID for key
+              key={image.id} 
               className={`item col-lg-3 col-md-4 col-6 col-sm`}
             >
               <img

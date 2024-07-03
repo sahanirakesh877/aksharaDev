@@ -3,77 +3,76 @@ import React from "react";
 const Contact = () => {
   return (
     <>
-      <div className="container  ">
-        <div className="row d-flex align-items-center py-5  ">
-          <h2 className="  fw-semibold border-bottom-title text-success text-center mb-4">
+      <div className="container">
+        <div className="row d-flex align-items-start py-5">
+          <h2 className="fw-semibold border-bottom-title text-success text-center mb-4">
             Contact Us
           </h2>
-          <p className="text-center">
-              If you have any questions, feel free to reach out to us via the
-              form below or through any of the contact methods listed.
-            </p>
-
-          <div className="col-md-6  contact-left  border">
-       
+          <p className="text-center text-secondary">
+            If you have any questions, feel free to reach out to us via the form
+            below or through any of the contact methods listed.
+          </p>
+          <div className="col-lg-6 col-md-12  mb-4 bg-light">
             <form>
-              <div className="form-group pb-2 ">
-                <label htmlFor="name" className="pb-1 ">
+              <div className="form-group pb-2">
+                <label htmlFor="name" className="pb-1 text-success">
                   Name
                 </label>
                 <input
                   type="text"
-                  className="form-control pb-2 rounded-1  "
+                  className="form-control pb-2 rounded-0"
                   id="name"
                   placeholder="Your Name"
                 />
               </div>
               <div className="form-group pb-2">
-                <label htmlFor="email" className="pb-1">
+                <label htmlFor="email" className="pb-1 text-success">
                   Email
                 </label>
                 <input
                   type="email"
-                  className="form-control rounded-1  pb-2"
+                  className="form-control rounded-0 pb-2"
                   id="email"
                   placeholder="Your Email"
                 />
               </div>
               <div className="form-group pb-2">
-                <label htmlFor="number" className="pb-1">
+                <label htmlFor="number" className="pb-1 text-success">
                   Phone
                 </label>
                 <input
                   type="number"
-                  className="form-control rounded-1 pb-2 "
+                  className="form-control rounded-0 pb-2"
                   id="number"
-                  placeholder="Your Phone "
+                  placeholder="Your Phone"
                 />
               </div>
               <div className="form-group pb-2">
-                <label htmlFor="message" className="pb-1">
+                <label htmlFor="message" className="pb-1 text-success">
                   Message
                 </label>
                 <textarea
-                  className="form-control"
+                  className="form-control rounded-0"
                   id="message"
+                  style={{ resize: "none" }}
                   rows="5"
                   placeholder="Your Message"
                 ></textarea>
               </div>
               <button
                 type="submit"
-                className="border-0 py-2 mb-3 rounded-1 bg-danger text-white w-100"
+                className="border-0 py-2 mt-3 rounded-0 bg-success text-white w-100"
               >
                 Submit
               </button>
             </form>
           </div>
-          <div className="col-md-6  border">
+          <div className="col-lg-6 col-md-12 ">
             <div
-              className="map-container"
+              className="map-container mb-2"
               style={{
                 position: "relative",
-                paddingBottom: "62.90%",
+                paddingBottom: "60.04%",
                 height: 0,
               }}
             >
@@ -93,18 +92,18 @@ const Contact = () => {
                 tabIndex="0"
               ></iframe>
             </div>
-            <div className="contact-info  contact-right pb-4 my-md-0 ">
-              <div className="mb-3">
-                <i className="fa fa-envelope border border-success rounded-circle p-2 bg-white me-2"></i>
-                <p className="d-inline ml-2">info@aksharaaschool.edu.np</p>
+            <div className="contact-info contact-right my-md-0">
+              <div className="my-2">
+                <i className="fa fa-envelope border text-light border-success rounded-circle p-2 bg-success me-2"></i>
+                <p className="d-inline ml-2 text-secondary">info@aksharaaschool.edu.np</p>
               </div>
-              <div className="mb-3">
-                <i className="fa fa-phone  border border-success rounded-circle p-2 bg-white me-2"></i>
-                <p className="d-inline ml-2">+977-01-4993031/32/33</p>
+              <div className="mb-2">
+                <i className="fa fa-phone text-white border border-success rounded-circle p-2 bg-success me-2"></i>
+                <p className="d-inline ml-2 text-secondary">+977-01-4993031/32/33</p>
               </div>
-              <div className="mb-3">
-                <i className="fa fa-location border border-success rounded-circle p-2 bg-white me-2"></i>
-                <p className="d-inline ml-2">
+              <div className="mb-2">
+                <i className="fa fa-location border border-success text-light rounded-circle p-2 bg-success me-2"></i>
+                <p className="d-inline ml-2 text-secondary">
                   Kandaghari, Kageshwori Manohara 9, Kathmandu, Nepal
                 </p>
               </div>

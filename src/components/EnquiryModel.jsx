@@ -4,23 +4,25 @@ const EnquiryModel = () => {
   return (
     <>
       <div
-        className="modal fade"
+        className="modal fade "
         id="EnquiryModel"
         tabIndex={-1}
         aria-labelledby="EnquiryModelLabel"
         aria-hidden="true"
       >
-        <div className="modal-dialog modal-xl">
+            
+
+        <div className="modal-dialog modal-lg modal-fullscreen-md-down  modal-fullscreen-sm-down  custom-modal-width">
           <div className="modal-content">
-            <div className="modal-header">
-              <button
-                type="button"
-                className="btn-close"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              />
-            </div>
             <div className="px-2 pb-4">
+              <div className="modal-header">
+                <button
+                  type="button"
+                  className="btn-close bg-danger text-white"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                />
+              </div>
               <div className=" inq-form ">
                 <h4 className="text-center bg-success text-white py-2  ">
                   Enquiry Form

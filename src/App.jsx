@@ -9,14 +9,16 @@ import Blog from "./pages/Blog";
 import Team from "./pages/Team";
 import Home from "./pages/Home";
 import Kindegarten from "./pages/Kindergarten";
-import SideIcon from "./components/SideIcon";
+// import SideIcon from "./components/SideIcon";
 import Contact from "./pages/Contact";
-import Gallery from "./components/Gallery";
+// import Gallery from "./components/Gallery";
+// import Gallery from "./pages/Gallery";
 import Elementryschool from "./pages/Elementryschool";
 import Highschool from "./pages/Highschool";
 import Middleschool from "./pages/Middleschool";
 import Admissionpolicy from "./pages/Admissionpolicy";
 import AdmissionProcedure from "./pages/AdmissionProcedure";
+import Photos from './components/Photos';
 const App = () => {
   return (
     <>
@@ -39,9 +41,9 @@ const App = () => {
         <Route path="/team" element={<Team />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/gallery" element={<Photos />} />
       </Routes>
-      <SideIcon />
+      {/* <SideIcon /> */}
       <Footer />
 
      

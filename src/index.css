@@ -1,5 +1,15 @@
 /* enquiry form design start  */
-
+.modal-backdrop.show {
+	opacity: 0.6 !important; 
+  }
+  .custom-modal-width {
+	max-width: 800px; /* Adjust the width as needed */
+  }
+  @media (max-width: 576px) {
+	.modal-content {
+	  padding: 15px;
+	}
+  }
 .form-head {
 	width: fit-content;
 	background-color: transparent;

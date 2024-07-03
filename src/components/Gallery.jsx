@@ -1,7 +1,7 @@
 import React from "react";
 
 const imageData = [
-  { id: 1, src: "/gallery/children-1.jpg", alt: "Children 1" },
+  { id: 1, src: "/school/banner3.jpg", alt: "Children 1" },
   { id: 2, src: "/gallery/children-2.jpg", alt: "Children 2" },
   { id: 3, src: "/gallery/children3.jpg", alt: "Children 3" },
   { id: 4, src: "/gallery/children-4.jpg", alt: "Children 4" },
