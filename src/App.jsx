@@ -19,6 +19,7 @@ import Middleschool from "./pages/Middleschool";
 import Admissionpolicy from "./pages/Admissionpolicy";
 import AdmissionProcedure from "./pages/AdmissionProcedure";
 import Photos from './components/Photos';
+import ApplyOnline from "./pages/ApplyOnline";
 const App = () => {
   return (
     <>
@@ -37,8 +38,9 @@ const App = () => {
         {/* admission page start */}
         <Route path="/admission/policy" element={<Admissionpolicy />} />
         <Route path="/admission/procedure" element={<AdmissionProcedure />} />
+        <Route path="/apply-online" element={<ApplyOnline />} />
         {/* admission page end */}
-        <Route path="/team" element={<Team />} />
+        <Route path="/about/team" element={<Team />} />
         <Route path="/news" element={<Blog />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/gallery" element={<Photos />} />

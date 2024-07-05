@@ -89,31 +89,31 @@ const Blog = () => {
   const blog = [
     {
       id: 1,
-      blogimg: "/banner1.jpg",
+      blogimg: "/school/banner1.jpg",
       title: "Drawing and painting",
       paragraph: "The Workshop focused on Dr. Templeton’s Xavier.",
     },
     {
       id: 2,
-      blogimg: "/banner2.jpg",
+      blogimg: "/school/banner2.jpg",
       title: "Drawing and Painting Lessons",
       paragraph: "The Workshop focused on Dr. Templeton’s Xavier.",
     },
     {
       id: 3,
-      blogimg: "/banner3.jpg",
+      blogimg: "/school/banner3.jpg",
       title: "High School students share",
       paragraph: "The Workshop focused on Dr. Templeton’s Xavier.",
     },
     {
       id: 4,
-      blogimg: "/banner2.jpg",
+      blogimg: "/school/banner4.jpg",
       title: "High School students share",
       paragraph: "The Workshop focused on Dr. Templeton’s Xavier.",
     },
     {
       id: 5,
-      blogimg: "/banner1.jpg",
+      blogimg: "/school/banner5.jpg",
       title: "Drawing and painting",
       paragraph: "The Workshop focused on Dr. Templeton’s Xavier.",
     },

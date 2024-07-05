@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/Kindergarten.css";
+ import "../css/Kindergarten.css";
 
 const Kindergarten = () => {
   return (

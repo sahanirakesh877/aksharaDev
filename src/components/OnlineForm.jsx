@@ -3,7 +3,7 @@ import React from "react";
 const OnlineForm = () => {
   return (
     <>
-      <div className="container mx-auto mt-2 inq-form p-4">
+      <div className="container mx-auto mt-2 inq-form p-3">
         <h4 className="text-center bg-success text-white py-2  ">
           Apply Online
         </h4>
@@ -987,7 +987,7 @@ const OnlineForm = () => {
           </div>
 
           {/* Submit Button */}
-          <button type="submit" className="btn btn-primary  rounded-0 px-3">
+          <button type="submit" className="btns  bg-danger text-white  rounded-pill border-0 py-1 px-3">
             <i className="fas fa-paper-plane" /> Apply Now
           </button>
         </form>

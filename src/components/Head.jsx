@@ -43,11 +43,59 @@ const Head = () => {
                         <i class="fa-solid fa-house me-1"></i>Home
                       </Link>
                     </li>
-                    <li className="nav-item  py-2 ">
+
+
+                    {/* <li className="nav-item  py-2 ">
                       <Link className="nav-link" to="/about">
                         <i className="fa-solid fa-info-circle  me-1"></i>About
                         Us
                       </Link>
+                    </li> */}
+
+                    <li className="nav-item dropdown  py-2 ">
+                      <a
+                        className="nav-link dropdown-toggle"
+                        href="#"
+                        id="navbarDropdown"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                      <i className="fa-solid fa-info-circle  me-1"></i>
+                        AboutUs
+                      </a>
+                      <ul
+                        className="dropdown-menu"
+                        aria-labelledby="navbarDropdown"
+                      >
+                        <li>
+                        <Link className="dropdown-item" to="/about">
+                          Introduction
+                          </Link>
+                        </li>
+                        <li>
+                        <Link className="dropdown-item" to="/about/philosphy">
+                       Our Philosphy and Akshara Learning Principles
+                          </Link>
+                        </li>
+                        <li>
+                        <Link className="dropdown-item" to="/about/msg-chairman">
+                           Message From Chairmain
+                          </Link>
+                        </li>
+                        <li>
+                        <Link className="dropdown-item" to="/about/msg-principal">
+                        Message From Principal
+                          </Link>
+                        </li>
+                        <li>
+                        <Link className="dropdown-item" to="/about/team">
+                        Team
+                          </Link>
+                        </li>
+                      
+                       
+                      </ul>
                     </li>
 
                     <li className="nav-item dropdown  py-2 ">
@@ -112,15 +160,11 @@ const Head = () => {
                           </Link>
                         </li>
                         <li>
-                        <Link className="dropdown-item" to="/admission/policy">
+                        <Link className="dropdown-item" to="/admission/procedure">
                             Admission Procedure
                           </Link>
                         </li>
-                        <li>
-                        <Link className="dropdown-item" to="/admission/apply">
-                            Enquiry Form
-                          </Link>
-                        </li>
+                     
                       </ul>
                     </li>
 

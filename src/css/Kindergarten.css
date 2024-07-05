@@ -232,14 +232,15 @@
 
   /* kinder below caraousel */
   .academic-item{
-    width: 140px;
-    height: 110px;
+    width: 240px;
+    height: 150px;
+  
 
   }
   .academic-item img{
-    width: fit-content;
+    width: 100%;
     height: 100%;
-    object-fit: contain;
+    object-fit: cover;
   }
   .academic-item img {
     transition: transform 0.3s ease-in-out;
@@ -247,5 +248,27 @@
   
   .academic-item:hover img {
     transform: scale(1.1);
+  }
+
+
+
+
+  /* ---admission section process */
+  .admission-li{
+    font-size: 0.9rem;
+    align-items: start;
+    padding: 8px 0;
+    text-align: justify;
+  }
+
+  .academic-items{
+    width: 98%;
+    height:100%;
+  
+  }
+  .academic-items img{
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
   }
   
