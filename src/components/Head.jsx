@@ -72,15 +72,16 @@ const Head = () => {
                           </Link>
                         </li>
                         <li>
-                        <Link className="dropdown-item" to="/academics/middle">
-                            Middle School
-                          </Link>
-                        </li>
-                        <li>
                         <Link className="dropdown-item" to="/academics/elementary">
                             Elementary School
                           </Link>
                         </li>
+                        <li>
+                        <Link className="dropdown-item" to="/academics/middle">
+                            Middle School
+                          </Link>
+                        </li>
+                      
                         <li>
                         <Link className="dropdown-item" to="/academics/high">
                             High School
@@ -112,12 +113,12 @@ const Head = () => {
                         </li>
                         <li>
                         <Link className="dropdown-item" to="/admission/policy">
-                            Admission Policy
+                            Admission Procedure
                           </Link>
                         </li>
                         <li>
                         <Link className="dropdown-item" to="/admission/apply">
-                            Apply Online Form
+                            Enquiry Form
                           </Link>
                         </li>
                       </ul>

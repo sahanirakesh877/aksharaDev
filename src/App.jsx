@@ -39,7 +39,7 @@ const App = () => {
         <Route path="/admission/procedure" element={<AdmissionProcedure />} />
         {/* admission page end */}
         <Route path="/team" element={<Team />} />
-        <Route path="/blog" element={<Blog />} />
+        <Route path="/news" element={<Blog />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/gallery" element={<Photos />} />
       </Routes>
