@@ -1,10 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import "../css/Head.css";
 import { Link } from "react-router-dom";
 import EnquiryModel from "./EnquiryModel";
 
-
 const Head = () => {
+  const [showModal, setShowModal] = useState(false);
+  const showModel = () => {
+    setShowModal(true);
+  };
+  const hideModel = () => {
+    setShowModal(false);
+  };
+
   return (
     <>
       <header>
@@ -40,7 +47,7 @@ const Head = () => {
                   <ul className="navbar-nav mx-auto   ">
                     <li className="nav-item active  py-2 ">
                       <Link className="nav-link " to="/">
-                       Home
+                        Home
                       </Link>
                     </li>
                     <li className="nav-item dropdown  py-2 ">
@@ -52,7 +59,6 @@ const Head = () => {
                         data-bs-toggle="dropdown"
                         aria-expanded="false"
                       >
-                   
                         AboutUs
                       </a>
                       <ul
@@ -60,32 +66,36 @@ const Head = () => {
                         aria-labelledby="navbarDropdown"
                       >
                         <li>
-                        <Link className="dropdown-item" to="/about">
-                          Introduction
+                          <Link className="dropdown-item" to="/about">
+                            Introduction
                           </Link>
                         </li>
                         <li>
-                        <Link className="dropdown-item" to="/about/philosphy">
-                       Our Philosphy and Akshara Learning Principles
+                          <Link className="dropdown-item" to="/about/philosphy">
+                            Our Philosphy and Akshara Learning Principles
                           </Link>
                         </li>
                         <li>
-                        <Link className="dropdown-item" to="/about/msg-chairman">
-                           Message From Chairmain
+                          <Link
+                            className="dropdown-item"
+                            to="/about/msg-chairman"
+                          >
+                            Message From Chairmain
                           </Link>
                         </li>
                         <li>
-                        <Link className="dropdown-item" to="/about/msg-principal">
-                        Message From Principal
+                          <Link
+                            className="dropdown-item"
+                            to="/about/msg-principal"
+                          >
+                            Message From Principal
                           </Link>
                         </li>
                         <li>
-                        <Link className="dropdown-item" to="/about/team">
-                        Team
+                          <Link className="dropdown-item" to="/about/team">
+                            Team
                           </Link>
                         </li>
-                      
-                       
                       </ul>
                     </li>
 
@@ -98,7 +108,6 @@ const Head = () => {
                         data-bs-toggle="dropdown"
                         aria-expanded="false"
                       >
-                     
                         Academic
                       </a>
                       <ul
@@ -106,23 +115,32 @@ const Head = () => {
                         aria-labelledby="navbarDropdown"
                       >
                         <li>
-                        <Link className="dropdown-item" to="/academics/kindergarten">
+                          <Link
+                            className="dropdown-item"
+                            to="/academics/kindergarten"
+                          >
                             Kindergarten
                           </Link>
                         </li>
                         <li>
-                        <Link className="dropdown-item" to="/academics/elementary">
+                          <Link
+                            className="dropdown-item"
+                            to="/academics/elementary"
+                          >
                             Elementary School
                           </Link>
                         </li>
                         <li>
-                        <Link className="dropdown-item" to="/academics/middle">
+                          <Link
+                            className="dropdown-item"
+                            to="/academics/middle"
+                          >
                             Middle School
                           </Link>
                         </li>
-                      
+
                         <li>
-                        <Link className="dropdown-item" to="/academics/high">
+                          <Link className="dropdown-item" to="/academics/high">
                             High School
                           </Link>
                         </li>
@@ -138,7 +156,6 @@ const Head = () => {
                         data-bs-toggle="dropdown"
                         aria-expanded="false"
                       >
-                    
                         Admission
                       </a>
                       <ul
@@ -146,39 +163,43 @@ const Head = () => {
                         aria-labelledby="navbarDropdown"
                       >
                         <li>
-                        <Link className="dropdown-item" to="/admission/policy">
+                          <Link
+                            className="dropdown-item"
+                            to="/admission/policy"
+                          >
                             Admission Policy
                           </Link>
                         </li>
                         <li>
-                        <Link className="dropdown-item" to="/admission/procedure">
+                          <Link
+                            className="dropdown-item"
+                            to="/admission/procedure"
+                          >
                             Admission Procedure
                           </Link>
                         </li>
-                     
                       </ul>
                     </li>
 
                     <li className="nav-item py-2 ">
-                    <Link className="nav-link" to="/news">
-                       News & Activities
+                      <Link className="nav-link" to="/news">
+                        News & Activities
                       </Link>
                     </li>
 
                     <li className="nav-item py-2 ">
-                    <Link className="nav-link" to="/gallery">
-                     Gallery
+                      <Link className="nav-link" to="/gallery">
+                        Gallery
                       </Link>
                     </li>
 
                     <li className="nav-item  py-2 ">
-                    <Link className="nav-link" to="/contact">
+                      <Link className="nav-link" to="/contact">
                         Contact
                       </Link>
                     </li>
 
                     <li className="nav-item dropdown  flex-row  py-2  ">
-                    
                       <a
                         className="nav-link dropdown-toggle  "
                         href="#"
@@ -188,24 +209,25 @@ const Head = () => {
                         aria-expanded="false"
                       >
                         <i class="fa-solid fa-bars "></i>
-                       
                       </a>
                       <ul
                         className="dropdown-menu"
                         aria-labelledby="navbarDropdown"
                       >
                         <li>
-                        <Link className="dropdown-item" to="/downloads">
-                            <i className="fa-solid fa-download me-1"></i>Download
+                          <Link className="dropdown-item" to="/downloads">
+                            <i className="fa-solid fa-download me-1"></i>
+                            Download
                           </Link>
                         </li>
                         <li>
-                        <Link className="dropdown-item" to="/apply-online">
-                            <i className="fa-solid fa-user-plus me-1"></i>Apply Online
+                          <Link className="dropdown-item" to="/apply-online">
+                            <i className="fa-solid fa-user-plus me-1"></i>Apply
+                            Online
                           </Link>
                         </li>
                         <li>
-                        <Link className="dropdown-item" to="/career">
+                          <Link className="dropdown-item" to="/career">
                             <i className="fa-solid fa-briefcase me-1"></i>Career
                           </Link>
                         </li>
@@ -213,13 +235,16 @@ const Head = () => {
                     </li>
 
                     <li className="  py-2  ms-md-4 ">
-                   <button className="head-btn    rounded-pill animated-button ">Get Started</button>
+                      <button
+                        className="head-btn  rounded-pill animated-button "
+                        onClick={showModel}
+                      >
+                        Get Started
+                      </button>
                     </li>
-                   
                   </ul>
-               
 
-                  <EnquiryModel/>
+                  {showModal && <EnquiryModel onClose={hideModel} />}
                 </div>
               </div>
             </nav>

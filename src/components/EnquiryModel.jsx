@@ -1,6 +1,7 @@
 import React from "react";
 
 const EnquiryModel = () => {
+  console.log("onEnquiryModel")
   return (
     <>
       <div

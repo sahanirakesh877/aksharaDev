@@ -3,19 +3,19 @@ import React from "react";
 const carouselData = [
   {
     id: 0,
-    image: "/school/banner3.jpg",
+    image: "/school/home66.JPG",
     title: "Exploring new horizons and growing knowledge",
     description: "Akshara School",
   },
   {
     id: 1,
-    image: "/school/banner4.jpg",
+    image: "/school/home33.JPG",
     title: "Engaging and interactive learning experiences",
     description: "Akshara School",
   },
   {
     id: 2,
-    image: "/school/banner1.jpg",
+    image: "/school/home88.JPG",
     title: "Fostering creativity and independent learning",
     description: "Akshara School",
   },

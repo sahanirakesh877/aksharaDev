@@ -33,7 +33,7 @@
 
 .close-btn {
     position: relative;
-    top:-80px;
+    top:-30px;
     left:0;
     background: rgb(179, 3, 91);
     color: #fff;
@@ -41,6 +41,8 @@
     padding: 8px 15px;
     font-size: 16px;
     border-radius: 50%;
+    box-shadow: rgba(240, 15, 15, 0.16) 1px 1px 3px, rgba(246, 9, 9, 0.23) 0px 3px 3px;
+
     cursor: pointer;
 }
 

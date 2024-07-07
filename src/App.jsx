@@ -9,7 +9,7 @@ import Blog from "./pages/Blog";
 import Team from "./pages/Team";
 import Home from "./pages/Home";
 import Kindegarten from "./pages/Kindergarten";
-// import SideIcon from "./components/SideIcon";
+ import SideIcon from "./components/SideIcon";
 import Contact from "./pages/Contact";
 // import Gallery from "./components/Gallery";
 // import Gallery from "./pages/Gallery";
@@ -45,7 +45,7 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="/gallery" element={<Photos />} />
       </Routes>
-      {/* <SideIcon /> */}
+      <SideIcon />
       <Footer />
 
      
