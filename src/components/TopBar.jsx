@@ -62,22 +62,22 @@ const TopBar = () => {
                 </div>
 
 
-              <div className="col-lg-2 d-flex align-items-center">
-                <div className="d-flex gap-1">
+              <div className="mb-lg-0 m-md-0 p-md-0 p-lg-0 p-lg-0 col-lg-2 d-flex align-items-center justify-content-start ">
+                <div className="d-flex justify-content-lg-around   gap-1 m-md-0 p-md-0 p-lg-0 p-lg-0">
                   <a href="#" className="text-decoration-none head-icons">
-                    <i className="fa-brands fa-facebook   icon "></i>
+                    <i className="fa-brands fa-facebook    facebook "></i>
                   </a>
                   <a href="#" className="text-decoration-none head-icons">
-                    <i className="fa-brands fa-instagram   icon"></i>
+                    <i className="fa-brands fa-instagram   instagram "></i>
                   </a>
                   <a href="#" className="text-decoration-none head-icons">
-                    <i className="fa-brands fa-whatsapp   icon"></i>
+                    <i className="fa-brands fa-whatsapp  whatsapp "></i>
                   </a>
                   <a href="#" className="text-decoration-none head-icons">
-                    <i className="fa-brands fa-youtube   icon"></i>
+                    <i className="fa-brands fa-youtube   youtube"></i>
                   </a>
                   <a href="#" className="text-decoration-none head-icons">
-                    <i className="fa-brands fa-linkedin   icon"></i>
+                    <i className="fa-brands fa-linkedin  facebook "></i>
                   </a>
                 </div>
               </div>

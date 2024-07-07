@@ -197,9 +197,9 @@
 .head-icons {
 	padding: 1px 6px;
 	border-radius: 50%;
-	background-color: rgb(230, 255, 230);
+	background-color: rgb(247, 251, 247);
 	font-size: 17px;
-	box-shadow: 2px 2px 3px rgba(11, 11, 11, 0.3);
+	box-shadow: 1px 1px 3px rgba(11, 11, 11, 0.3);
 	color: var(--red);
 }
 .head-icons:hover {
@@ -208,6 +208,17 @@
 	font-size: 16px;
 	box-shadow: 2px 2px 3px rgba(11, 11, 11, 0.3);
 }
+.facebook{
+	color: blue;
+}
+.whatsapp{
+	color: rgb(4, 183, 4);
+}
+
+.instagram{
+color: #FC4100;
+}
+
 /* ==============================Top Bar end ===================================*/
 
 /* banner us section design  start */

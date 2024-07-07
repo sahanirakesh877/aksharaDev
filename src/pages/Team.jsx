@@ -1,7 +1,9 @@
 import React, { useEffect } from "react";
-import '../css/Team.css'
+import "../css/Team.css";
 import { Helmet } from "react-helmet";
 import { useLocation } from "react-router-dom";
+import ChairmanMsg from './../components/ChairmanMsg';
+import Principalmsg from "../components/Principalmsg";
 
 const Team = () => {
   const pathname = useLocation();
@@ -21,107 +23,316 @@ const Team = () => {
           content="about, about us, case, blog company, team, mission, vision, services,review, values, Western Australia Care Pvt. Ltd., NDIS, disabilities, community, respect, equality"
         />{" "}
       </Helmet>
+      <div className="container">
+        <div className="row py-3  align-items-center">
+          <div className="col-md-5 ">
+            <h3 className="team-head text-center">
+              ECA and Event Co-ordinator
+            </h3>
+            <p className="team-text">
+              Aksharaa is blessed with a robust body of an academically purged
+              and experienced team. Our school envisions developing a clear
+              strategy to implement our visions along with our stakeholders. We
+              understand that a professionally developed team can contribute to
+              forming a strategic team. We are dedicated to meet THE EXECUTIVE
+              TEAM the needs of 21st-century educational challenges. For that
+              our team works out on a plan and seeks ways how this can be
+              implemented for the long term. Our team comprises members who come
+              from different walks of life and have tremendous amounts of
+              experience, and everyone's hard work and contribution are equally
+              significant to run our institution.
+            </p>
+          </div>
+          <div className="col-md-7 ">
+            <img
+              src="	https://aksharaaschool.edu.np/storage/team-photos/February2024/V8Cu3yB1s8QBsGvARF3Z.jpg"
+              alt="ECA and Event Co-ordinator"
+              className="img-fluid"
+            />
+          </div>
+        </div>
+      </div>
+        <div className="container pb-4">
+          <h3 className="team-head text-center my-4">
+            Administration & Operations
+          </h3>
+
+          <div className="row">
+            <div className="col-md-3 col-sm-6">
+              <div className="our-team">
+              <div className="img-container">
+
+           
+                  <img
+                    src="https://aksharaaschool.edu.np/storage/members/January2023/jx5H9QzLfYRjMzDTjetA.jpg"
+                    alt
+                    className="img-fluid team-image"
+                  />
+                     </div>
+              
+                <div className="team-content">
+                  <h3 className="title">Rashmila Thapa</h3>
+                  <span className="post">Accountant</span>
+                  <ul className="social-links">
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-facebook" />{" "}
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-instagram" />{" "}
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-viber" />{" "}
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-linkedin" />{" "}
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-whatsapp" />{" "}
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-3 col-sm-6">
+              <div className="our-team">
+              <div className="img-container">
+
+                <img
+                  src="https://aksharaaschool.edu.np/storage/members/October2019/lNwTEleOknIKHophNWjE.png"
+                  alt
+                    className="img-fluid team-image"
+                />
+                   </div>
+                <div className="team-content">
+                  <h3 className="title">Kaushila Pokharel</h3>
+                  <span className="post">Financial Manager</span>
+                  <ul className="social-links">
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-facebook" />{" "}
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-instagram" />{" "}
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-viber" />{" "}
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-linkedin" />{" "}
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-whatsapp" />{" "}
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-3 col-sm-6">
+              <div className="our-team">
+              <div className="img-container">
+
+           
+                <img
+                  src="https://aksharaaschool.edu.np/storage/members/April2022/YfzsZUdflAn4ZS657EfW.jpg"
+                  alt
+                    className="img-fluid team-image"
+                />
+                   </div>
+                <div className="team-content">
+                  <h3 className="title">Ram Kumar Adhikari</h3>
+                  <span className="post">IT Incharge</span>
+                  <ul className="social-links">
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-facebook" />{" "}
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-instagram" />{" "}
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-viber" />{" "}
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-linkedin" />{" "}
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-whatsapp" />{" "}
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-3 col-sm-6">
+              <div className="our-team">
+              <div className="img-container">
+
+             
+                <img
+                  src="https://aksharaaschool.edu.np/storage/members/February2022/GybhzCk3WloVI8Eqe3UO.JPG"
+                  alt
+                    className="img-fluid team-image"
+                />
+                 </div>
+                <div className="team-content">
+                  <h3 className="title">Bimal Bhattarai</h3>
+                  <span className="post">Admin cum Transportation Incharge</span>
+                  <ul className="social-links">
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-facebook" />{" "}
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-instagram" />{" "}
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-viber" />{" "}
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-linkedin" />{" "}
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-whatsapp" />{" "}
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="row mt-4">
+            <div className="col-md-3 col-sm-6">
+              <div className="our-team">
+              <div className="img-container">
+
+             
+                <img
+                  src="https://aksharaaschool.edu.np/storage/members/February2022/PTp8lyBO7oCeIyYgJ14A.jpg"
+                  alt
+                  className="img-fluid team-image"
+
+                />
+                 </div>
+                <div className="team-content">
+                  <h3 className="title">Sabin Nepal</h3>
+                  <span className="post">Operation Incharge</span>
+                  <ul className="social-links">
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-facebook" />{" "}
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-instagram" />{" "}
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-viber" />{" "}
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-linkedin" />{" "}
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-whatsapp" />{" "}
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-3 col-sm-6">
+              <div className="our-team">
+              <div className="img-container">
+
+           
+                <img
+                  src="	https://aksharaaschool.edu.np/storage/members/February2021/BkxmYM3vpdhNzy0liDLR.jpg"
+                  alt
+                    className="img-fluid team-image"
+                />
+                   </div>
+                <div className="team-content">
+                  <h3 className="title">Sabina Karanjeet</h3>
+                  <span className="post">Front Desk Officer</span>
+                  <ul className="social-links">
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-facebook" />{" "}
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-instagram" />{" "}
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-viber" />{" "}
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-linkedin" />{" "}
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-whatsapp" />{" "}
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          
+          </div>
+        </div>
+        <ChairmanMsg/>
+        <Principalmsg/>
  
-
- 
-  <section id="bod" className="bod_area">
-    <div className="container">								
-      <h2 className="title_spectial">Administration & Operations</h2>
-      <div className="row text-center">
-
-        <div className="col-lg-3 col-sm-3 col-xs-12 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.1s" data-wow-offset={0} style={{visibility: 'visible', animationDuration: '1s', animationDelay: '0.1s', animationName: 'fadeInLeft'}}>
-          <div className="our-bod">
-            <div className="single-bod">
-              <img src="https://aksharaaschool.edu.np/storage/members/January2023/jx5H9QzLfYRjMzDTjetA.jpg" className="img-fluid" alt />
-              <h4>Rashmila Thapa</h4>
-              <p>Accountant</p>
-            </div>	
-            <ul className="social">
-              <li><a href="#" className="fa fa-facebook facebook" /></li>
-              <li><a href="#" className="fa fa-twitter twitter" /></li>
-              <li><a href="#" className="fa fa-google google" /></li>
-            </ul>						
-          </div>
-        </div>
-        <div className="col-lg-3 col-sm-3 col-xs-12 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s" data-wow-offset={0} style={{visibility: 'visible', animationDuration: '1s', animationDelay: '0.2s', animationName: 'fadeInLeft'}}>
-          <div className="our-bod">
-            <div className="single-bod">
-              <img src="	https://aksharaaschool.edu.np/storage/members/October2019/lNwTEleOknIKHophNWjE.png" className="img-fluid" alt />
-              <h4>Kaushila Pokharel</h4>
-              <p>Financial Manager</p>
-            </div>	
-            <ul className="social">
-              <li><a href="#" className="fa fa-facebook facebook" /></li>
-              <li><a href="#" className="fa fa-twitter twitter" /></li>
-              <li><a href="#" className="fa fa-google google" /></li>
-            </ul>						
-          </div>
-        </div>
-        <div className="col-lg-3 col-sm-3 col-xs-12 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s" data-wow-offset={0} style={{visibility: 'visible', animationDuration: '1s', animationDelay: '0.3s', animationName: 'fadeInLeft'}}>
-          <div className="our-bod">
-            <div className="single-bod">
-              <img src="	https://aksharaaschool.edu.np/storage/members/April2022/YfzsZUdflAn4ZS657EfW.jpg" className="img-fluid" alt />
-              <h4>Ram Kumar Adhikari</h4>
-              <p>IT Incharge</p>
-            </div>	
-            <ul className="social">
-              <li><a href="#" className="fa fa-facebook facebook" /></li>
-              <li><a href="#" className="fa fa-twitter twitter" /></li>
-              <li><a href="#" className="fa fa-google google" /></li>
-            </ul>						
-          </div>
-        </div>
-        <div className="col-lg-3 col-sm-3 col-xs-12 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.4s" data-wow-offset={0} style={{visibility: 'visible', animationDuration: '1s', animationDelay: '0.4s', animationName: 'fadeInLeft'}}>
-          <div className="our-bod">
-            <div className="single-bod">
-              <img src="https://aksharaaschool.edu.np/storage/members/February2022/GybhzCk3WloVI8Eqe3UO.JPG" className="img-fluid" alt />
-              <h4>Bimal Bhattarai</h4>
-              <p>Admin cum Transportation Incharge</p>
-            </div>	
-            <ul className="social">
-              <li><a href="#" className="fa fa-facebook facebook" /></li>
-              <li><a href="#" className="fa fa-twitter twitter" /></li>
-              <li><a href="#" className="fa fa-google google" /></li>
-            </ul>						
-          </div>
-        </div> 
-        <div className="col-lg-3 col-sm-3 col-xs-12 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.4s" data-wow-offset={0} style={{visibility: 'visible', animationDuration: '1s', animationDelay: '0.4s', animationName: 'fadeInLeft'}}>
-          <div className="our-bod">
-            <div className="single-bod">
-              <img src="https://aksharaaschool.edu.np/storage/members/February2022/PTp8lyBO7oCeIyYgJ14A.jpg" className="img-fluid" alt />
-              <h4>Sabin Nepal</h4>
-              <p>Operation Incharge</p>
-            </div>	
-            <ul className="social">
-              <li className="facebook"><i class="fa-brands fa-facebook-f "></i></li>
-              <li><a href="#" className="fa fa-twitter twitter" /></li>
-              <li><a href="#" className="fa fa-google google" /></li>
-            </ul>						
-          </div>
-        </div>
-        <div className="col-lg-3 col-sm-3 col-xs-12 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.4s" data-wow-offset={0} style={{visibility: 'visible', animationDuration: '1s', animationDelay: '0.4s', animationName: 'fadeInLeft'}}>
-          <div className="our-bod">
-            <div className="single-bod">
-              <img src="	https://aksharaaschool.edu.np/storage/members/February2021/BkxmYM3vpdhNzy0liDLR.jpg" className="img-fluid" alt />
-              <h4>Sabina Karanjeet</h4>
-              <p>Front Desk Officer</p>
-            </div>	
-            <ul className="social">
-              <li><a href="#" className="fa fa-facebook facebook" /></li>
-              <li><a href="#" className="fa fa-twitter twitter" /></li>
-              <li><a href="#" className="fa fa-google google" /></li>
-            </ul>						
-          </div>
-        </div> 
-      </div>		
-    </div>
-  </section>
-
-
 
     </>
-
-
   );
 };
 

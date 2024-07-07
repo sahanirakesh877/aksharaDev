@@ -1,0 +1,90 @@
+
+
+.msgperson {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.2),
+      rgba(255, 255, 255, 0.6)
+    ),
+    url('https://img.freepik.com/free-vector/abstract-grass_1182-699.jpg?t=st=1720334040~exp=1720337640~hmac=cde565d3941bf151ff5cf602c8acfbe717eb36634387193f2ab322606ebe3edf&w=740');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;  
+}
+
+.chairman-header {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #878585;
+  border-bottom: 3px solid transparent;
+  transition: border-bottom 0.3s ease;
+}
+
+.chairman-header::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 3px;
+  border-radius: 100%;
+  background-color: #fe7f00;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.chairman-header:hover::after {
+  transform: scaleX(1);
+}
+
+.fancy-border {
+  border: 5px solid transparent;
+  border-radius: 10px;
+  background: linear-gradient(white, white), linear-gradient(to right, #ff8a00, #e52e71);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  padding: 8px;
+  position: relative;
+}
+
+.chairman-message-card:hover {
+  transform: translateY(-2px);
+}
+
+.chairman-name {
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-align: center;
+  color: #e52e71;
+}
+
+.chairman-title {
+  font-size: 0.875rem;
+  color: #6c757d;
+  text-align: center;
+  margin: 0;
+}
+
+.message-content p {
+  font-size: 0.9rem;
+  color: #4b4949;
+  line-height: 1.6;
+  text-align: justify;
+
+}
+
+.chairman-image {
+  border-radius: 8px;
+  transition:
+    transform 0.3s,
+    box-shadow 0.3s;
+}
+
+.chairman-image:hover {
+  transform: scale(1.05);
+  /* box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); */
+}

@@ -40,18 +40,9 @@ const Head = () => {
                   <ul className="navbar-nav mx-auto   ">
                     <li className="nav-item active  py-2 ">
                       <Link className="nav-link " to="/">
-                        <i class="fa-solid fa-house me-1"></i>Home
+                       Home
                       </Link>
                     </li>
-
-
-                    {/* <li className="nav-item  py-2 ">
-                      <Link className="nav-link" to="/about">
-                        <i className="fa-solid fa-info-circle  me-1"></i>About
-                        Us
-                      </Link>
-                    </li> */}
-
                     <li className="nav-item dropdown  py-2 ">
                       <a
                         className="nav-link dropdown-toggle"
@@ -61,7 +52,7 @@ const Head = () => {
                         data-bs-toggle="dropdown"
                         aria-expanded="false"
                       >
-                      <i className="fa-solid fa-info-circle  me-1"></i>
+                   
                         AboutUs
                       </a>
                       <ul
@@ -107,7 +98,7 @@ const Head = () => {
                         data-bs-toggle="dropdown"
                         aria-expanded="false"
                       >
-                        <i className="  fa-solid fa-graduation-cap me-1"></i>
+                     
                         Academic
                       </a>
                       <ul
@@ -147,7 +138,7 @@ const Head = () => {
                         data-bs-toggle="dropdown"
                         aria-expanded="false"
                       >
-                        <i className="fa-solid fa-user-graduate me-1"></i>
+                    
                         Admission
                       </a>
                       <ul
@@ -170,32 +161,34 @@ const Head = () => {
 
                     <li className="nav-item py-2 ">
                     <Link className="nav-link" to="/news">
-                        <i className="fa-solid fa-newspaper me-1"></i>News & Activities
+                       News & Activities
                       </Link>
                     </li>
 
                     <li className="nav-item py-2 ">
                     <Link className="nav-link" to="/gallery">
-                        <i className="fa-solid fa-images me-1"></i>Gallery
+                     Gallery
                       </Link>
                     </li>
 
                     <li className="nav-item  py-2 ">
                     <Link className="nav-link" to="/contact">
-                        <i className="fa-solid fa-envelope me-1"></i>Contact
+                        Contact
                       </Link>
                     </li>
 
-                    <li className="nav-item dropdown  flex-row  py-2 ">
+                    <li className="nav-item dropdown  flex-row  py-2  ">
+                    
                       <a
-                        className="nav-link dropdown-toggle"
+                        className="nav-link dropdown-toggle  "
                         href="#"
                         id="navbarDropdown"
                         role="button"
                         data-bs-toggle="dropdown"
                         aria-expanded="false"
                       >
-                        <i class="fa-solid fa-bars"></i>
+                        <i class="fa-solid fa-bars "></i>
+                       
                       </a>
                       <ul
                         className="dropdown-menu"
@@ -203,27 +196,29 @@ const Head = () => {
                       >
                         <li>
                         <Link className="dropdown-item" to="/downloads">
-                            <i className="fa-solid fa-download"></i>Download
+                            <i className="fa-solid fa-download me-1"></i>Download
                           </Link>
                         </li>
                         <li>
                         <Link className="dropdown-item" to="/apply-online">
-                            <i className="fa-solid fa-user-plus"></i>Apply Online
+                            <i className="fa-solid fa-user-plus me-1"></i>Apply Online
                           </Link>
                         </li>
                         <li>
                         <Link className="dropdown-item" to="/career">
-                            <i className="fa-solid fa-briefcase"></i>Career
+                            <i className="fa-solid fa-briefcase me-1"></i>Career
                           </Link>
                         </li>
                       </ul>
                     </li>
+
+                    <li className="  py-2  ms-md-4 ">
+                   <button className="head-btn    rounded-pill animated-button ">Get Started</button>
+                    </li>
+                   
                   </ul>
-                  <button className="btn   rounded-pill   bg-danger text-white animated-button"
-                     data-bs-toggle="modal"
-                     data-bs-target="#EnquiryModel">
-                    Get inquiry
-                  </button>
+               
+
                   <EnquiryModel/>
                 </div>
               </div>
