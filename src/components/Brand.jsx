@@ -28,6 +28,7 @@ const Brand = () => {
     <>
       <div className="brand">
         <div className="container py-5">
+        <h2 className="text-center  border-bottom-title w-100 ">Our Educational Partners</h2>
           <AliceCarousel
             mouseTracking
             items={items}

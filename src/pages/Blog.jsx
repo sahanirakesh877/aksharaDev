@@ -181,8 +181,8 @@ const Blog = () => {
 
       <div className="blog-banner">
         <div className="container">
-          <p className="text-center py-5 fs-2 text-dark  fw-semibold"> Akshara Highlights</p>
-          <div className="row">
+          <h2 className="text-center pt-3   fs-2 text-dark border-bottom-title w-100 "> Akshara Highlights</h2>
+          <div className="row pt-5">
             <div className="col-md-4">
               <p
                 className=" text-center py-3 btns from-left"

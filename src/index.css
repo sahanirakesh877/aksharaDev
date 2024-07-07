@@ -448,7 +448,7 @@ color: #FC4100;
 	bottom: 0;
 	transform: translateX(-50%);
 	width: 20%;
-	height: 2px;
+	height:0.13rem;
 	border-radius: 20px;
 	background: linear-gradient(to left, #ff41cc, #01e39c);
 }
@@ -700,3 +700,8 @@ a.icon-link:hover {
 /* ~~~~~~~~~~~~ blogs card caraousel  end~~~~~~~~~~~~ */
 
 /*--------------  Learning components --------------- ---*/
+.lrpa-text{
+	text-align: justify;
+	font-size: 1rem;
+	color: rgb(70, 71, 70);
+}

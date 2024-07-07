@@ -6,48 +6,53 @@ const Footer = () => {
       <footer className="footer">
         <section>
           <div className="container">
-            <div className="row">
+            <div className="row d-flex align-items-start">
+
+
               <div className="col-12 col-lg-4 footer-left py-4 py-md-5 py-xxl-8">
                 <div className="row h-100 align-items-end justify-content-center">
                   <div className="col-12 col-md-11 col-xl-10">
-                    <div className="footer-logo-wrapper ">
+                    <div className="footer-logo-wrapper 
+                    mb-4">
+
                       <a href="#!">
                         <img
                           src="/white-logo.png"
                           alt="BootstrapBrain Logo"
+                          className="img-fluid "
 
                           
                         />
                       </a>
                     </div>
 
-                    <div className="address-wrapper mt-5">
-                      <address className="mb-2 footer-tag d-flex  align-items-start">
+                    <div className="address-wrapper  ">
+                      <address className="mb-2 footer-tag d-flex  align-items-center">
                         <i
-                          class="fa fa-location-arrow me-2 fs-4 p-2 border rounded-circle text-danger "
+                          class="fa fa-location-arrow fs-5 me-2 p-2 border rounded-circle text-success bg-white "
                           aria-hidden="true"
                         ></i>{" "}
-                        Kandaghari, Kageshwori Manohara 9, Kathmandu, Nepal
+                        Kandaghari, Kageshwori Manohara 9, KTM, Nepal
                       </address>
-                      <p className="mb-2">
+                      <p className="mb-2 ">
                         <a
                           className="footer-tag text-decoration-none"
                           href="tel:+15057922430"
                         >
                           <i
-                            class="fa fa-phone me-2 fs-4 border p-2 text-danger  rounded-circle"
+                            class="fa fa-phone text-success fs-5 border p-2 me-2 bg-white  rounded-circle"
                             aria-hidden="true"
                           ></i>
                           +977-01-4993031/32/33
                         </a>
                       </p>
-                      <p className="mb-0">
+                      <p className="mt-1 ">
                         <a
                           className="footer-tag text-decoration-none"
                           href="mailto:demo@yourdomain.com"
                         >
                           <i
-                            class="fa fa-envelope fs-4 text-danger  border p-2 rounded-circle"
+                            class="fa fa-envelope fs-5 text-success bg-white  border p-2 rounded-circle"
                             aria-hidden="true"
                           ></i>{" "}
                           <span className="ms-1 ">
@@ -131,6 +136,8 @@ const Footer = () => {
                   </div>
                 </div>
               </div>
+
+
               <div className="col-12 col-lg-8  py-4 py-md-5 py-xxl-8">
                 <div className="row justify-content-center">
                   <div className="col-12 col-md-11 col-xxl-10">
@@ -306,8 +313,7 @@ const Footer = () => {
                           <p className="mb-4 footer-tag">
                             Never miss out on our Akshara school's latest news,
                             updates, and exclusive offers! Subscribe to our
-                            newsletter today and get the inside scoop delivered
-                            straight to your inbox.
+                            newsletter today 
                           </p>
                           <form action="#!">
                             <div className="row gy-4">
@@ -340,9 +346,9 @@ const Footer = () => {
                                 </div>
                               </div>
                               <div className="col-12">
-                                <div className="d-grid ">
+                                <div className=" ">
                                   <button
-                                    className="btn border-0 text-light my-1   bg-danger"
+                                    className="btns py-1 border-0 text-light w-100    rounded-2 bg-danger"
                                     type="submit"
                                   >
                                     Subscribe
