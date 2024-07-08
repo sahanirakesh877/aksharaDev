@@ -347,12 +347,11 @@ const Footer = () => {
                               </div>
                               <div className="col-12">
                                 <div className=" ">
-                                  <button
-                                    className="btns py-1 border-0 text-light w-100    rounded-2 bg-danger"
-                                    type="submit"
-                                  >
-                                    Subscribe
-                                  </button>
+                              
+                                  <button class="button-21 w-100" role="button">
+              {" "}
+              Subscribe<i class="fa-solid fa-arrow-right ms-2"></i>
+            </button>
                                 </div>
                               </div>
                             </div>

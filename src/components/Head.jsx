@@ -63,8 +63,13 @@ const Head = () => {
                           </Link>
                         </li>
                         <li>
-                          <Link className="dropdown-item" to="/about/philosphy">
-                            Our Philosphy and Akshara Learning Principles
+                          <Link className="dropdown-item" to="/about">
+                            Akshara Infrastructure  
+                          </Link>
+                        </li>
+                        <li>
+                          <Link className="dropdown-item" to="/about/lrpa">
+                           LRPA approach
                           </Link>
                         </li>
                         <li>
@@ -236,10 +241,12 @@ const Head = () => {
                       <button
                         className="head-btn  rounded-pill animated-button "
                         data-bs-toggle="modal"
+                        role="button"
                         data-bs-target="#EnquiryModel"
                       >
                         Get Started
                       </button>
+            
                       <EnquiryModel />
                     </li>
                   </ul>

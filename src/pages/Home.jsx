@@ -11,6 +11,7 @@ import Contact from "./Contact";
 import Gallery from "../components/Gallery";
 import Counter from "../components/Counter";
 import SisterOrg from "../components/SisterOrg";
+import About from './About';
 
 const Home = () => {
   const pathname = useLocation();
@@ -21,15 +22,14 @@ const Home = () => {
     <>
       <Helmet titleTemplate="Akashara" />
       <Banner />
-   
       <Brand />
+      <About/>
       <Learning />
       <Counter />
       {/* <Enquiryform /> */}
       <Blog />
       <Contact />
       <Testimonial />
-    
       <Gallery />
       <SisterOrg/>
     </>

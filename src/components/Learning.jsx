@@ -32,12 +32,17 @@ const Learning = () => {
                 modern technology, our classrooms support the use of computers,
                 laptops, televisions, and projectors. Students undertake project
                 works, use audio-visual and print media, and interact with
-                mentors to reinforce their knowledge. 
-           
+                mentors to reinforce their knowledge.
               </p>
 
-              <button className="learning-btn">
-                Enrol now <i class="fa-solid fa-arrow-right"></i>
+              <button
+                class="button-21"
+                role="button"
+                onClick={() => {
+                  navigate("/about/lrpa");
+                }}
+              >
+                Read More<i class="fa-solid fa-arrow-right ms-2"></i>
               </button>
             </div>
 
@@ -61,7 +66,8 @@ const Learning = () => {
                   complementary environments. The curriculum and
                 </p>
                 <button
-                  className="learning-btn"
+                  className="button-21"
+                  role="button"
                   onClick={() => navigate("/academics/high")}
                 >
                   Enrol now <i class="fa-solid fa-arrow-right"></i>
@@ -88,7 +94,8 @@ const Learning = () => {
                   create complementary environments. The curriculum and
                 </p>
                 <button
-                  className="learning-btn"
+                  className="button-21"
+                  role="button"
                   onClick={() => navigate("/academics/middle")}
                 >
                   Enrol now <i class="fa-solid fa-arrow-right"></i>
@@ -115,7 +122,8 @@ const Learning = () => {
                   curriculum and Located on the main campus at Truganina,
                 </p>
                 <button
-                  className="learning-btn"
+                  className="button-21"
+                  role="button"
                   onClick={() => navigate("/academics/elementary")}
                 >
                   Enrol now <i class="fa-solid fa-arrow-right"></i>
@@ -142,7 +150,8 @@ const Learning = () => {
                   7 - 8), the Geoffrey Ryan Centre (Year 9 Program)
                 </p>
                 <button
-                  className="learning-btn"
+                  className="button-21"
+                  role="button"
                   onClick={() => navigate("/academics/kindergarten")}
                 >
                   Enrol now <i class="fa-solid fa-arrow-right"></i>

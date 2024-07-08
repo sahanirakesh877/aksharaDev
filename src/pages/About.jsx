@@ -63,7 +63,7 @@ const About = () => {
 
             <button class="button-21" role="button">
               {" "}
-              Know More{" "}
+              Know More<i class="fa-solid fa-arrow-right ms-2"></i>
             </button>
           </div>
           <div className="col-md-6">

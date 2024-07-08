@@ -22,6 +22,7 @@ import Photos from './components/Photos';
 import ApplyOnline from "./pages/ApplyOnline";
 import ChairmanMsg from './components/ChairmanMsg';
 import Principalmsg from "./components/Principalmsg";
+import LRPA from "./pages/LRPA";
 const App = () => {
   return (
     <>
@@ -51,6 +52,7 @@ const App = () => {
         <Route path="/about/chairman" element={<ChairmanMsg/>} />
         <Route path="/about/principal" element={<Principalmsg />} />
         <Route path="/about/team" element={<Team />} />
+        <Route path="/about/lrpa" element={<LRPA />} />
          {/* about page end */}
 
 
