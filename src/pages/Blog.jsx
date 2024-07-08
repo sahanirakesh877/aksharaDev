@@ -19,45 +19,69 @@ const Blog = () => {
       title: "School Event Highlights",
       date: "2024-Mar-15",
       des: "Our School celebrating National Parent Involvement Day on December 3.",
-      imgSrc:
-        "https://img.freepik.com/premium-photo/rear-view-man-using-laptop-table_1048944-232103.jpg?w=740",
+      
     },
     {
       id: 2,
       title: "Online Learning Tips",
       date: "2024-May-12",
       des: "Year 6 pupils are invited to join us for a Taster Day.",
-      imgSrc:
-        "https://img.freepik.com/premium-vector/prompt-poster-blogger-school-online-courses-flat_81522-4480.jpg?w=740",
+     
     },
     {
       id: 3,
       title: "Student Achievements",
       date: "2024-Apr-10",
       des: "Celebrating National Parent Involvement Day on December 3.",
-      imgSrc:
-        "https://img.freepik.com/premium-vector/blogging_191504-1627.jpg?w=740",
+      
     },
     {
       id: 4,
       title: "Teacher's Corner",
       date: "2024-Jul-20",
       des: "Year 6 pupils are invited to join us for a Taster Day.",
-      imgSrc:
-        "https://img.freepik.com/free-photo/still-life-office-desk-mess_23-2150164786.jpg?t=st=1719381624~exp=1719385224~hmac=c75fc545f9ed1778b12bcb002fa89db066174ef5d0ac03a6080438dbb777625b&w=826",
+   
+    },
+    {
+      id: 5,
+      title: "Exhibition's day",
+      date: "2024-sep-29",
+      des: "Year 6 pupils are invited to join us for a Taster Day.",
+   
+    },
+    {
+      id: 6,
+      title: "Training Corner",
+      date: "2024-apr-06",
+      des: "Year 6 pupils are invited to join us for a Taster Day.",
+   
+    },
+    {
+      id: 7,
+      title: "Robotics Training",
+      date: "2024-feb-01",
+      des: "Year 6 pupils are invited to join us for a Taster Day.",
+   
+    },
+    {
+      id: 8,
+      title: "Farewell Program",
+      date: "2024-Jan-10",
+      des: "Year 6 pupils are invited to join us for a Taster Day.",
+   
     },
   ];
 
   const scheduleData = [
     {
-      date: "September 8",
+      date: "January 18",
       event: ["First Day of School for Students", "Washington Day Holiday"],
     },
-    { date: "November 11", event: ["Holiday: Veterans Day"] },
+    { date: "January 20", event: ["Holiday: Veterans Day"] },
     { date: "November 23–27", event: ["Thanksgiving Break"] },
     { date: "December 21", event: ["First Day of Winter Break"] },
     {
-      date: "January 4",
+      date: "febuary 4",
       event: [
         "School Resumes",
         "Independence Day Holiday",
@@ -185,7 +209,7 @@ const Blog = () => {
           <div className="row pt-5">
             <div className="col-md-4">
               <p
-                className=" text-center py-3 btns from-left"
+                className=" text-center py-3 btns from-left "
                 onClick={() => setFilter("Featured News")}
               >
                 Featured News

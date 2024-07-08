@@ -3,7 +3,7 @@ import React from "react";
 const Contact = () => {
   return (
     <>
-      <div className="container">
+      <div className="container py-5">
         <div className="row d-flex align-items-start py-5">
           <h2 className="fw-semibold border-bottom-title text-success text-center mb-4">
             Contact Us

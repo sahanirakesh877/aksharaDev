@@ -81,10 +81,11 @@ const Testimonial = () => {
   return (
     <>
       <div className="demo py-4">
-     
         <div className="container">
-        <h3 className="fs-2 fw-semibold  pb-4 ">Parents Voice</h3>
-          <div className="row d-flex justify-content-between align-items-center">
+          <h2 className="border-bottom-title w-100 text-center ">
+            Parents Voice
+          </h2>
+          <div className="row d-flex justify-content-between align-items-center py-4">
             <AliceCarousel
               mouseTracking
               items={items}

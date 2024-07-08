@@ -371,7 +371,7 @@ color: #FC4100;
 
 /* brand logo img  start */
 .brand {
-	background: #ffffff;
+	padding: 50px 0;
 }
 .brand-image {
 	width: 100%;
@@ -454,8 +454,8 @@ color: #FC4100;
 }
 /* ~~~~~~~~~~~~ blogs upper  and button design ~~~~~~~~~~~~ */
 .blog-banner {
-	height: 35vh;
-	background: linear-gradient(to top, #cae9dc, #90c5a2);
+	height: 30vh;
+	background: linear-gradient(to top, #defff8, #a5e1b9);
 }
 .blog-child {
 	background-color: rgb(235, 248, 245);
@@ -495,12 +495,16 @@ color: #FC4100;
 }
 
 /* From center */
+.from-center{
+	background-color: #7bbe64;
+	color: white;
+}
 .from-center:before {
 	top: 0;
 	left: 50%;
 	height: 100%;
 	width: 0;
-	border: 3px solid rgb(247, 88, 120);
+	border: 2px solid rgb(247, 88, 120);
 	border-left: 0;
 	border-right: 0;
 }
@@ -520,6 +524,10 @@ color: #FC4100;
 	height: 100%;
 }
 /* From Right */
+.from-right{
+	background-color:rgb(202, 10, 64);
+	color: white;
+}
 
 .from-right:before,
 .from-right:after {
@@ -529,7 +537,7 @@ color: #FC4100;
 }
 .from-right:before {
 	left: 0;
-	border: 3px solid rgb(247, 88, 120);
+	border: 2px solid rgb(247, 88, 120);
 	border-left: 0;
 	border-right: 0;
 }
@@ -542,6 +550,10 @@ color: #FC4100;
 }
 
 /* From Left */
+.from-left{
+	background-color:rgb(40, 164, 115);
+	color: white;
+}
 .from-left:before,
 .from-left:after {
 	top: 0;
@@ -550,7 +562,7 @@ color: #FC4100;
 }
 .from-left:before {
 	right: 0;
-	border: 3px solid rgb(247, 88, 120);
+	border: 2px solid rgb(247, 88, 120);
 	border-left: 0;
 	border-right: 0;
 }
@@ -705,3 +717,4 @@ a.icon-link:hover {
 	font-size: 1rem;
 	color: rgb(70, 71, 70);
 }
+

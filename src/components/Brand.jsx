@@ -26,8 +26,8 @@ const items = brandImg.map((img, index) => (
 const Brand = () => {
   return (
     <>
-      <div className="brand">
-        <div className="container py-5">
+      <div className="brand  ">
+        <div className="container pb-4">
         <h2 className="text-center  border-bottom-title w-100 ">Our Educational Partners</h2>
           <AliceCarousel
             mouseTracking

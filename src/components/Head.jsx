@@ -1,17 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import "../css/Head.css";
 import { Link } from "react-router-dom";
 import EnquiryModel from "./EnquiryModel";
 
 const Head = () => {
-  const [showModal, setShowModal] = useState(false);
-  const showModel = () => {
-    setShowModal(true);
-  };
-  const hideModel = () => {
-    setShowModal(false);
-  };
-
   return (
     <>
       <header>
@@ -78,7 +70,7 @@ const Head = () => {
                         <li>
                           <Link
                             className="dropdown-item"
-                            to="/about/msg-chairman"
+                            to="/about/chairman"
                           >
                             Message From Chairmain
                           </Link>
@@ -86,7 +78,7 @@ const Head = () => {
                         <li>
                           <Link
                             className="dropdown-item"
-                            to="/about/msg-principal"
+                            to="/about/principal"
                           >
                             Message From Principal
                           </Link>
@@ -187,11 +179,11 @@ const Head = () => {
                       </Link>
                     </li>
 
-                    <li className="nav-item py-2 ">
+                    {/* <li className="nav-item py-2 ">
                       <Link className="nav-link" to="/gallery">
                         Gallery
                       </Link>
-                    </li>
+                    </li> */}
 
                     <li className="nav-item  py-2 ">
                       <Link className="nav-link" to="/contact">
@@ -214,6 +206,11 @@ const Head = () => {
                         className="dropdown-menu"
                         aria-labelledby="navbarDropdown"
                       >
+                       <li>
+                          <Link className="dropdown-item" to="/gallery">
+                            <i className="fa-solid fa-photo-video me-1"></i>Gallery
+                          </Link>
+                        </li>
                         <li>
                           <Link className="dropdown-item" to="/downloads">
                             <i className="fa-solid fa-download me-1"></i>
@@ -231,20 +228,22 @@ const Head = () => {
                             <i className="fa-solid fa-briefcase me-1"></i>Career
                           </Link>
                         </li>
+                       
                       </ul>
                     </li>
 
                     <li className="  py-2  ms-md-4 ">
                       <button
                         className="head-btn  rounded-pill animated-button "
-                        onClick={showModel}
+                        data-bs-toggle="modal"
+                        data-bs-target="#EnquiryModel"
                       >
                         Get Started
                       </button>
+                      <EnquiryModel />
                     </li>
                   </ul>
 
-                  {showModal && <EnquiryModel onClose={hideModel} />}
                 </div>
               </div>
             </nav>

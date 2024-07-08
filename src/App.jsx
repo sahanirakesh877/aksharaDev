@@ -20,6 +20,8 @@ import Admissionpolicy from "./pages/Admissionpolicy";
 import AdmissionProcedure from "./pages/AdmissionProcedure";
 import Photos from './components/Photos';
 import ApplyOnline from "./pages/ApplyOnline";
+import ChairmanMsg from './components/ChairmanMsg';
+import Principalmsg from "./components/Principalmsg";
 const App = () => {
   return (
     <>
@@ -35,12 +37,23 @@ const App = () => {
         <Route path="/academics/middle" element={<Middleschool />} />
         <Route path="/academics/high" element={<Highschool />} />
         {/* academics-pages  end*/}
+
+
         {/* admission page start */}
         <Route path="/admission/policy" element={<Admissionpolicy />} />
         <Route path="/admission/procedure" element={<AdmissionProcedure />} />
         <Route path="/apply-online" element={<ApplyOnline />} />
         {/* admission page end */}
+
+
+        {/* about page start */}
+       
+        <Route path="/about/chairman" element={<ChairmanMsg/>} />
+        <Route path="/about/principal" element={<Principalmsg />} />
         <Route path="/about/team" element={<Team />} />
+         {/* about page end */}
+
+
         <Route path="/news" element={<Blog />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/gallery" element={<Photos />} />

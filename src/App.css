@@ -109,12 +109,12 @@ a {
 
 
 .bggallery {
-  padding: 40px 0 120px 0;
+  padding: 20px 0 190px 0;
+}
+.gallery-head {
+  padding-bottom: 100px;
 }
 
-.gallery-head {
-  padding-bottom: 70px;
-}
 
 .galleryitems {
   display: grid;
@@ -297,13 +297,16 @@ a {
 /* footer design start */
 .footer{
   background-image: linear-gradient(
-    rgba(0, 0, 0, 0.5), 
-    rgba(0, 0, 0, 0.5)
+    rgba(1, 14, 1, 0.5), 
+    rgba(2, 14, 11, 0.4)
   ),
   url('/gallery/footerbg.jpg');
-  background-position: center;
+  filter: blur();
+  
+  background-position: bottom left;
   background-repeat: no-repeat;
   background-size: cover;
+ 
 }
 .footer-logo-wrapper{
   width: 170px;
@@ -359,3 +362,155 @@ a {
   width: 100%;
 }
 /* footer design end */
+
+
+
+/* abouts us page */
+
+
+/* 
+.mission-vision-section {
+  padding: 40px 0;
+}
+
+
+
+.mission-vision-content {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: #fff;
+}
+
+.mission-vision-content1 {
+  background-color: var(--sec);
+  
+  clip-path: polygon(0% 0%, 60% 0, 100% 50%, 60% 100%, 0% 100%);
+}
+
+.mission-vision-content2 {
+  background-color: var(--third);
+  clip-path: polygon(40% 0, 100% 0%, 100% 100%, 40% 100%, 0% 50%);
+}
+
+.mission-vision-content h5 {
+  color: #28a745;
+  
+}
+
+.mission-vision-content1 p {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  margin-right: 80px;
+  text-align: justify;
+  border: 1px solid red; 
+}
+
+.mission-vision-content2 p {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  margin-left: 80px;
+  text-align: justify;
+  border: 1px solid red; 
+} */
+.mission-vision-section {
+  padding: 40px 0;
+}
+
+
+
+.mission-vision-content {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  height: 180px; /* Ensure both sections have the same height */
+}
+
+.mission-vision-content1 {
+  /* background-color: var(--sec); */
+  background: linear-gradient(to left, #03628e, #054462);
+
+  clip-path: polygon(0% 0%, 60% 0, 100% 50%, 60% 100%, 0% 100%);
+}
+
+.mission-vision-content2 {
+  /* background-color: var(--third); */
+  background: linear-gradient(to right, rgb(157, 76, 157), rgb(65, 1, 65));
+
+  clip-path: polygon(40% 0, 100% 0%, 100% 100%, 40% 100%, 0% 50%);
+}
+
+
+
+.mission-vision-content1 p,
+.mission-vision-content2 p {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  text-align: justify;
+}
+
+.mission-vision-content1 p {
+  margin-right: 100px;
+}
+
+.mission-vision-content2 p {
+  margin-left: 100px;
+}
+
+
+
+.about-p{
+  font-size: 0.9rem;
+  text-align: justify;
+}
+
+
+/* CSS */
+.button-21 {
+  align-items: center;
+  appearance: none;
+  background-color: var(--red);
+  background-image: linear-gradient(1deg, #fe31d9, #ef2b58 99%);
+  background-size: calc(100% + 20px) calc(100% + 20px);
+  border-radius: 100px;
+  border-width: 0;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: CircularStd,sans-serif;
+  font-size: 1rem;
+  height: auto;
+  justify-content: center;
+  line-height: 1.5;
+  padding: 6px 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color .2s,background-position .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.button-21:active,
+.button-21:focus {
+  outline: none;
+}
+
+.button-21:hover {
+  background-position: -20px -20px;
+}
+
+.button-21:focus:not(:active) {
+  box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
+}
+
+
+
+
+

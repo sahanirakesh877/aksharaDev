@@ -10,6 +10,7 @@ import Banner from "../components/Banner";
 import Contact from "./Contact";
 import Gallery from "../components/Gallery";
 import Counter from "../components/Counter";
+import SisterOrg from "../components/SisterOrg";
 
 const Home = () => {
   const pathname = useLocation();
@@ -20,6 +21,7 @@ const Home = () => {
     <>
       <Helmet titleTemplate="Akashara" />
       <Banner />
+   
       <Brand />
       <Learning />
       <Counter />
@@ -27,8 +29,9 @@ const Home = () => {
       <Blog />
       <Contact />
       <Testimonial />
-     
+    
       <Gallery />
+      <SisterOrg/>
     </>
   );
 };
