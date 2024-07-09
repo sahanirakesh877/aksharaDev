@@ -89,14 +89,21 @@
 	border: 1px solid rgb(1, 125, 55);
 }
 /* enquiry form design end  */
-/* .contact-left{
-	background: linear-gradient(to right, #dcfde0  ,#f6faf9); 
 
+.contact-bg {
+	background-image: linear-gradient(
+		rgba(169, 162, 162, 0.1), 
+		rgba(123, 204, 229, 0.2)
+	  ),
+	  url('https://img.freepik.com/free-photo/bokeh-lights-greenness_23-2147955988.jpg?t=st=1720503399~exp=1720506999~hmac=d18d50a8ac9e1b66787dffd566644631007289efee9b59986dbb488ce7475dfa&w=826');
+	background-size: cover;
+	background-position: center;
+  }
+  
+.contact-iconbg{
+	background: var(--third);
 }
-.contact-right{
-	background: linear-gradient(to right,#3abe98, #dcfde0  ); 
 
-} */
 /* photo grid start */
 .portfolio-menu {
 	text-align: center;
@@ -465,10 +472,10 @@ color: #FC4100;
 /* ~~~~~~~~~~~~ blogs upper  and button design ~~~~~~~~~~~~ */
 .blog-banner {
 	height: 30vh;
-	background: linear-gradient(to top, #defff8, #a5e1b9);
+	background: linear-gradient(to top, #ecfffb, #d7ffe5);
 }
 .blog-child {
-	background-color: rgb(235, 248, 245);
+	background-color: #ecfffb;
 }
 .btns {
 	position: relative;
@@ -500,13 +507,17 @@ color: #FC4100;
 }
 
 .btns:hover:after {
-	background: var(--primary);
+	background: var(--third);
 	transition-delay: 0.35s;
+}
+.inactive{
+	background: var(--third);
+	color: white;
 }
 
 /* From center */
 .from-center{
-	background-color: #7bbe64;
+	background-color: #019f40;
 	color: white;
 }
 .from-center:before {
@@ -514,7 +525,7 @@ color: #FC4100;
 	left: 50%;
 	height: 100%;
 	width: 0;
-	border: 2px solid rgb(247, 88, 120);
+	border: 2px solid white;
 	border-left: 0;
 	border-right: 0;
 }
@@ -523,7 +534,7 @@ color: #FC4100;
 	left: 0;
 	height: 0;
 	width: 100%;
-	background: var(--primary);
+	background: var(--third);
 }
 .from-center:hover:before {
 	left: 0;
@@ -535,7 +546,7 @@ color: #FC4100;
 }
 /* From Right */
 .from-right{
-	background-color:rgb(202, 10, 64);
+	background-color: #047130;
 	color: white;
 }
 
@@ -547,7 +558,7 @@ color: #FC4100;
 }
 .from-right:before {
 	left: 0;
-	border: 2px solid rgb(247, 88, 120);
+	border: 2px solid white;
 	border-left: 0;
 	border-right: 0;
 }
@@ -561,7 +572,7 @@ color: #FC4100;
 
 /* From Left */
 .from-left{
-	background-color:rgb(40, 164, 115);
+	background-color: #00c44f;
 	color: white;
 }
 .from-left:before,
@@ -572,7 +583,7 @@ color: #FC4100;
 }
 .from-left:before {
 	right: 0;
-	border: 2px solid rgb(247, 88, 120);
+	border: 2px solid white;
 	border-left: 0;
 	border-right: 0;
 }

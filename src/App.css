@@ -27,7 +27,7 @@ a {
 
 /* parent voice design section start  */
 .demo {
-  background: linear-gradient(to bottom, #d7ffed, #7ba98b);
+  background: linear-gradient(to bottom, #DAFFE8, #baedcd);
 
 }
 .testimonial {
@@ -478,7 +478,7 @@ a {
   align-items: center;
   appearance: none;
   background-color: var(--red);
-  background-image: linear-gradient(1deg, #fe31d9, #ef2b58 99%);
+  background-image: linear-gradient(1deg, #9e13da, #e90c40 99%);
   background-size: calc(100% + 20px) calc(100% + 20px);
   border-radius: 100px;
   border-width: 0;
@@ -516,6 +516,39 @@ a {
 .button-21:focus:not(:active) {
   box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
 }
+
+
+/* mission and vision */
+.about-icon1 {
+  color: var(--third);
+}
+
+.about-icon2 {
+  color: var(--red);
+}
+
+.about-icon3 {
+  color: var(--sec);
+}
+
+.mission-p {
+  text-align: justify;
+  padding: 0 10px;
+  font-size: 0.9rem;
+}
+
+.border-end {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  height: 100%;
+  
+}
+.mission-color{
+  background:#9de9c6;
+}
+
+
 
 
 

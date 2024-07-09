@@ -209,7 +209,10 @@ const Blog = () => {
           <div className="row pt-5">
             <div className="col-md-4">
               <p
-                className=" text-center py-3 btns from-left "
+                // className=" text-center py-3 btns from-left "
+                className={`text-center py-3 btns ${
+                  filter === "Featured News" ? "inactive" : "from-left"
+                }`}
                 onClick={() => setFilter("Featured News")}
               >
                 Featured News
@@ -217,7 +220,10 @@ const Blog = () => {
             </div>
             <div className="col-md-4">
               <p
-                className="btns from-center  text-center py-3"
+                // className="btns from-center  text-center py-3"
+                className={`text-center py-3 btns ${
+                  filter === "Upcoming Events" ? "inactive" : "from-center"
+                }`}
                 onClick={() => setFilter("Upcoming Events")}
               >
                 Upcoming Events
@@ -225,7 +231,10 @@ const Blog = () => {
             </div>
             <div className="col-md-4">
               <p
-                className=" text-center py-3 btns  from-right"
+                // className=" text-center py-3 btns  from-right"
+                className={`text-center py-3 btns ${
+                  filter === "Calendar" ? "inactive" : "from-right"
+                }`}
                 onClick={() => setFilter("Calendar")}
               >
                 Calendar
@@ -234,10 +243,8 @@ const Blog = () => {
           </div>
         </div>
       </div>
+
       <div className="blog-child">
-
-  
-
       {filter === "Featured News" && (
         <div className="container py-5">
           <div className="row">

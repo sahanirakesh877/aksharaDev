@@ -1,5 +1,5 @@
 header {
-  background-color: #77e4b1;
+  background-color: #6ddfaa;
 }
 .navbar-brand {
   width: 120px;
@@ -76,10 +76,10 @@ li.dropdown:hover ul.dropdown-menu {
 }
 
 .navbar-nav a.nav-link {
-  /* font-family: "Roboto", sans-serif; */
-  /* text-transform: uppercase; */
+
   padding: 0px;
 }
+
 ul.navbar-nav li.nav-item {
   margin: 0 15px;
 }

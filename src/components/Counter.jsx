@@ -11,7 +11,7 @@ const Counter = () => {
           We are proud of our milestones and the progress we've made over the years. Here are some key figures that showcase our success and growth.
         </p>
       </div>
-      <div className="row ">
+      <div className="row py-5">
         {counter &&
           counter.map((count) => (
             <div

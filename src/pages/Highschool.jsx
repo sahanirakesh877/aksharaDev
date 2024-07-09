@@ -84,6 +84,19 @@ const Highschool = () => {
             </p>
           </div>
           <div className="col-md-6">
+          <div className="py-3 px-3">
+              <AliceCarousel
+                mouseTracking
+                items={items}
+                autoPlay={true}
+                infinite={true}
+                responsive={responsive}
+                controlsStrategy="alternate"
+                animationDuration={1500}
+                disableButtonsControls={true}
+                
+              />
+               </div>
             <div className="g pb-3">
               <div className="gallerys p-4 ">
                 <img
@@ -103,19 +116,7 @@ const Highschool = () => {
             </div>
 
             
-            <div className="py-3 px-3">
-              <AliceCarousel
-                mouseTracking
-                items={items}
-                autoPlay={true}
-                infinite={true}
-                responsive={responsive}
-                controlsStrategy="alternate"
-                animationDuration={1500}
-                disableButtonsControls={true}
-                
-              />
-               </div>
+           
           </div>
         </div>
       </div>
