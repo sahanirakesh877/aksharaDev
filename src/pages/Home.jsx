@@ -12,6 +12,7 @@ import Gallery from "../components/Gallery";
 import Counter from "../components/Counter";
 import SisterOrg from "../components/SisterOrg";
 import About from './About';
+import CreativeWeek from "../components/CreativeWeek";
 
 const Home = () => {
   const pathname = useLocation();
@@ -29,10 +30,11 @@ const Home = () => {
       <Counter />
       {/* <Enquiryform /> */}
       <Blog />
-      <Contact />
+     <CreativeWeek/>
       <Testimonial />
       <Gallery />
       <SisterOrg/>
+      <Contact />
     </>
   );
 };

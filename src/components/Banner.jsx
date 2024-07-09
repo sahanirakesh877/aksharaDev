@@ -5,37 +5,37 @@ const carouselData = [
     id: 2,
     image: "/selected/home55.webp",
     title: "Fostering creativity and independent learning",
-    description: "Akshara selected",
+  
   },
   {
     id: 0,
     image: "/selected/home3.webp",
-    title: "Exploring new horizons and growing knowledge",
-    description: "Akshara selected",
+     title: "Exploring new horizons and growing knowledge",
+  
   },
   {
     id: 1,
     image: "/selected/home7.webp",
-    title: "Engaging and interactive learning experiences",
-    description: "Akshara selected",
+  title: "Engaging and interactive learning experiences",
+  
   },
   {
     id: 3,
     image: "/x.jpg",
-    title: "Exploring new horizons and growing knowledge",
-    description: "Akshara selected",
+ title: "Exploring new horizons and growing knowledge",
+  
   },
   {
     id: 4,
     image: "/y.jpg",
-    title: "Engaging and interactive learning experiences",
-    description: "Akshara selected",
+     title: "Engaging and interactive learning experiences",
+  
   },
   {
     id: 5,
     image: "/selected/home33.webp",
-    title: "Engaging and interactive learning experiences",
-    description: "Akshara selected",
+   title: "Engaging and interactive learning experiences",
+
   },
 ];
 
@@ -83,8 +83,8 @@ const Banner = () => {
                 style={{ backgroundImage: `url(${item.image})` }}
               >
                 <div className="container">
-                  <h2>{item.title}</h2>
-                  <p>{item.description} | Playgroup to Grade 10</p>
+                  {/* <h2>{item.title}</h2> */}
+                  <p className=" px-4 fs-5"> Playgroup to Grade 10</p>
                 </div>
               </div>
             ))}

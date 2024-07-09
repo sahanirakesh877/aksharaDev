@@ -350,7 +350,8 @@ const Footer = () => {
                               
                                   <button class="button-21 w-100" role="button">
               {" "}
-              Subscribe<i class="fa-solid fa-arrow-right ms-2"></i>
+              Subscribe
+              
             </button>
                                 </div>
                               </div>

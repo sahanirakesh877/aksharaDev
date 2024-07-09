@@ -1,5 +1,5 @@
 header {
-  background-color: #156B48;
+  background-color: #9DE9C6;
 
  
 }
@@ -25,7 +25,7 @@ header {
   color: green;
 }
 .navbar-nav .nav-link {
-  color: white;
+  color: black !important;
   font-size: 15px;
   font-weight: 500;
 

@@ -205,8 +205,15 @@ const Blog = () => {
 
       <div className="blog-banner">
         <div className="container">
-          <h2 className="text-center pt-3   fs-2  border-bottom-title w-100  head-color"> <span className="addcolor">Akshara</span> Highlights</h2>
-          <div className="row pt-5">
+          <h2 className="text-center pt-5   fs-2  border-bottom-title w-100  head-color"> <span className="addcolor">Akshara</span> Highlights</h2>
+
+<div className="d-flex flex-row pt-4  gap-5  justify-content-center align-items-center ">
+  <h5 className=" b-col  p-2 text-center fw-semibold">Features News</h5>
+  <h5 className=" b-col  p-2 text-center fw-semibold ">Upcoming Events</h5>
+  <h5 className=" p-2 text-center fw-semibold ">Calendar</h5>
+</div>
+
+          {/* <div className="row py-4  ">
             <div className="col-md-4">
               <p
                 // className=" text-center py-3 btns from-left "
@@ -240,11 +247,11 @@ const Blog = () => {
                 Calendar
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
 
-      <div className="blog-child">
+      <div className="blog-child ">
       {filter === "Featured News" && (
         <div className="container py-5">
           <div className="row">

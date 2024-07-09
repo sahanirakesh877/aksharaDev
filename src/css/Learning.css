@@ -1,106 +1,135 @@
 .learning {
   background: linear-gradient(to bottom, #d7ffed, #7ba98b);
-  padding: 80px 0;
-    
+  /* padding: 80px 0; */
 }
 
 .learnimg {
-    width: fit-content;
-   height: 60vh;
-   
+  width: fit-content;
+  height: 60vh;
+}
+
+.fuche-sec {
+  overflow: hidden !important;
+  height: 70vh;
+}
+
+.kinder_img {
+  padding-top: 160px;
+}
+.kinder_img1 {
+  padding-top: 125px;
+}
+.kinder_img2 {
+  padding-top: -5px;
+}
+
+
+
+.rotatediv {
+  transform: rotate(8deg);
+/* transform: scaleY(1); */
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;  
+ box-shadow: 10px 0 30px -25px;
+}
+.inner-content {
+  transform: rotate(-8deg);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .seniors {
-   text-align: center;
-    bottom:0;
-    left:0;
-    color:rgb(230, 230, 230);
-    font-size: 20px;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-shadow: 1px 1px 10px rgba(7, 7, 7, 0.5);
-
+  text-align: start;
+  bottom: 0;
+  left: 0;
+  color: rgb(230, 230, 230);
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 10px rgba(7, 7, 7, 0.5);
 }
 
 .learnimg img {
-    object-fit: cover;
-    cursor: pointer;
-    height: 100%;
-    width: 100%;
-    /* margin-right: 20px; */
-    /* background: linear-gradient(10deg, #252525, #15d9f7);  */
-    /* box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5); */
+  object-fit: cover;
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+  /* margin-right: 20px; */
+  /* background: linear-gradient(10deg, #252525, #15d9f7);  */
+  /* box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5); */
 }
 
 .close-btn {
-    position: relative;
-    top:-30px;
-    left:0;
-    background: rgb(179, 3, 91);
-    color: #fff;
-    border: none;
-    padding: 8px 15px;
-    font-size: 16px;
-    border-radius: 50%;
-    box-shadow: rgba(240, 15, 15, 0.16) 1px 1px 3px, rgba(246, 9, 9, 0.23) 0px 3px 3px;
+  position: relative;
+  top: -30px;
+  left: 0;
+  background: rgb(179, 3, 91);
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  font-size: 16px;
+  border-radius: 50%;
+  box-shadow:
+    rgba(240, 15, 15, 0.16) 1px 1px 3px,
+    rgba(246, 9, 9, 0.23) 0px 3px 3px;
 
-    cursor: pointer;
+  cursor: pointer;
 }
 
 @keyframes fadeIn {
-    from {
-      opacity: 0;
-      transform: translateY(20px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
+  from {
+    opacity: 0;
+    transform: translateY(20px);
   }
-  
-  @keyframes fadeOut {
-    from {
-      opacity: 1;
-      transform: translateY(0);
-    }
-    to {
-      opacity: 0;
-      transform: translateY(20px);
-    }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
-  
-  .show {
-    animation: fadeIn 0.5s forwards;
-  }
-  
-  .hide {
-    animation: fadeOut 0.5s forwards;
-  }
+}
 
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+}
 
+.show {
+  animation: fadeIn 0.5s forwards;
+}
 
- .learning-btn {
+.hide {
+  animation: fadeOut 0.5s forwards;
+}
+
+.learning-btn {
   padding: 8px 25px;
   border: 0;
   background-color: var(--red);
   color: white;
-  font-size: 16px; 
-  border-radius: 2px; 
+  font-size: 16px;
+  border-radius: 2px;
   cursor: pointer;
 }
 
 .learning-btn:hover {
-  transform: scale(1.05); 
+  transform: scale(1.05);
   transition: all 0.3s ease-in-out;
-  
 }
-
-
-
 
 .corner-image-container {
   position: relative;
   width: 100%;
-  height: 600px; 
+  height: 600px;
   margin: auto;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -109,7 +138,7 @@
 .image-wrapper {
   position: absolute;
   width: 260px;
-  height: 260px; 
+  height: 260px;
   border-radius: 50%;
   overflow: hidden;
 }
@@ -123,10 +152,8 @@
 }
 
 .image-wrapper:hover img {
-  transform: scale(1.2); 
+  transform: scale(1.2);
 }
-
-
 
 .top-left {
   top: 10px;
@@ -148,29 +175,24 @@
   right: 10px;
 }
 
-
-
 .center-text {
   position: absolute;
   top: 50%;
   left: 50%;
-   transform: translate(-50%, -50%);
-  font-size:16px;
+  transform: translate(-50%, -50%);
+  font-size: 16px;
   color: #f3f3f3;
   text-align: center;
   transition: opacity 0.3s;
   opacity: 1;
   border-radius: 10px;
   background-color: #31784a;
- 
 }
-.lrpamid-p{
+.lrpamid-p {
   text-align: justify;
   padding: 0 15px;
   line-height: 19px;
-  
 }
-
 
 @media (max-width: 768px) {
   .corner-image-container {
@@ -207,5 +229,3 @@
     padding: 8px;
   }
 }
-
-
