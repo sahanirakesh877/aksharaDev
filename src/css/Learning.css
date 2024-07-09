@@ -10,7 +10,7 @@
 
 .fuche-sec {
   overflow: hidden !important;
-  height: 70vh;
+  height: 85vh;
 }
 
 .kinder_img {
@@ -20,7 +20,7 @@
   padding-top: 125px;
 }
 .kinder_img2 {
-  padding-top: -5px;
+  padding-top: 10px;
 }
 
 
@@ -31,7 +31,8 @@
 display: flex;
 justify-content: center;
 align-items: center;
-height: 100vh;  
+height: 95vh;
+  margin-top: -70px;
  box-shadow: 10px 0 30px -25px;
 }
 .inner-content {
@@ -48,8 +49,8 @@ height: 100vh;
   bottom: 0;
   left: 0;
   color: rgb(230, 230, 230);
-  font-size: 16px;
-  font-weight: 500;
+  font-size: 15px;
+  font-weight: 700;
   text-transform: uppercase;
   text-shadow: 1px 1px 10px rgba(7, 7, 7, 0.5);
 }
