@@ -27,8 +27,8 @@ const Brand = () => {
   return (
     <>
       <div className="brand  ">
-        <div className="container pb-4">
-        <h2 className="text-center  border-bottom-title w-100 ">Our Educational Partners</h2>
+        <div className="container ">
+        <h2 className="text-center head-color  border-bottom-title w-100 "><span className="addcolor">Our Educational</span> Partners</h2>
           <AliceCarousel
             mouseTracking
             items={items}

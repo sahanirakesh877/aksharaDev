@@ -9,34 +9,11 @@ const About = () => {
       <div className="container">
         <div className="row">
           <div className="col-12 text-center">
-            <h2 className="w-100 border-bottom-title  py-2">
-              Our Mission & Vision
+            <h2 className="w-100 border-bottom-title  head-color py-2">
+             <span className="addcolor"> Our Mission</span> & Vision
             </h2>
           </div>
         </div>
-        <div className="row">
-          <div className="col-md-6 ">
-            <div className="mission-vision-content mission-vision-content1">
-              <h5 className="text-start  text-light">Mission</h5>
-              <p>
-                Aksharaa School inculcates value-based education with academic
-                excellence through collaboration with parents and other
-                stakeholders to instill resilience, leadership skills, and
-                emotional intelligence in each learner.
-              </p>
-            </div>
-          </div>
-          <div className="col-md-6">
-            <div className="mission-vision-content mission-vision-content2">
-              <h5 className="text-light text-end ">Vision</h5>
-              <p className="">
-                Nurturing young learners to become lifelong learners globally
-                competent and responsible citizens
-              </p>
-            </div>
-          </div>
-        </div>
-
         <div className="row py-5 d-flex align-items-center">
           <div className="col-md-6">
             <h4 className=" py-2">OUR PHILOSOPHY AND APPROACH</h4>
@@ -76,6 +53,62 @@ const About = () => {
             </video>
           </div>
         </div>
+        {/* <div className="row pt-5">
+          <div className="col-md-6 ">
+            <div className="mission-vision-content mission-vision-content1">
+              <h5 className="text-start  text-light">Mission</h5>
+              <p>
+                Aksharaa School inculcates value-based education with academic
+                excellence through collaboration with parents and other
+                stakeholders to instill resilience, leadership skills, and
+                emotional intelligence in each learner.
+              </p>
+            </div>
+          </div>
+          <div className="col-md-6">
+            <div className="mission-vision-content mission-vision-content2">
+              <h5 className="text-light text-end ">Vision</h5>
+              <p className="">
+                Nurturing young learners to become lifelong learners globally
+                competent and responsible citizens
+              </p>
+            </div>
+          </div>
+        </div> */}
+        <div className="row">
+          <div className="col-md-4">
+          <div className="border-end  py-4 ">
+
+         
+          <i class="fa-regular fa-bullseye-arrow"></i>
+          <h4 className="text-center">OUR MISSION</h4>
+          <p className="text-center">  Aksharaa School inculcates value-based education with academic
+                excellence through collaboration with parents and other
+                stakeholders to instill resilience, leadership skills, and
+                emotional intelligence in each learner.</p>
+                </div>
+          </div>
+          <div className="col-md-4">
+          <div className="border-end  py-4">
+
+        
+          <h4 className="text-center">OUR VISION</h4>
+          <p>Nurturing young learners to become lifelong learners globally
+          competent and responsible citizens</p>
+
+          </div>
+          </div>
+          
+          <div className="col-md-4">
+          <h4 className="text-center">OUR VALUES</h4>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse, ullam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, sequi?</p>
+        
+
+
+          </div>
+        </div>
+
+      
       </div>
     </div>
     </>

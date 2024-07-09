@@ -5,8 +5,8 @@ const Contact = () => {
     <>
       <div className="container py-5">
         <div className="row d-flex align-items-start py-5">
-          <h2 className="fw-semibold border-bottom-title text-success text-center mb-4">
-            Contact Us
+          <h2 className="fw-semibold border-bottom-title  text-center mb-4 head-color">
+           <span className="addcolor"> Contact</span> Us
           </h2>
           <p className="text-center text-secondary">
             If you have any questions, feel free to reach out to us via the form

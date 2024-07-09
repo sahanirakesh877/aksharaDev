@@ -6,7 +6,7 @@ const Counter = () => {
   return (
     <div className="container count">
         <div className="text-center mb-5">
-        <h2 className="text-center border-bottom-title w-100">Our Achievement</h2>
+        <h2 className="text-center border-bottom-title w-100 head-color"><span className="addcolor">Our</span> Achievement</h2>
         <p className="px-5">
           We are proud of our milestones and the progress we've made over the years. Here are some key figures that showcase our success and growth.
         </p>

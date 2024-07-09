@@ -82,8 +82,8 @@ const Testimonial = () => {
     <>
       <div className="demo py-4">
         <div className="container">
-          <h2 className="border-bottom-title w-100 text-center ">
-            Parents Voice
+          <h2 className="border-bottom-title w-100 text-center  head-color">
+          <span className="addcolor">  Parents</span> Voice
           </h2>
           <div className="row d-flex justify-content-between align-items-center py-4">
             <AliceCarousel

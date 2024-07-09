@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import "../css/Team.css";
 import { Helmet } from "react-helmet";
 import { useLocation } from "react-router-dom";
-import Principalmsg from "../components/Principalmsg";
 
 const Team = () => {
   const pathname = useLocation();
@@ -328,7 +327,7 @@ const Team = () => {
           </div>
         </div>
         
-        <Principalmsg/>
+      
  
 
     </>

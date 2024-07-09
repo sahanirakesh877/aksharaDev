@@ -15,7 +15,14 @@ a {
   --primary: #1f7759;
   --sec: #054462;
   --third: #832a65;
-  --red:#ED1651;
+  --red:#d73963;
+}
+
+.addcolor{
+	color: var(--third);
+}
+.head-color{
+	color: #0cbc84;
 }
 
 /* parent voice design section start  */
@@ -211,7 +218,7 @@ a {
   width: 152px;
   border-radius: 15px;
   border: 3px solid #fff;
-  box-shadow: 5px 0 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 0 2px rgba(0, 0, 0, 0.2);
   transform: translateX(-50%) rotate(45deg);
   position: absolute;
   top: 25px;
@@ -230,8 +237,8 @@ a {
     0 0 0 2px #fff;
   position: absolute;
   left: 0;
-  bottom: 0;
-  z-index: -1;
+  bottom: 27px;
+  z-index: 1;
 }
 .counter .counter-icon {
   font-size: 30px;
@@ -261,7 +268,7 @@ a {
   color: #883b6f;
 }
 .counter.students .counter-value {
-  background: #03ab03;
+  background: #6ac98d;
 }
 .counter.students .counter-icon {
   background: linear-gradient(to right, #01c700, #028a02);
@@ -270,19 +277,19 @@ a {
   color: #019b01;
 }
 .counter.staffs .counter-value {
-  background: #cb0b3e;
+  background: #6ac98d;
 }
 .counter.staffs .counter-icon {
-  background: linear-gradient(to right, #ed1651, #9e032c);
+  background: linear-gradient(to right, #01c700, #028a02);
 }
 .counter.staffs h3 {
   color: #0057c5;
 }
 .counter.faculty .counter-value {
-  background: #d2a605;
+  background: #a64686;
 }
 .counter.faculty .counter-icon {
-  background: linear-gradient(to right, #ffcb08, #9b7a02);
+  background: linear-gradient(to right, #fe8c00, #a64686);
 }
 .counter.faculty h3 {
   color: #0d0e10;

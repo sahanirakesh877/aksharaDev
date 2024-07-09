@@ -205,7 +205,7 @@ const Blog = () => {
 
       <div className="blog-banner">
         <div className="container">
-          <h2 className="text-center pt-3   fs-2 text-dark border-bottom-title w-100 "> Akshara Highlights</h2>
+          <h2 className="text-center pt-3   fs-2  border-bottom-title w-100  head-color"> <span className="addcolor">Akshara</span> Highlights</h2>
           <div className="row pt-5">
             <div className="col-md-4">
               <p

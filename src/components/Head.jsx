@@ -7,8 +7,8 @@ const Head = () => {
   return (
     <>
       <header>
-        <div className="container">
-          <div className="row d-flex align-items-center ">
+        <div className="container mx-auto">
+          <div className="row d-flex align-items-center  ">
             <nav className="navbar navbar-expand-lg navbar-light">
               <div className="container">
                 <Link
@@ -37,12 +37,12 @@ const Head = () => {
                 </button>
                 <div className="collapse navbar-collapse " id="navbarNav">
                   <ul className="navbar-nav mx-auto   ">
-                    <li className="nav-item active  py-2 ">
+                    <li className="nav-item active  px-2 py-2 ">
                       <Link className="nav-link " to="/">
                         Home
                       </Link>
                     </li>
-                    <li className="nav-item dropdown  py-2 ">
+                    <li className="nav-item dropdown  px-2 py-2 ">
                       <a
                         className="nav-link dropdown-toggle"
                         href="#"
@@ -51,7 +51,7 @@ const Head = () => {
                         data-bs-toggle="dropdown"
                         aria-expanded="false"
                       >
-                        AboutUs
+                        About Us
                       </a>
                       <ul
                         className="dropdown-menu"
@@ -96,7 +96,7 @@ const Head = () => {
                       </ul>
                     </li>
 
-                    <li className="nav-item dropdown  py-2 ">
+                    <li className="nav-item dropdown  px-2 py-2 ">
                       <a
                         className="nav-link dropdown-toggle"
                         href="#"
@@ -141,10 +141,27 @@ const Head = () => {
                             High School
                           </Link>
                         </li>
+
+                        <li>
+                          <Link
+                            className="dropdown-item"
+                            to="/admission/policy"
+                          >
+                            Admission Policy
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
+                            className="dropdown-item"
+                            to="/admission/procedure"
+                          >
+                            Admission Procedure
+                          </Link>
+                          </li>
                       </ul>
                     </li>
 
-                    <li className="nav-item dropdown  py-2 ">
+                    {/* <li className="nav-item dropdown  px-2 py-2 ">
                       <a
                         className="nav-link dropdown-toggle"
                         href="#"
@@ -176,9 +193,9 @@ const Head = () => {
                           </Link>
                         </li>
                       </ul>
-                    </li>
+                    </li> */}
 
-                    <li className="nav-item py-2 ">
+                    <li className="nav-item py-2  px-2">
                       <Link className="nav-link" to="/news">
                         News & Activities
                       </Link>
@@ -190,7 +207,7 @@ const Head = () => {
                       </Link>
                     </li> */}
 
-                    <li className="nav-item  py-2 ">
+                    <li className="nav-item  py-2 px-2 ">
                       <Link className="nav-link" to="/contact">
                         Contact
                       </Link>
@@ -237,7 +254,7 @@ const Head = () => {
                       </ul>
                     </li>
 
-                    <li className="  py-2  ms-md-4 ">
+                    <li className="  py-2  ms-md-4  px-2">
                       <button
                         className="head-btn  rounded-pill animated-button "
                         data-bs-toggle="modal"

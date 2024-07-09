@@ -2,22 +2,40 @@ import React from "react";
 
 const carouselData = [
   {
+    id: 2,
+    image: "/selected/home55.webp",
+    title: "Fostering creativity and independent learning",
+    description: "Akshara selected",
+  },
+  {
     id: 0,
-    image: "/school/home66.JPG",
+    image: "/selected/home3.webp",
     title: "Exploring new horizons and growing knowledge",
-    description: "Akshara School",
+    description: "Akshara selected",
   },
   {
     id: 1,
-    image: "/school/home33.JPG",
+    image: "/selected/home7.webp",
     title: "Engaging and interactive learning experiences",
-    description: "Akshara School",
+    description: "Akshara selected",
   },
   {
-    id: 2,
-    image: "/school/home88.JPG",
-    title: "Fostering creativity and independent learning",
-    description: "Akshara School",
+    id: 3,
+    image: "/x.jpg",
+    title: "Exploring new horizons and growing knowledge",
+    description: "Akshara selected",
+  },
+  {
+    id: 4,
+    image: "/y.jpg",
+    title: "Engaging and interactive learning experiences",
+    description: "Akshara selected",
+  },
+  {
+    id: 5,
+    image: "/selected/home33.webp",
+    title: "Engaging and interactive learning experiences",
+    description: "Akshara selected",
   },
 ];
 
@@ -56,7 +74,6 @@ const Banner = () => {
               <img src="/right-arrow.svg" alt="Next" />
             </a>
           </div>
-
 
           <div className="carousel-inner">
             {carouselData.map((item, index) => (
