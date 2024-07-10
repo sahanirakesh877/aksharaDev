@@ -24,7 +24,7 @@ const Team = () => {
       <div className="container">
         <div className="row py-3  align-items-center">
           <div className="col-md-5 ">
-            <h3 className="team-head text-center">
+            <h3 className="team-head text-center border-bottom-title      w-100">
               ECA and Event Co-ordinator
             </h3>
             <p className="team-text">
@@ -51,7 +51,7 @@ const Team = () => {
         </div>
       </div>
         <div className="container pb-4">
-          <h3 className="team-head text-center my-4">
+          <h3 className="team-head text-center my-4 border-bottom-title w-100">
             Administration & Operations
           </h3>
 
@@ -66,7 +66,7 @@ const Team = () => {
                     alt
                     className="img-fluid team-image"
                   />
-                     </div>
+              </div>
               
                 <div className="team-content">
                   <h3 className="title">Rashmila Thapa</h3>
@@ -285,7 +285,7 @@ const Team = () => {
 
            
                 <img
-                  src="	https://aksharaaschool.edu.np/storage/members/February2021/BkxmYM3vpdhNzy0liDLR.jpg"
+                  src="/sabinamam2.jpg"
                   alt
                     className="img-fluid team-image"
                 />

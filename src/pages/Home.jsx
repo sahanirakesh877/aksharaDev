@@ -22,6 +22,7 @@ const Home = () => {
   return (
     <>
       <Helmet titleTemplate="Akashara" />
+    
       <Banner />
       <Brand />
       <Learning />

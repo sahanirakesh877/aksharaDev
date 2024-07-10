@@ -1,7 +1,7 @@
 import React from "react";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
-import '../css/Creative.css';
+import "../css/Creative.css";
 
 const CreativeWeek = () => {
   const brandImg = [
@@ -17,25 +17,29 @@ const CreativeWeek = () => {
     1024: { items: 1 },
   };
   const items = brandImg.map((img, index) => (
-    <div className="creative-item card p-3" key={index}>
+    <div className="creative-item card border-0 p-3 m-md-0 p-md-1" key={index}>
       <div className="img-container">
         <img src={img} alt={`Brand ${index + 1}`} className="card-img-top" />
       </div>
-      <div className="card-body">
-        <h5 className="card-title">Creative Week {index + 1}</h5>
-        <p className="card-text">Some description about this creative item.</p>
-        <div className="d-flex justify-content-end ">
-          <a href="#" className="bg-success p-1 rounded-circle ">
-            <i className="fab fa-facebook p-2 "></i>
-          </a>
-          <a href="#" className="bg-success p-1 rounded-circle">
-            <i className="fab fa-whatsapp p-2 rounded-circle"></i>
-          </a>
-          <a href="#" className="bg-success p-1 rounded-circle">
-            <i className="fab fa-instagram p-2 "></i>
-          </a>
+      <div className="card-body my-md-0  border ">
+        <h5 className="text-danger my-md-0 d-inline ">Annula Function</h5>
+        <p className="creative-text  my-md-0"> Join us for an Exciting lineup of workshops and seminars that will inspire and empower you!
+        Don't miss out on our annual college fest—packed with fun activities, competitions, and unforgettable experiences</p>
+
+       
+          <div className="btn_wraps ">
+            <span className="share">
+              Share <i class="fa-solid fa-share"></i>
+            </span>
+            <div className="share-icon">
+              <i className="fab fa-facebook-f creative_i" />
+              <i className="fab fa-whatsapp creative_i " />
+              <i className="fab fa-instagram creative_i" />
+              <i className="fab fa-linkedin creative_i" />
+            </div>
+          </div>
         </div>
-      </div>
+     
     </div>
   ));
 
@@ -56,7 +60,7 @@ const CreativeWeek = () => {
               autoPlayDirection="rtl"
               responsive={responsive}
               controlsStrategy="alternate"
-              animationDuration={6000}
+              animationDuration={9000}
               disableButtonsControls={true}
             />
           </div>

@@ -276,9 +276,7 @@ const Learning = () => {
                 learning beyond textbooks, fostering critical thinking and
                 rational analysis through active participation. Equipped with
                 modern technology, our classrooms support the use of computers,
-                laptops, televisions, and projectors. Students undertake project
-                works, use audio-visual and print media, and interact with
-                mentors to reinforce their knowledge.
+                laptops, televisions, and projectors. 
               </p>
               <button
                 class="button-21"
