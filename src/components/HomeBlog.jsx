@@ -6,8 +6,7 @@ const HomeBlog = () => {
     <>
       <div className="homeblog">
         <div className="container mx-auto">
-          <div className="row  ">
-            <h2 className=" border-bottom-title justify-content-center  my-3 head-color d-flex align-items-start">
+        <h2 className=" border-bottom-title justify-content-center  my-3 head-color d-flex align-items-start">
               <span className="addcolor"> Latest </span> Blog
             </h2>
             <p className="text-center">
@@ -16,6 +15,8 @@ const HomeBlog = () => {
               our school. Our blog provides insights and highlights to keep you
               informed and engaged.
             </p>
+          <div className="row  py-5">
+           
             <div className="col-md-3 ">
               <div className="card">
                 <div className="card-header">

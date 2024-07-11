@@ -6,7 +6,7 @@ const Principalmsg = () => {
       <div className="msgperson py-5">
         <div className="container ">
           <h3 className="chairman-header ">Messsage From The Principal</h3>
-          <div className="row align-items-start  shadow-sm ">
+          <div className="row align-items-start justify-content-center  shadow-sm ">
             <div className="col-lg-8">
               <div className="message-content">
                 <p className="msg-text">
@@ -58,7 +58,7 @@ const Principalmsg = () => {
                   students are encouraged to think, express and exhibit their
                   talent and abilities without any hindrance.
                   <br />
-                  Aksharaa has been backed up by a huge group of parent bodies
+                  {/* Aksharaa has been backed up by a huge group of parent bodies
                   whose collaboration and trust has proven to be instrumental in
                   overall growth of the school. The involvement of parents in
                   shaping a child and making them responsible and balanced
@@ -70,14 +70,14 @@ const Principalmsg = () => {
                   greater abilities of our team. The future has many great
                   things in store for this family. I am optimistic and ready
                   with my enlarged and enriched group of intellectual leaders
-                  and teachers for the future, too.
+                  and teachers for the future, too. */}
                   <br />
                   I finally express my gratitude to the bunch of students,
                   parents and guardians for trusting us and am committed to
                   unleash the immense potential and grandeur of the school
                   system to nurture the future generation.
                   <br />
-                  <span className="fs-6py-1"> Warm Regards</span>
+                  <span className="fs-6 py-1 fw-semibold"> Warm Regards</span>
                 </p>
               </div>
             </div>
@@ -89,7 +89,7 @@ const Principalmsg = () => {
                   className="img-fluid rounded  chairman-image"
                 />
 
-                <div className="pt-3 pb-2">
+                <div className="pt-3 py-5">
                   <h4 className="chairman-name ">Anju Bhattarai</h4>
                   <p className="chairman-title">Director Principal</p>
                 </div>

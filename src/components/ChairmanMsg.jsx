@@ -59,7 +59,7 @@ const ChairmanMsg = () => {
                   and parents to attain desired educational results.
                   <br />
                   <br />
-                <span className="fs-6py-1">  Warm Regards</span>
+                <span className="fs-6 py-1 fw-semibold">  Warm Regards</span>
                 </p>
               </div>
             </div>
@@ -71,7 +71,7 @@ const ChairmanMsg = () => {
                   className="img-fluid rounded  chairman-image"
                 />
 
-                <div className="pt-3 pb-2">
+                <div className="pt-3 ">
                   <h4 className="chairman-name ">Radheshyam Khadka</h4>
                   <p className="chairman-title">Chairman</p>
                 </div>

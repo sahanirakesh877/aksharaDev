@@ -20,7 +20,7 @@
   margin-bottom: 10px;
   font-weight: bold;
   font-size: 1.5rem;
-  color: #878585;
+  color: #6c6c6c;
   border-bottom: 3px solid transparent;
   transition: border-bottom 0.3s ease;
 }
@@ -45,7 +45,7 @@
 .fancy-border {
   border: 5px solid transparent;
   border-radius: 10px;
-  background: linear-gradient(white, white), linear-gradient(to right, #ff8a00, #e52e71);
+  background: linear-gradient(white, white), linear-gradient(to right, rgb(88, 210, 88),rgb(4, 103, 4));
   background-origin: border-box;
   background-clip: content-box, border-box;
   padding: 8px;
@@ -53,19 +53,19 @@
 }
 
 .chairman-message-card:hover {
-  transform: translateY(-2px);
+  transform: translateY(-1px);
 }
 
 .chairman-name {
-  font-size: 1.25rem;
+  font-size: 1.8rem;
   font-weight: bold;
   text-align: center;
   color: #e52e71;
 }
 
 .chairman-title {
-  font-size: 0.875rem;
-  color: #6c757d;
+  font-size: 1rem;
+  color: #424446;
   text-align: center;
   margin: 0;
 }
