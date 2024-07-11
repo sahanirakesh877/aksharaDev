@@ -2,9 +2,9 @@ import React from "react";
 
 const carouselData = [
   {
-    id: 2,
-    image: "/selected/home55.webp",
-    title: "Fostering creativity and independent learning",
+    id: 4,
+    image: "/y.jpg",
+     title: "Engaging and interactive learning experiences",
   
   },
   {
@@ -20,20 +20,22 @@ const carouselData = [
   
   },
   {
+    id: 2,
+    image: "/selected/home55.webp",
+    title: "Fostering creativity and independent learning",
+  
+  },
+ 
+  {
     id: 3,
     image: "/x.jpg",
  title: "Exploring new horizons and growing knowledge",
   
   },
-  {
-    id: 4,
-    image: "/y.jpg",
-     title: "Engaging and interactive learning experiences",
-  
-  },
+
   {
     id: 5,
-    image: "/selected/home33.webp",
+    image: "/c.jpg",
    title: "Engaging and interactive learning experiences",
 
   },

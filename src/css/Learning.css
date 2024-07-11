@@ -1,16 +1,18 @@
 .learning {
   background: linear-gradient(to bottom, #d7ffed, #7ba98b);
-  /* padding: 80px 0; */
+
 }
 
 .learnimg {
   width: fit-content;
   height: 65vh;
+  transition: all 0.3s ease-in-out;
+
 }
 
 .fuche-sec {
   overflow: hidden !important;
-  height: 85vh;
+  height: 75vh;
 }
 
 .kinder_img {
@@ -31,8 +33,8 @@
 display: flex;
 justify-content: center;
 align-items: center;
-height: 100vh;
-  margin-top: -30px;
+height: 85vh;
+  margin-top: -70px;
  box-shadow: 10px 0 30px -25px;
 }
 .inner-content {
@@ -44,6 +46,7 @@ height: 100vh;
   justify-content: center;
   align-items: center;
 }
+
 .seniors {
   text-align: start;
   bottom: 0;

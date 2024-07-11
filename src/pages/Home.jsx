@@ -13,6 +13,7 @@ import Counter from "../components/Counter";
 import SisterOrg from "../components/SisterOrg";
 import About from './About';
 import CreativeWeek from "../components/CreativeWeek";
+import HomeBlog from "../components/HomeBlog";
 
 const Home = () => {
   const pathname = useLocation();
@@ -22,6 +23,7 @@ const Home = () => {
   return (
     <>
       <Helmet titleTemplate="Akashara" />
+      <HomeBlog/>
     
       <Banner />
       <Brand />

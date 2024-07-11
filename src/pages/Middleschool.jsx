@@ -3,11 +3,11 @@ import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 
 const brandImg = [
-  "/school/banner1.jpg",
-  "/school/banner2.jpg",
-  "/school/banner3.jpg",
-  "/school/banner4.jpg",
-  "/school/banner5.jpg",
+  "/selected/home.webp",
+  "/selected/home11.webp",
+  "/selected/home3.webp",
+  "/selected/home55.webp",
+  "/selected/home77.webp",
 ];
 
 const responsive = {
@@ -24,7 +24,7 @@ const items = brandImg.map((img, index) => (
 const Middleschool = () => {
   return (
     <>
-      <div className="kinderbanner my-md-0">
+      {/* <div className="kinderbanner my-md-0">
         <img src="/school/banner4.jpg" alt="Middle School Banner" />
         <h3 className="xyz">Middle School &nbsp; VII-IX</h3>
 
@@ -36,12 +36,15 @@ const Middleschool = () => {
             <li>Middle School</li>
           </ul>
         </div>
-      </div>
+      </div> */}
 
       <div className="bg-light py-5">
         <div className="container mx-auto">
           <div className="row">
-            <div className="col-md-6 col-12">
+          <h2 className="border-bottom-title text-center w-100 fw-semibold text-success">
+            Middle Class
+          </h2>
+            <div className="col-md-6 col-12 px-4 py-4">
               <p className="kinder-text">
                 The middle school program at Aksharaa School includes grades VI
                 to VIII. Our curriculum focuses on academic excellence, critical
@@ -69,7 +72,10 @@ const Middleschool = () => {
                 Students go on educational trips that provide practical learning
                 experiences and foster a deeper understanding of their studies.
               </p>
-              <h6 className="kinder-head mb-md-1">Laboratories:</h6>
+              
+            </div>
+            <div className="col-md-6 col-12 px-4 py-4">
+            <h6 className="kinder-head mb-md-1">Laboratories:</h6>
               <p className="kinder-text">
                 Our state-of-the-art science labs offer hands-on learning
                 opportunities that spark curiosity and enhance scientific
@@ -99,8 +105,20 @@ const Middleschool = () => {
                 and clubs, allow students to pursue their passions and develop
                 new talents.
               </p>
-            </div>
-            <div className="col-md-6 col-12">
+
+            {/* <div className="py-3 px-3">
+                <AliceCarousel
+                  mouseTracking
+                  items={items}
+                  autoPlay={true}
+                  infinite={true}
+                  responsive={responsive}
+                  controlsStrategy="alternate"
+                  animationDuration={1500}
+                  disableButtonsControls={true}
+                  disableDotsControls={true}
+                />
+              </div>
               <div className="g pb-3">
                 <div className="gallerys p-4">
                   <img
@@ -117,20 +135,9 @@ const Middleschool = () => {
                   />
                   <img src="/school/school2.JPG" alt="a bridge at night" />
                 </div>
-              </div>
+              </div> */}
 
-              <div className="py-3 px-3">
-                <AliceCarousel
-                  mouseTracking
-                  items={items}
-                  autoPlay={true}
-                  infinite={true}
-                  responsive={responsive}
-                  controlsStrategy="alternate"
-                  animationDuration={1500}
-                  disableButtonsControls={true}
-                />
-              </div>
+             
             </div>
           </div>
         </div>

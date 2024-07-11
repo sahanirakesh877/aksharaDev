@@ -15,7 +15,7 @@ const responsive = {
   1024: { items: 2 },
 };
 const items = brandImg.map((img, index) => (
-  <div className="academic-item  " key={index}>
+  <div className="academic-itemk" key={index}>
     <img src={img} alt={`Brand ${index + 1}`} className="" />
   </div>
 ));
@@ -23,7 +23,7 @@ const items = brandImg.map((img, index) => (
 const Elementryschool = () => {
   return (
     <>
-      <div className="kinderbanner my-md-0 ">
+      {/* <div className="kinderbanner my-md-0 ">
         <img src="/school/banner1.jpg" alt="Kindergarten" />
         <h3 className="xyz">Elementary School &nbsp; I-VII</h3>
         <div className="breadcrumb-container">
@@ -34,12 +34,33 @@ const Elementryschool = () => {
             <li>Elementary School</li>
           </ul>
         </div>
+      </div> */}
+
+      <div className="container-fluid">
+        <div className="py-2 ">
+          <AliceCarousel
+            mouseTracking
+            items={items}
+            autoPlay={true}
+            infinite={true}
+            responsive={responsive}
+            controlsStrategy="alternate"
+            animationDuration={3000}
+            disableButtonsControls={true}
+            disableDotsControls={true}
+            paddingLeft={"5px"}
+          />
+        </div>
       </div>
 
-      <div className="bg-light py-5">
+      <div className=" py-5">
         <div className="container mx-auto ">
-          <div className="row">
-            <div className="col-md-6 col-12">
+          <h2 className="border-bottom-title text-center w-100 fw-semibold text-success">
+            Elementary Class
+          </h2>
+
+          <div className="row d-flex align-items-start py-4 ">
+            <div className="col-md-6 col-12 px-4">
               <p className="kinder-text">
                 Grades I–VII make up the elementary program at Aksharaa School.
                 For grades I–V, we use a grade teaching system with personalized
@@ -50,6 +71,7 @@ const Elementryschool = () => {
                 Apart from academics, students engage in extracurricular and
                 co-curricular activities, encouraging exploration and growth.
               </p>
+
               <h6 className="kinder-head mb-md-1">Classrooms:</h6>
               <p className="kinder-text">
                 Our spacious, well-ventilated classrooms support collaborative
@@ -69,6 +91,31 @@ const Elementryschool = () => {
                 Learning extends beyond the classroom with trips around Nepal
                 and India, promoting “learning while having fun.”
               </p>
+
+              {/* <div className="g pb-3">
+                <div className="gallerys p-4 ">
+                  <img src="/a.jpg" alt="a big park inside a modern city" />
+                  <img src="/b.jpg" alt="a small street between buildings" />
+                  <img src="/c.jpg" alt="view from the sky of a big city" />
+                  <img src="/d.jpg" alt="a bridge at night" />
+                </div>
+              </div>  */}
+            </div>
+            <div className="col-md-6 col-12 px-4">
+              {/* <div className="py-3 px-3">
+                <AliceCarousel
+                  mouseTracking
+                  items={items}
+                  autoPlay={true}
+                  infinite={true}
+                  responsive={responsive}
+                  controlsStrategy="alternate"
+                  animationDuration={1500}
+                  disableButtonsControls={true}
+                  disableDotsControls={true} 
+                />
+              </div> */}
+
               <h6 className="kinder-head mb-md-1">
                 Laboratory and Field Trip:
               </h6>
@@ -98,39 +145,54 @@ const Elementryschool = () => {
                 arts, with weekend clubs for specialized training and
                 development.
               </p>
-            </div>
-            <div className="col-md-6 col-12">
-            <div className="py-3 px-3">
-                <AliceCarousel
-                  mouseTracking
-                  items={items}
-                  autoPlay={true}
-                  infinite={true}
-                  responsive={responsive}
-                  controlsStrategy="alternate"
-                  animationDuration={1500}
-                  disableButtonsControls={true}
-                />
-              </div>
-              <div className="g pb-3">
+
+              {/* <div className="g pb-3">
                 <div className="gallerys p-4 ">
+                  <img src="/a.jpg" alt="a big park inside a modern city" />
+                  <img src="/b.jpg" alt="a small street between buildings" />
+                  <img src="/c.jpg" alt="view from the sky of a big city" />
+                  <img src="/d.jpg" alt="a bridge at night" />
+                </div>
+              </div> */}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="kg-back" id="kg-back1">
+        <div className="container">
+          <div className="row py-4 ">
+            <div className="col-12">
+              <div className="row">
+                <div className="col-md-3 col-6">
                   <img
-                    src="/school/banner5.jpg"
-                    alt="a big park inside a modern city"
+                    src="/school/school1.JPG"
+                    alt="School 6"
+                    className="img-fluid border border-white border-2"
                   />
+                </div>
+                <div className="col-md-3 col-6">
                   <img
-                    src="/school/banner4.jpg"
-                    alt="a small street between buildings"
+                    src="/school/school2.JPG"
+                    alt="School 7"
+                    className="img-fluid border border-white border-2"
                   />
+                </div>
+                <div className="col-md-3 col-6">
                   <img
-                    src="/school/banner1.jpg"
-                    alt="view from the sky of a big city"
+                    src="/school/school3.JPG"
+                    alt="School 8"
+                    className="img-fluid border border-white border-2"
                   />
-                  <img src="/school/banner2.jpg" alt="a bridge at night" />
+                </div>
+                <div className="col-md-3 col-6">
+                  <img
+                    src="/school/school4.JPG"
+                    alt="School 9"
+                    className="img-fluid border border-white border-2"
+                  />
                 </div>
               </div>
-
-           
             </div>
           </div>
         </div>

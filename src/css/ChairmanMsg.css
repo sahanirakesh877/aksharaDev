@@ -2,14 +2,15 @@
 
 .msgperson {
   background: linear-gradient(
-      rgba(255, 255, 255, 0.2),
-      rgba(255, 255, 255, 0.6)
+      rgba(255, 255, 255, 0.4),
+      rgba(154, 250, 220, 0.1)
     ),
-    url('https://img.freepik.com/free-vector/abstract-grass_1182-699.jpg?t=st=1720334040~exp=1720337640~hmac=cde565d3941bf151ff5cf602c8acfbe717eb36634387193f2ab322606ebe3edf&w=740');
+    url('https://img.freepik.com/free-vector/oriental-mandala-frame-floral_53876-115955.jpg?t=st=1720592546~exp=1720596146~hmac=4e2cc1f34841ec0e57681dcad7af80d045cc24ba52e4eba524cebee25ea5c4f8&w=1380');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;  
+  
+
 }
 
 .chairman-header {

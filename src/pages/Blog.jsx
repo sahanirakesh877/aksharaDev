@@ -205,7 +205,7 @@ const Blog = () => {
             <h5 className={`border rounded-pill px-4 py-1   text-center fw-semibold ${
                   filter === "Featured News" ? "text-danger" : "text-dark"
                 }`} onClick={() => setFilter("Featured News")}>
-              Features News
+              Activities
             </h5>
             <h5 className={`border rounded-pill px-4 py-1   text-center fw-semibold ${
                   filter === "Upcoming Events" ? "text-danger" : "text-dark"

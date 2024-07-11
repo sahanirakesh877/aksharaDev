@@ -23,6 +23,7 @@ import ApplyOnline from "./pages/ApplyOnline";
 import ChairmanMsg from './components/ChairmanMsg';
 import Principalmsg from "./components/Principalmsg";
 import LRPA from "./pages/LRPA";
+import Gallery from "./pages/Gallery";
 const App = () => {
   return (
     <>
@@ -59,6 +60,8 @@ const App = () => {
         <Route path="/news" element={<Blog />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/gallery" element={<Photos />} />
+        <Route path="/photo" element={<Gallery/>} />
+
       </Routes>
       <SideIcon />
       <Footer />

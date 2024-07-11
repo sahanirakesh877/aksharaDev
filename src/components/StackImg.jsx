@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../css/StackImg.css";
+import { useNavigate } from "react-router-dom";
 
 const imageData = [
   {
@@ -30,13 +31,16 @@ const imageData = [
 ];
 
 const StackImg = () => {
+  const navigate=useNavigate()
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
   return (
     <div className="container">
       <div className="row justify-content-between d-flex align-items-center  py-5">
         <div className="col-md-4 ">
-          <h5 className="text-center  fw-semibold border-bottom-title w-100 text-success">Annaul Days</h5>
+          <h5 className="text-center  fw-semibold border-bottom-title w-100 text-success" onClick={()=>navigate('/photo')}>
+            Annual Days
+          </h5>
           <div className="image-stack position-relative  ">
             {imageData.map((ph, index) => (
               <div
@@ -54,7 +58,9 @@ const StackImg = () => {
           </div>
         </div>
         <div className="col-md-4 ">
-          <h5 className="text-center  fw-semibold border-bottom-title w-100 text-success">Swimming & Raining Days</h5>
+          <h5 className="text-center  fw-semibold border-bottom-title w-100 text-success">
+            Swimming & Raining Days
+          </h5>
 
           <div className="image-stack position-relative ">
             {imageData.map((ph, index) => (
@@ -73,7 +79,9 @@ const StackImg = () => {
           </div>
         </div>
         <div className="col-md-4 ">
-          <h5 className="text-center  fw-semibold border-bottom-title w-100 text-success">Sports Days</h5>
+          <h5 className="text-center  fw-semibold border-bottom-title w-100 text-success">
+            Sports Days
+          </h5>
 
           <div className="image-stack position-relative ">
             {imageData.map((ph, index) => (
@@ -95,7 +103,9 @@ const StackImg = () => {
 
       <div className="row justify-content-between d-flex align-items-center  ">
         <div className="col-md-4  ">
-          <h5 className="text-center  fw-semibold border-bottom-title w-100 text-success">Annaul Days</h5>
+          <h5 className="text-center  fw-semibold border-bottom-title w-100 text-success">
+            Annaul Days
+          </h5>
           <div className="image-stack position-relative ">
             {imageData.map((ph, index) => (
               <div
@@ -113,7 +123,9 @@ const StackImg = () => {
           </div>
         </div>
         <div className="col-md-4 ">
-          <h5 className="text-center  fw-semibold border-bottom-title w-100 text-success">Swimming & Raining Days</h5>
+          <h5 className="text-center  fw-semibold border-bottom-title w-100 text-success">
+            Swimming & Raining Days
+          </h5>
 
           <div className="image-stack position-relative ">
             {imageData.map((ph, index) => (
@@ -132,7 +144,9 @@ const StackImg = () => {
           </div>
         </div>
         <div className="col-md-4 ">
-          <h5 className="text-center  fw-semibold border-bottom-title w-100 text-success">Sports Days</h5>
+          <h5 className="text-center  fw-semibold border-bottom-title w-100 text-success">
+            Sports Days
+          </h5>
 
           <div className="image-stack position-relative ">
             {imageData.map((ph, index) => (

@@ -1,6 +1,8 @@
 .sis {
     background-image: linear-gradient(rgba(238, 254, 251, 0.1), rgba(110, 204, 251, 0.3)), url("/msgbg.jpeg");
-    background-position:top center;
+   background-repeat: no-repeat;
+   background-position:top center;
+   background-size: cover;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 .poster img {
@@ -16,3 +18,4 @@
     font-weight: bold;
     color: #494747;
 }
+

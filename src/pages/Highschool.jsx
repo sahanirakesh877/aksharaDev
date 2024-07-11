@@ -94,24 +94,25 @@ const Highschool = () => {
                 controlsStrategy="alternate"
                 animationDuration={1500}
                 disableButtonsControls={true}
+                disableDotsControls={true}
                 
               />
                </div>
             <div className="g pb-3">
               <div className="gallerys p-4 ">
                 <img
-                  src="/school/banner5.jpg"
+                  src="/a.jpg"
                   alt="a big park inside a modern city"
                 />
                 <img
-                  src="/school/banner4.jpg"
+                  src="/b.jpg"
                   alt="a small street between buildings"
                 />
                 <img
-                  src="/school/banner1.jpg"
+                  src="/c.jpg"
                   alt="view from the sky of a big city"
                 />
-                <img src="/school/banner2.jpg" alt="a bridge at night" />
+                <img src="/d.jpg" alt="a bridge at night" />
               </div>
             </div>
 
