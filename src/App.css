@@ -118,11 +118,6 @@ a {
 .bggallery {
   padding: 20px 0 190px 0;
 }
-.gallery-head {
-  padding-bottom: 100px;
-}
-
-
 .galleryitems {
   display: grid;
   height: auto;
@@ -131,6 +126,7 @@ a {
 
 .gallery {
   position: relative;
+  margin-top: 130px;
   width: 280px;
   height: 200px;
   transform-style: preserve-3d;
@@ -167,12 +163,12 @@ a {
   object-fit: cover;
   transition: transform 0.3s linear; 
 }
-.gallery span :hover img{
+.gallery:hover {
   animation-play-state: paused;
 }
 
 .gallery span:hover img {
-  transform: scale(1.2); /* Zoom in */
+  transform: scale(1.4); /* Zoom in */
 }
 
 @media (max-width: 768px) {
@@ -560,6 +556,10 @@ height: auto;
 
 .sanskar{
   color: var(--third);
+}
+
+.lrpa-p-text {
+  text-align: justify;
 }
 
 

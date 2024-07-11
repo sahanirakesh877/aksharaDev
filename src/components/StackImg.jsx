@@ -2,6 +2,35 @@ import React, { useState } from "react";
 import "../css/StackImg.css";
 import { useNavigate } from "react-router-dom";
 
+const RainData = [
+  {
+    id: 1,
+    img: "/a.jpg",
+    alt: "Children 1",
+  },
+  {
+    id: 2,
+ img: "/b.jpg",
+    alt: "banner2",
+  },
+  {
+    id: 3,
+ img: "/c.jpg",
+    alt: "banner3",
+  },
+  {
+    id: 4,
+ img: "/d.jpg",
+    alt: "banner4",
+  },
+  {
+    id: 5,
+ img: "/e.jpg",
+    alt: "banner5",
+  },
+];
+
+
 const imageData = [
   {
     id: 1,
@@ -30,6 +59,34 @@ const imageData = [
   },
 ];
 
+const childData = [
+  {
+    id: 1,
+    img: "/gallery/children-1.jpg",
+    alt: "Children 1",
+  },
+  {
+    id: 2,
+    img: "/gallery/children-2.jpg",
+    alt: "banner2",
+  },
+  {
+    id: 3,
+    img: "/gallery/children-4.jpg",
+    alt: "banner3",
+  },
+  {
+    id: 4,
+    img: "/gallery/children-5.jpg",
+    alt: "banner4",
+  },
+  {
+    id: 5,
+    img: "/gallery/children3.jpg",
+    alt: "banner5",
+  },
+];
+
 const StackImg = () => {
   const navigate=useNavigate()
   const [hoveredIndex, setHoveredIndex] = useState(null);
@@ -37,6 +94,8 @@ const StackImg = () => {
   return (
     <div className="container">
       <div className="row justify-content-between d-flex align-items-center  py-5">
+
+
         <div className="col-md-4 ">
           <h5 className="text-center  fw-semibold border-bottom-title w-100 text-success" onClick={()=>navigate('/photo')}>
             Annual Days
@@ -48,8 +107,10 @@ const StackImg = () => {
                   hoveredIndex === index ? "hovered" : ""
                 }`}
                 key={index}
-                onMouseEnter={() => setHoveredIndex(index)}
-                onMouseLeave={() => setHoveredIndex(null)}
+                // onMouseEnter={() => setHoveredIndex(index)}
+                // onMouseLeave={() => setHoveredIndex(null)}
+                onClick={() => setHoveredIndex(index)}
+               
                 style={{ zIndex: hoveredIndex === index ? 10 : 5 - index }}
               >
                 <img src={ph.img} alt={ph.alt} className="stack-image" />
@@ -57,20 +118,23 @@ const StackImg = () => {
             ))}
           </div>
         </div>
+
+
         <div className="col-md-4 ">
           <h5 className="text-center  fw-semibold border-bottom-title w-100 text-success">
             Swimming & Raining Days
           </h5>
 
           <div className="image-stack position-relative ">
-            {imageData.map((ph, index) => (
+            {RainData.map((ph, index) => (
               <div
                 className={`image-container ${
                   hoveredIndex === index ? "hovered" : ""
                 }`}
                 key={index}
-                onMouseEnter={() => setHoveredIndex(index)}
-                onMouseLeave={() => setHoveredIndex(null)}
+                // onMouseEnter={() => setHoveredIndex(index)}
+                // onMouseLeave={() => setHoveredIndex(null)}
+                onClick={() => setHoveredIndex(index)}
                 style={{ zIndex: hoveredIndex === index ? 10 : 5 - index }}
               >
                 <img src={ph.img} alt={ph.alt} className="stack-image" />
@@ -78,20 +142,23 @@ const StackImg = () => {
             ))}
           </div>
         </div>
+
+
         <div className="col-md-4 ">
           <h5 className="text-center  fw-semibold border-bottom-title w-100 text-success">
             Sports Days
           </h5>
 
           <div className="image-stack position-relative ">
-            {imageData.map((ph, index) => (
+            {childData.map((ph, index) => (
               <div
                 className={`image-container ${
                   hoveredIndex === index ? "hovered" : ""
                 }`}
                 key={index}
-                onMouseEnter={() => setHoveredIndex(index)}
-                onMouseLeave={() => setHoveredIndex(null)}
+                // onMouseEnter={() => setHoveredIndex(index)}
+                // onMouseLeave={() => setHoveredIndex(null)}
+                onClick={() => setHoveredIndex(index)}
                 style={{ zIndex: hoveredIndex === index ? 10 : 5 - index }}
               >
                 <img src={ph.img} alt={ph.alt} className="stack-image" />
@@ -99,9 +166,10 @@ const StackImg = () => {
             ))}
           </div>
         </div>
+
       </div>
 
-      <div className="row justify-content-between d-flex align-items-center  ">
+      {/* <div className="row justify-content-between d-flex align-items-center  ">
         <div className="col-md-4  ">
           <h5 className="text-center  fw-semibold border-bottom-title w-100 text-success">
             Annaul Days
@@ -164,7 +232,7 @@ const StackImg = () => {
             ))}
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

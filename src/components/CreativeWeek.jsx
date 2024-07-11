@@ -21,13 +21,13 @@ const CreativeWeek = () => {
       <div className="img-container">
         <img src={img} alt={`Brand ${index + 1}`} className="card-img-top" />
       </div>
-      <div className="card-body my-md-0  border ">
+      <div className="card-body my-md-0  border position-relative ">
         <h5 className="text-danger my-md-0 d-inline ">Annula Function</h5>
-        <p className="creative-text  my-md-0"> Join us for an Exciting lineup of workshops and seminars that will inspire and empower you!
+        <p className="creative-text  my-md-0 pb-5"> Join us for an Exciting lineup of workshops and seminars that will inspire and empower you!
         Don't miss out on our annual college fest—packed with fun activities, competitions, and unforgettable experiences</p>
 
        
-          <div className="btn_wraps ">
+          <div className="btn_wraps position-absolute end-0  bottom-0 my-2 me-3">
             <span className="share">
               Share <i class="fa-solid fa-share"></i>
             </span>

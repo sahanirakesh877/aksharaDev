@@ -1,5 +1,7 @@
 import React  from "react";
 import "../css/Learning.css";
+import AliceCarousel from "react-alice-carousel";
+import "react-alice-carousel/lib/alice-carousel.css";
 
 const LRPA = () => {
   // const continuousAssessmentContent = (
@@ -24,14 +26,51 @@ const LRPA = () => {
   //   setCenterText(continuousAssessmentContent);
   // };
 
+  const brandImg = [
+    "/a.jpg",
+    "/b.jpg",
+    "/c.jpg",
+    "/d.jpg",
+    "/e.jpg",
+  ];
+  const responsive = {
+    0: { items: 1 },
+    568: { items: 2 },
+    1024: { items: 2 },
+  };
+  const items = brandImg.map((img, index) => (
+    <div className="academic-itemk" key={index}>
+      <img src={img} alt={`Brand ${index + 1}`} className="" />
+    </div>
+  ));
+
   return (
     <>
+ <div className="container-fluid">
+        <div className="py-2 ">
+          <AliceCarousel
+            mouseTracking
+            items={items}
+            autoPlay={true}
+            infinite={true}
+            responsive={responsive}
+            controlsStrategy="alternate"
+            animationDuration={3000}
+            disableButtonsControls={true}
+            disableDotsControls={true}
+            paddingLeft={"5px"}
+          />
+        </div>
+      </div>
+
+
+
       <div className="container">
         <div className="row">
-          <h2 className="text-center border-bottom-title pt-3 addcolor">
+          <h2 className="text-center border-bottom-title pt-5  mb-5 addcolor">
             Learn Through <span className=" head-color ">LRPA Approach</span>
           </h2>
-          <p className="text-start py-4">
+          <p className="lrpa-p-text  py-4">
             We follow a unique model called LRPA. With the motto 'learning
             through fun', we make learning of core theories and values in the
             class fun filled and exciting. We believe in experiential learning.
@@ -56,19 +95,19 @@ const LRPA = () => {
         </div>
       </div>
 
-      <div className="container">
-        <div className="row d-flex align-items-center lrpacont mb-5 justify-content-between bg-lrp3 ">
+      <div className="container lrpaContainer">
+        <div className="row d-flex align-items-start lrpacont  justify-content-between bg-lrp3">
           <div className="col-md-4 border px-md-0">
           <div className="contimg ">
           <img src="/banner1.jpg" alt="Continuous Assessment" />
 
           </div>
           </div>
-          <div className="col-md-8 position-relative ">
-            <h4 className="border-bottom-title w-100 py-2 text-center">
+          <div className="col-md-8 position-relative px-4">
+            <h4 className="border-bottom-title w-100  text-center">
               Continuous Assessment
             </h4>
-            <p className="lrpamid-p">
+            <p className="lrpamid-p pt-4">
               Appropriate assessment of each task is done to monitor a child's
               skill of manipulation of words, materials, ideas, concepts. Such
               assessments help to notice whether the child has acquired
@@ -79,12 +118,12 @@ const LRPA = () => {
           </div>
         </div>
 
-        <div className="row d-flex align-items-center lrpacont mb-5 bg-lrp2">
-        <div className="col-md-8 position-relative ">
+        <div className="row d-flex align-items-start lrpacont  bg-lrp2">
+        <div className="col-md-8 position-relative px-4">
             <h4 className="border-bottom-title w-100 py-2 text-center">
             Active Observation and Recording
             </h4>
-            <p className="lrpamid-p">
+            <p className="lrpamid-p pt-4">
             Through the intra and outside classroom activities, students' knowledge level, learning skills, extent of participation, research work, interest, psychomotor skills, etc are observed and recorded using specific criteria. Such observation helps to monitor the overall development of a child.
             </p>
             <div className="number1 fs-2">2</div>
@@ -100,30 +139,30 @@ const LRPA = () => {
         </div>
 
 
-        <div className="row d-flex align-items-center lrpacont mb-5 bg-lrp1">
+        <div className="row d-flex align-items-start lrpacont  bg-lrp1">
           <div className="col-md-4 px-md-0">
           <div className="contimg">
           <img src="/banner3.jpg" alt="Continuous Assessment" />
 
           </div>
           </div>
-          <div className="col-md-8 position-relative ">
+          <div className="col-md-8 position-relative  px-4">
             <h4 className="border-bottom-title w-100 py-2 text-center">
             Assignment
             </h4>
-            <p className="lrpamid-p">
+            <p className="lrpamid-p pt-4">
             Age appropriate specific assignments are assigned in each chapter. Written assignments, Project works and Research work are used as records on the development of specific skills related to instructional objectives or the attitude expressed or demonstrated by a student towards learning.
             </p>
             <div className="number fs-2">3</div>
           </div>
         </div>
 
-        <div className="row d-flex align-items-center lrpacont mb-5 bg-lrp">
-        <div className="col-md-8 position-relative ">
+        <div className="row d-flex align-items-start lrpacont  bg-lrp">
+        <div className="col-md-8 position-relative px-4">
             <h4 className="border-bottom-title w-100 py-2 text-center">
             Time Bound Written Assessment
             </h4>
-            <p className="lrpamid-p">
+            <p className="lrpamid-p pt-4">
             At the end of each term, time bound written test is given in each subject. This will help the student to know their writing speed and be familiar with our traditional exam system.
             </p>
             <div className="number1 fs-2">4</div>

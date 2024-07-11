@@ -277,7 +277,7 @@ const Blog = () => {
         {filter === "Upcoming Events" && (
           <div className="container blog-container py-4">
             <div className="row py-4">
-              <h4 className="text-center my-5   border-bottom-title">
+              <h4 className="text-center mb-5   border-bottom-title">
                 School Events Schedule
               </h4>
               {filteredBlogData.map((item) => (
@@ -304,12 +304,12 @@ const Blog = () => {
         {filter === "Calendar" && (
           <div className="container py-4">
             <div className="row py-4">
-              <h4 className="text-center my-5  border-bottom-title">
+              <h4 className="text-center mb-5  border-bottom-title">
                 Calender Schedule
               </h4>
 
               {scheduleData.map((item, index) => (
-                <div key={index} className="col-md-4 mb-4">
+                <div key={index} className="col-md-3 mb-2">
                   <div className="p-3 border">
                     <h6 className="text-success">{item.date}</h6>
                     <div className="d-flex flex-column align-items-start gap-2">

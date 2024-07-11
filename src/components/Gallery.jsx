@@ -28,18 +28,18 @@ const imageData = [
   { id: 5, src: "/e.jpg", alt: "banner5" },
   { id: 6, src: "/school/home11.JPG", alt: "Banner1" },
   { id: 7, src: "/school/home33.JPG", alt: "Banner 2" },
-  { id: 8, src: "/school/home77.JPG", alt: "Banner77" }
+  { id: 8, src: "/school/home77.JPG", alt: "Banner77" },
 ];
 
 const Gallery = () => {
   return (
     <>
       <div className="bggallery bg-light">
-      <h2 className="gallery-head  text-center ">Explore Gallery</h2>
-
+        <h2 className="text-center w-100 border-bottom-title addcolor">
+          Explore <span className="head-color">Gallery</span>
+        </h2>
         <div className="container mx-auto ">
           <div className="row galleryitems  ">
-
             <div className="gallery">
               {imageData.map((image, index) => (
                 <span key={image.id} style={{ "--i": index + 1 }}>
