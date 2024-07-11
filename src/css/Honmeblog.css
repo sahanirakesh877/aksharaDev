@@ -1,9 +1,18 @@
+
+.homeblog{
+  padding: 90px 0;
+}
+.blog-btn{
+  font-size: 0.9rem;
+ background-color: #47bcd4 !important;
+  
+}
 .card {
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
     overflow: hidden;
-    
+  
   }
   .card-header img {
     width: 100%;
@@ -15,7 +24,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    min-height: auto;
+    /* min-height: auto; */
   }
   
   .tag {

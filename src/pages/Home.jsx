@@ -23,7 +23,7 @@ const Home = () => {
   return (
     <>
       <Helmet titleTemplate="Akashara" />
-      <HomeBlog/>
+   
     
       <Banner />
       <Brand />
@@ -34,7 +34,8 @@ const Home = () => {
       {/* <Enquiryform /> */}
       <Blog />
      <CreativeWeek/>
-      <Testimonial />
+    <Testimonial />
+    <HomeBlog/>
       <Gallery />
       <SisterOrg/>
       <Contact />
