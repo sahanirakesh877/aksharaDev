@@ -183,7 +183,7 @@ const Blog = () => {
   return (
     <>
       <Helmet>
-        <title>Blog | Akashara</title>
+        <title>Blog | Aksharaa</title>
         <meta
           name="description"
           content="Learn more Blog our company and team at Western Australia Care Pvt. Ltd., an NDIS provider organization committed to serving the community with respect and equality. Our core goals include providing assistance to individuals with disabilities, integrating them within the community, and helping them achieve their goals."
@@ -198,7 +198,7 @@ const Blog = () => {
         <div className="container">
           <h2 className="text-center pt-5   fs-2  border-bottom-title w-100  head-color">
             {" "}
-            <span className="addcolor">Akshara</span> Highlights
+            <span className="addcolor">Aksharaa</span> Highlights
           </h2>
 
           <div className="d-flex flex-row py-4  gap-5  justify-content-center align-items-center ">

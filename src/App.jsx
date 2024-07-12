@@ -24,7 +24,7 @@ import ChairmanMsg from "./components/ChairmanMsg";
 import Principalmsg from "./components/Principalmsg";
 import LRPA from "./pages/LRPA";
 import Gallery from "./pages/Gallery";
-import ChatApp from "./components/ChatApp";
+// import ChatApp from "./components/ChatApp";
 const App = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [popupVisible, setPopupVisible] = useState(true);
@@ -93,7 +93,7 @@ const App = () => {
         <Route path="/photo" element={<Gallery />} />
       </Routes>
       <SideIcon />
-      <ChatApp />
+      {/* <ChatApp /> */}
       <Footer />
     </>
   );
