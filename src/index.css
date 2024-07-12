@@ -41,13 +41,13 @@
 .input-group-text {
 	background-color: rgb(241, 254, 241);
 	color: var(--primary);
-	border: 1px solid var(--primary);
+	border: 1px solid rgb(205, 204, 204);
 	box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 4px;
 }
 .form-control,
 .form-select,
 .form-check-input {
-	border: 1px solid var(--third);
+	border: 1px solid rgb(205, 204, 204);
 	box-shadow: rgba(57, 56, 56, 0.24) 0px 2px 4px;
 }
 .btn-primary {
@@ -98,6 +98,9 @@
 	  url('https://img.freepik.com/free-photo/bokeh-lights-greenness_23-2147955988.jpg?t=st=1720503399~exp=1720506999~hmac=d18d50a8ac9e1b66787dffd566644631007289efee9b59986dbb488ce7475dfa&w=826');
 	background-size: cover;
 	background-position: center;
+  }
+  .submit-btn{
+	background-color: #019f40;
   }
   
 .contact-iconbg{

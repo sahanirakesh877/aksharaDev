@@ -48,9 +48,9 @@ const CreativeWeek = () => {
       <div className="container">
         <div className="row py-5">
           <div className="col-lg-6">
-            <h4 className="text-center border-bottom-title w-100 head-color mb-5">
+            <h2 className="text-center border-bottom-title w-100 head-color mb-5">
               <span className="addcolor">Creatives Of </span> This Week
-            </h4>
+            </h2>
 
             <AliceCarousel
               mouseTracking
@@ -65,9 +65,9 @@ const CreativeWeek = () => {
             />
           </div>
           <div className="col-lg-6">
-            <h4 className="text-center border-bottom-title w-100 head-color mb-5">
+            <h2 className="text-center border-bottom-title w-100 head-color mb-5">
               <span className="addcolor">Important </span> Notice
-            </h4>
+            </h2>
             <div className="creative-items border">
               <img
                 src="https://img.freepik.com/free-vector/flat-design-back-school-sales-concept_23-2148612151.jpg?t=st=1720522381~exp=1720525981~hmac=0b926379529b99d0a0f8b16688a8eb23dd8e5edf8df360bb2a1eaf7decc669af&w=826"

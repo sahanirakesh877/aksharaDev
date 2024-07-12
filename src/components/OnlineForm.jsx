@@ -987,7 +987,7 @@ const OnlineForm = () => {
           </div>
 
           {/* Submit Button */}
-          <button type="submit" className="btns  bg-danger text-white  rounded-pill border-0 py-1 px-3">
+          <button type="submit" className="button-21 px-4">
             <i className="fas fa-paper-plane" /> Apply Now
           </button>
         </form>

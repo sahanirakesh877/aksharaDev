@@ -259,7 +259,7 @@ const EnquiryModel = () => {
                         </div>
                       </div>
 
-                      <div className="col-md-6">
+                      <div className="col-md-6 ">
                         <div className="input-group">
                           <span className="input-group-text">
                             How do you come to know about us?
@@ -284,12 +284,14 @@ const EnquiryModel = () => {
                   {/* Transportation */}
 
                   {/* Submit Button */}
-                  <button
+               <div className="pb-4">
+               <button
                     type="submit"
-                    className="btn   rounded-0 px-4 bg-danger text-white rounded-pill mb-4"
+                    className="button-21 px-5 "
                   >
                     <i className="fas fa-paper-plane " /> Submit
                   </button>
+               </div>
                 </form>
               </div>
             </div>

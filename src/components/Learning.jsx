@@ -29,10 +29,10 @@ const Learning = () => {
 
   return (
     <>
-      <div className="learning" onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)} onMouseMove={handleEffect}>
+      <div className="learning " onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)} onMouseMove={handleEffect}>
         <div className="container">
-          <div className="row d-flex align-items-center justify-content-between fuche-sec">
-            <div className={`col-md-4 pe-4 ${activeSection ? "d-none" : ""}`}>
+          <div className="row  d-flex align-items-center justify-content-between fuche-sec">
+            <div className={`col-md-4 pe-4  ${activeSection ? "d-none" : ""}`}>
               <h2 className="fw-semibold sanskar">संस्कारयुक्त शिक्षा</h2>
               <p className="lrpa-text">
                 "Sanskaryukta Siksha" is fundamental at our school. The School on its dynamic framework builds on and offers students a repertoire of ECAs made integral with the mainstream academic endeavors we engage students throughout. Some key ECAs that Aksharaa offers on school days.
@@ -129,8 +129,6 @@ const Learning = () => {
             )}
 
             {/* Photos section */}
-
-
             <div className="col-md-2 rotatediv">
               <div
                 className="row d-flex justify-content-between align-items-center position-relative learnimg"
@@ -138,7 +136,7 @@ const Learning = () => {
               >
                 <div className="inner-content">
                   <img src="/alternate/senior.png" alt="" className="img-custom" />
-                  <p className="seniors border px-3 rounded-2 py-1 border">Seniors</p>
+                  <p className="seniors border px-3 rounded-2 py-1 border me-4">Seniors</p>
                 </div>
               </div>
             </div>
@@ -150,7 +148,7 @@ const Learning = () => {
               >
                 <div className="inner-content">
                   <img src="/alternate/girl1.png" alt="" className="img-custom kinder_img2" />
-                  <p className="seniors px-3 rounded-2 py-1 border">Middle</p>
+                  <p className="seniors px-3 rounded-2 py-1 border me-4">Middle</p>
                 </div>
               </div>
             </div>
@@ -162,7 +160,7 @@ const Learning = () => {
               >
                 <div className="inner-content">
                   <img src="/alternate/girl2.png" alt="" className="img-custom kinder_img1" />
-                  <p className="seniors   rounded-2 py-1 border me-4 px-1">Elementary School</p>
+                  <p className="seniors   rounded-2 py-1 border me-5 px-1 text-nowrap">Elementary School</p>
                 </div>
               </div>
             </div>
@@ -174,7 +172,7 @@ const Learning = () => {
               >
                 <div className="inner-content">
                   <img src="/alternate/kindergarten.png" alt="" className="img-custom kinder_img" />
-                  <p className="seniors px-3 rounded-2 py-1 border">Kindergarten</p>
+                  <p className="seniors px-3 rounded-2 py-1 border me-5">Kindergarten</p>
                 </div>
               </div>
             </div>

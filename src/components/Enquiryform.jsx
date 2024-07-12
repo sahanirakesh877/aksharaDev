@@ -36,7 +36,7 @@ const Enquiryform = () => {
                   </span>
                   <input
                     type="text"
-                    className="form-control text-decoration-none rounded-0"
+                    className="form-control text-decoration-none rounded-end-2"
                     id="studentName"
                     placeholder="Student Name"
                   />
@@ -49,7 +49,7 @@ const Enquiryform = () => {
                   </span>
                   <input
                     type="number"
-                    className="form-control rounded-0"
+                    className="form-control rounded-end-2"
                     id="studentAge"
                     placeholder="Student Age"
                   />
@@ -62,7 +62,7 @@ const Enquiryform = () => {
                   <span className="input-group-text">
                     <i className="fas fa-venus-mars" />
                   </span>
-                  <select className="form-select rounded-0" id="studentGender">
+                  <select className="form-select rounded-end-2" id="studentGender">
                     <option selected disabled>
                       Select Gender
                     </option>
@@ -77,7 +77,7 @@ const Enquiryform = () => {
                   <span className="input-group-text">
                     <i className="fas fa-graduation-cap" />
                   </span>
-                  <select className="form-select rounded-0" id="studentGrade">
+                  <select className="form-select rounded-end-2" id="studentGrade">
                     <option selected disabled>
                       Select Grade
                     </option>
@@ -95,7 +95,7 @@ const Enquiryform = () => {
                 </span>
                 <input
                   type="text"
-                  className="form-control rounded-0"
+                  className="form-control rounded-end-2"
                   id="studentAddress"
                   placeholder="Student Address"
                 />
@@ -115,7 +115,7 @@ const Enquiryform = () => {
                   </span>
                   <input
                     type="text"
-                    className="form-control rounded-0"
+                    className="form-control rounded-end-2"
                     id="parentName"
                     placeholder="Parent Name"
                   />
@@ -128,7 +128,7 @@ const Enquiryform = () => {
                   </span>
                   <input
                     type="email"
-                    className="form-control rounded-0"
+                    className="form-control rounded-end-2"
                     id="parentEmail"
                     placeholder="Parent Email"
                   />
@@ -143,7 +143,7 @@ const Enquiryform = () => {
                   </span>
                   <input
                     type="text"
-                    className="form-control rounded-0"
+                    className="form-control rounded-end-2"
                     id="parentPhone"
                     placeholder="Parent Phone"
                   />
@@ -156,7 +156,7 @@ const Enquiryform = () => {
                   </span>
                   <input
                     type="text"
-                    className="form-control rounded-0"
+                    className="form-control rounded-end-2"
                     id="parentOccupation"
                     placeholder="Parent Occupation"
                   />
@@ -170,7 +170,7 @@ const Enquiryform = () => {
                 </span>
                 <input
                   type="text"
-                  className="form-control rounded-0"
+                  className="form-control rounded-end-2"
                   id="parentAddress"
                   placeholder="Parent Address"
                 />
@@ -224,7 +224,7 @@ const Enquiryform = () => {
                   <span className="input-group-text">
                     How do you come to know about us?
                   </span>
-                  <select className="form-select rounded-0" id="studentGender">
+                  <select className="form-select rounded-end-2" id="studentGender">
                     <option selected disabled>
                       Websites
                     </option>
@@ -241,7 +241,7 @@ const Enquiryform = () => {
           {/* Transportation */}
 
           {/* Submit Button */}
-          <button type="submit" className="btn btn-primary  rounded-0 px-3">
+          <button type="submit" className=" border-0 px-5 py-1 rounded-pill  text-white  submit-btn button-21">
             <i className="fas fa-paper-plane" /> Submit
           </button>
         </form>

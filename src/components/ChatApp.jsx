@@ -4,8 +4,7 @@ import { ThemeProvider } from "styled-components";
 
 const ChatApp = () => {
   const theme = {
-     background: "#80AF81",
-   
+     background: "#F6F5F5",
     headerBgColor: "#1A5319",
     headerFontColor: "#fff",
     headerFontSize: "15px",
