@@ -75,7 +75,7 @@ const Head = () => {
                       </li>
                       <li>
                         <Link className="dropdown-item" to="/about/chairman">
-                          Message From Chairmain
+                          Message From Chairman
                         </Link>
                       </li>
                       <li>

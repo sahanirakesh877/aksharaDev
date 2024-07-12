@@ -169,16 +169,13 @@
 
 .g{
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; 
-    
+    justify-content: center; 
+    align-items: center;   
 }
-
 .gallerys {
-    --s: 220px; /* control the size */
-    --g: 18px;   /* control the gap */
+    --s: 220px; 
+    --g: 18px;   
     display: grid;
-
     grid: auto-flow var(--s)/repeat(2,var(--s));
     gap: var(--g);
     background-color: rgb(237, 255, 250);
@@ -187,38 +184,15 @@
     width: 100%; 
     aspect-ratio: 1;
     cursor: pointer;
-    /* filter: grayscale(); */
     z-index: 0;
     transition: .25s,z-index 0s .25s;
-    animation: fullSize 4s infinite;
-
-  }
-  
-  /* @keyframes fullSize {
-    0%, 25%, 75%, 100% {
-       width: calc(200% + var(--g));
-      z-index: 1;
-      filter: grayscale(0);
-      --_c: 50%;
-      transition: 0.4s, z-index 0s;
-    }
-    50% {
-      width: calc(200% + var(--g));
-      z-index: 1;
-      filter: grayscale(0);
-      --_c: 50%;
-      transition: 0.4s, z-index 0s;
-    }
-  } */
-
-
-  
+  } 
   .gallerys > img:hover {
     width: calc(200% + var(--g));
     filter: grayscale(0);
     z-index: 1;
     --_c: 50%;
-    transition: .4s,z-index 0s;
+   
   }
   .gallerys > img:nth-child(1){
     clip-path: circle(var(--_c,55% at 70% 70%));
@@ -239,7 +213,10 @@
     clip-path: circle(var(--_c,55% at 30% 30%));
     place-self: end;
     animation-delay: 3s;
+   
   }
+
+
 
   @media (max-width: 768px) {
     .gallerys {

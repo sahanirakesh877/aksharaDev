@@ -67,7 +67,7 @@ const Highschool = () => {
             </div>
             <div className="col-md-6">
               <div className="g pb-3">
-                <div className="gallerys p-4 ">
+                <div className="gallerys">
                   <img src="/a.jpg" alt="a big park inside a modern city" />
                   <img src="/b.jpg" alt="a small street between buildings" />
                   <img src="/c.jpg" alt="view from the sky of a big city" />
