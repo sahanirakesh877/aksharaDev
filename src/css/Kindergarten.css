@@ -190,7 +190,29 @@
     /* filter: grayscale(); */
     z-index: 0;
     transition: .25s,z-index 0s .25s;
+    animation: fullSize 4s infinite;
+
   }
+  
+  /* @keyframes fullSize {
+    0%, 25%, 75%, 100% {
+       width: calc(200% + var(--g));
+      z-index: 1;
+      filter: grayscale(0);
+      --_c: 50%;
+      transition: 0.4s, z-index 0s;
+    }
+    50% {
+      width: calc(200% + var(--g));
+      z-index: 1;
+      filter: grayscale(0);
+      --_c: 50%;
+      transition: 0.4s, z-index 0s;
+    }
+  } */
+
+
+  
   .gallerys > img:hover {
     width: calc(200% + var(--g));
     filter: grayscale(0);
@@ -201,18 +223,22 @@
   .gallerys > img:nth-child(1){
     clip-path: circle(var(--_c,55% at 70% 70%));
     place-self: start;
+    animation-delay: 0s;
   }
   .gallerys > img:nth-child(2){
     clip-path: circle(var(--_c,55% at 30% 70%));
     place-self: start end;
+    animation-delay: 1s;
   }
   .gallerys > img:nth-child(3){
     clip-path: circle(var(--_c,55% at 70% 30%));
     place-self: end start;
+    animation-delay: 2s;
   }
   .gallerys > img:nth-child(4){
     clip-path: circle(var(--_c,55% at 30% 30%));
     place-self: end;
+    animation-delay: 3s;
   }
 
   @media (max-width: 768px) {

@@ -3,10 +3,10 @@ import React from "react";
 const Principalmsg = () => {
   return (
     <>
-      <div className="msgperson py-5">
-        <div className="container ">
-          <h3 className="chairman-header ">Messsage From The Principal</h3>
-          <div className="row align-items-start justify-content-center  shadow-sm ">
+      <div className="msgperson py-4">
+        <div className="container  shadow-lg p-4">
+          <h3 className="chairman-header  text-capitalize">Messsage From <br /> The  Principal</h3>
+          <div className="row align-items-start justify-content-center ">
             <div className="col-lg-8">
               <div className="message-content">
                 <p className="msg-text">

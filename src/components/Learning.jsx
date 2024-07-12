@@ -44,7 +44,7 @@ const Learning = () => {
                 <button onClick={handleClose} className="close-btn">
                   <i className="fa-solid fa-xmark"></i>
                 </button>
-                <h3 className="border-bottom-title w-100 text-center">Senior</h3>
+                <h3 className="border-bottom-title w-100 text-center ">Senior</h3>
                 <p className="lrpa-text px-2">
                   Located on the main campus at Truganina, the Senior School is characterised by three age-appropriate learning clusters: the Horsburgh Centre (Years 7 - 8), the Geoffrey Ryan Centre (Year 9 Program), and the Senior College for Years 10 - 12. These distinct characteristics create complementary environments. The curriculum and overall environment are designed to support students' growth and development.
                 </p>
@@ -123,7 +123,7 @@ const Learning = () => {
               >
                 <div className="inner-content">
                   <img src="/alternate/senior.png" alt="" className="img-custom" />
-                  <p className="seniors">Seniors</p>
+                  <p className="seniors border px-3 rounded-2 py-1 border">Seniors</p>
                 </div>
               </div>
             </div>
@@ -135,19 +135,19 @@ const Learning = () => {
               >
                 <div className="inner-content">
                   <img src="/alternate/girl1.png" alt="" className="img-custom kinder_img2" />
-                  <p className="seniors">Middle</p>
+                  <p className="seniors px-3 rounded-2 py-1 border">Middle</p>
                 </div>
               </div>
             </div>
 
             <div className="col-md-2 rotatediv">
               <div
-                className="row d-flex justify-content-between align-items-center position-relative learnimg"
+                className="row d-flex justify-content-start align-items-center position-relative learnimg"
                 onClick={() => handleImageClick("elementary")}
               >
                 <div className="inner-content">
                   <img src="/alternate/girl2.png" alt="" className="img-custom kinder_img1" />
-                  <p className="seniors pe-4">Elementary School</p>
+                  <p className="seniors   rounded-2 py-1 border me-4 px-1">Elementary School</p>
                 </div>
               </div>
             </div>
@@ -159,7 +159,7 @@ const Learning = () => {
               >
                 <div className="inner-content">
                   <img src="/alternate/kindergarten.png" alt="" className="img-custom kinder_img" />
-                  <p className="seniors">Kindergarten</p>
+                  <p className="seniors px-3 rounded-2 py-1 border">Kindergarten</p>
                 </div>
               </div>
             </div>

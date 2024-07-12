@@ -28,7 +28,7 @@ const HomeBlog = () => {
                   <span className="tag tag-teal">School Event</span>
                   <h6>Upcoming Science Fair</h6>
                   <p >
-                    Join us for a day of exciting science experiments and
+                    Join us for a day  exciting science  and
                     discoveries.
                   </p>
                 <button className="btn  px-3  text-white rounded-pill blog-btn shadow-sm position-absolute end-0 bottom-0    mb-1  mx-3  ">

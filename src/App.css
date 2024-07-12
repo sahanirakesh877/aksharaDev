@@ -25,6 +25,48 @@ a {
 	color: #0cbc84;
 }
 
+
+/* popup notice design start */
+#popoupContainer {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 200;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.popupimg {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.imageContainer {
+  height: 55%;
+  position: relative;
+}
+.pop_btn{
+  padding: 10px 16px;
+  outline: none;
+  border: 0;
+  background-color: green;
+  color: white;
+  position: absolute;
+  top: -6%;
+  right: -5%;
+}
+
+.custom-chatbot .rsc-float-button {
+  margin-right: 0; 
+}
+/* popup notice design end */
+
+
+
 /* parent voice design section start  */
 .demo {
   background: linear-gradient(to bottom, #DAFFE8, #baedcd);
@@ -168,7 +210,7 @@ a {
 }
 
 .gallery span:hover img {
-  transform: scale(1.4); /* Zoom in */
+  transform: scale(1.6); /* Zoom in */
 }
 
 @media (max-width: 768px) {

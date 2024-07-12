@@ -199,8 +199,9 @@
 }
 .top-p {
 	font-size: 12px;
-	font-weight: 400;
-	font-style: italic;
+	font-weight: normal;
+	
+	
 }
 .head-icons {
 	padding: 1px 6px;

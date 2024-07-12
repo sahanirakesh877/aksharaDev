@@ -4,10 +4,10 @@ import "../css/ChairmanMsg.css";
 const ChairmanMsg = () => {
   return (
     <>
-      <div className="msgperson py-5">
-        <div className="container ">
-        <h3 className="chairman-header ">Messsage From The Chairman</h3>
-          <div className="row align-items-start  shadow-sm ">
+      <div className="msgperson py-4">
+        <div className="container shadow-lg p-4">
+        <h3 className="chairman-header text-start">Messsage From <br /> The Chairman</h3>
+          <div className="row align-items-start  ">
             <div className="col-lg-8">
               <div className="message-content">
                 <p className="msg-text">
