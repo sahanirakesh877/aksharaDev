@@ -18,6 +18,34 @@ a {
   --red:#d73963;
 }
 
+.hoverView {
+  z-index: 100;
+  
+  border: 2px solid green;
+  background-color: #00000087;
+  font-weight: bolder;
+  color: white;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateX(-50%) translateY(-50%);
+  transition: top 0.1s ease, left 0.1s ease,height 0.3s ease, width 0.3s ease, opacity 0.3s ease;
+  pointer-events: none;
+  cursor: none;
+}
+
+.hovering {
+  height: 100px;
+  width: 100px;
+}
+
+.unhover {
+  opacity: 0;
+  height: 0px;
+  width: 0px;
+}
+
 .addcolor{
 	color: var(--third);
 }
@@ -60,7 +88,7 @@ a {
   right: -5%;
 }
 
-.custom-chatbot .rsc-float-button {
+.custom-chatbot .rsc-float-button { 
   margin-right: 0; 
 }
 /* popup notice design end */

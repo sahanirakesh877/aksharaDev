@@ -1,10 +1,14 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import "../css/Learning.css";
 import { useNavigate } from "react-router-dom";
 
 const Learning = () => {
   const navigate = useNavigate();
   const [activeSection, setActiveSection] = useState(null);
+
+  const hoverRef = useRef(null)
+
+  const [hover, setHover] = useState(false);
 
   const handleImageClick = (section) => {
     setActiveSection(section);
@@ -14,9 +18,18 @@ const Learning = () => {
     setActiveSection(null);
   };
 
+  const handleEffect = (e) => {
+    if (hoverRef.current && hover) {
+      requestAnimationFrame(() => {
+        hoverRef.current.style.top = `${e.pageY}px`;
+        hoverRef.current.style.left = `${e.pageX}px`;
+      });
+    }
+  }
+
   return (
     <>
-      <div className="learning">
+      <div className="learning" onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)} onMouseMove={handleEffect}>
         <div className="container">
           <div className="row d-flex align-items-center justify-content-between fuche-sec">
             <div className={`col-md-4 pe-4 ${activeSection ? "d-none" : ""}`}>
@@ -116,6 +129,8 @@ const Learning = () => {
             )}
 
             {/* Photos section */}
+
+
             <div className="col-md-2 rotatediv">
               <div
                 className="row d-flex justify-content-between align-items-center position-relative learnimg"
@@ -163,8 +178,12 @@ const Learning = () => {
                 </div>
               </div>
             </div>
+
+
           </div>
         </div>
+
+        <div className={`position-absolute hoverView ${hover ? "hovering" : "unhover"}  `} ref={hoverRef}>View</div>
       </div>
     </>
   );

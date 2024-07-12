@@ -1,6 +1,6 @@
 .learning {
   background: linear-gradient(to bottom, #d7ffed, #7ba98b);
-
+  cursor: none;
 }
 
 .learnimg {
@@ -60,7 +60,7 @@ height: 85vh;
 
 .learnimg img {
   object-fit: cover;
-  cursor: pointer;
+  /* cursor: pointer; */
   height: 100%;
   width: 100%;
   /* margin-right: 20px; */
