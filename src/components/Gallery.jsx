@@ -34,11 +34,11 @@ const imageData = [
 const Gallery = () => {
   return (
     <>
-      <div className="bggallery bg-light">
-        <h2 className="text-center w-100 border-bottom-title addcolor">
+      <div className="bggallery bg-light ">
+        <h2 className="text-center w-100 border-bottom-title addcolor my-5">
           Explore <span className="head-color">Gallery</span>
         </h2>
-        <div className="container mx-auto ">
+        <div className="container mx-auto  py-5">
           <div className="row galleryitems  ">
             <div className="gallery">
               {imageData.map((image, index) => (

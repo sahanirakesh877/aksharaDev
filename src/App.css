@@ -35,6 +35,7 @@ a {
   cursor: none;
 }
 
+
 .hovering {
   height: 100px;
   width: 100px;
@@ -268,6 +269,8 @@ a {
 /* counter design start  */
 .count{
   padding: 60px 0;
+  background: linear-gradient(to bottom, #e0fff2, #88cfa1);
+
 }
 .counter {
   color: #fff;

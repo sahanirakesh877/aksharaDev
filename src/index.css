@@ -11,6 +11,13 @@
 	  padding: 15px;
 	}
   }
+  .border-end {
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	height: auto;
+	border-color: rgb(2, 97, 160) !important;
+  }
 .form-head {
 	width: fit-content;
 	background-color: transparent;
@@ -390,8 +397,9 @@ color: #FC4100;
 }
 
 /* brand logo img  start */
-.brand {
-	padding: 50px 0;
+
+.brands{
+	padding: 100px 0 ;
 }
 
 .brand-image {

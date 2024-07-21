@@ -40,9 +40,7 @@ const Learning = () => {
               <h5 className="text-start fw-semibold">
                 Learning through LRPA approach in Akshara
               </h5>
-              <p className="lrpa-text">
-                We follow the LRPA model with the motto "learning through fun." Our approach emphasizes experiential learning, making core theories and values engaging. Students explore and experience learning beyond textbooks, fostering critical thinking and rational analysis through active participation. 
-              </p>
+             
               <button
                 className="button-21"
                 role="button"

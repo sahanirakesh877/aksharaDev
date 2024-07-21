@@ -114,7 +114,7 @@ const Contact = () => {
 
       <div className="container py-5">
       <h2 className=" border-bottom-title justify-content-center  mb-4 head-color d-flex align-items-start">
-            <span className="addcolor"> Contact</span> Us
+            <span className="addcolor"> Contact</span>&nbsp;Us
           </h2>
           <div className="row d-flex align-items-center justify-content-start ">
             <div className="col-md-4 d-flex justify-content-center align-items-center shadow-sm  bg-light  py-2">

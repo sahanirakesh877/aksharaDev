@@ -14,6 +14,8 @@ import SisterOrg from "../components/SisterOrg";
 import About from './About';
 import CreativeWeek from "../components/CreativeWeek";
 import HomeBlog from "../components/HomeBlog";
+import Mission from "../components/Mission";
+import Info from "../components/Info";
 
 const Home = () => {
   const pathname = useLocation();
@@ -26,18 +28,23 @@ const Home = () => {
    
     
       <Banner />
-      <Brand />
+      <Mission/>
+   
       <Learning />
       <About/>
    
-      <Counter />
+     
       {/* <Enquiryform /> */}
       <Blog />
      <CreativeWeek/>
     <Testimonial />
     <HomeBlog/>
+     <Counter />
       <Gallery />
-      <SisterOrg/>
+   
+      <Info/>
+      <Brand />
+         <SisterOrg/>
       <Contact />
     </>
   );

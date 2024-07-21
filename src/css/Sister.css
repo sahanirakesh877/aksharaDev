@@ -1,7 +1,6 @@
 .sis {
-    background: linear-gradient(90deg, rgba(227, 255, 227, 0.7), white 20%, white 80%,rgba(227, 255, 227, 0.7)),
-        linear-gradient(rgba(0, 128, 0, 0.7), white 40%, white 80%, rgba(0, 128, 0, 0.7)),
-        linear-gradient(rgba(66, 157, 140, 0.1), rgba(0, 0, 0, 0.3));
+    background: linear-gradient(to bottom, #e0fff2, #88cfa1);
+
         padding: 100px 0;
 }
 
@@ -19,7 +18,7 @@
     color: #494747;
 }
 
-collage-container {
+.collage-container {
     position: relative;
     display: flex;
     flex-wrap: wrap;

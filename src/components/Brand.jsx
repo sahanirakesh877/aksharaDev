@@ -26,9 +26,10 @@ const items = brandImg.map((img, index) => (
 const Brand = () => {
   return (
     <>
-      <div className="brand  ">
-        <div className="container ">
-        <h2 className="text-center head-color  border-bottom-title w-100 "><span className="addcolor">Our Educational</span> Partners</h2>
+      <div className=" brand mt-4 ">
+      <h2 className="text-center head-color   border-bottom-title w-100  py-2"><span className="addcolor">Our Educational</span> Partners</h2>
+
+        <div className="container  brands">
           <AliceCarousel
             mouseTracking
             items={items}

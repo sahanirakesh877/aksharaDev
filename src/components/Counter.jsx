@@ -4,7 +4,12 @@ import counter from "../Data/CounterData";
 
 const Counter = () => {
   return (
-    <div className="container count">
+
+    <>
+    <div className="count">
+
+  
+  <div className="container ">
         <div className="text-center mb-5">
         <h2 className="text-center border-bottom-title w-100 head-color"><span className="addcolor">Our</span> Achievement</h2>
         <p className="px-5">
@@ -34,6 +39,9 @@ const Counter = () => {
           ))}
       </div>
     </div>
+    </div>
+    </>
+  
   );
 };
 
